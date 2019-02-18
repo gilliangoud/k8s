@@ -1,16 +1,3 @@
-# - hosts: all
-#   roles:
-#     - kubeadm
-
-- hosts: master
+- hosts: all
   roles:
-    # - master
-    # - dashboard
-
-# - hosts: all:!master
-#   roles:
-#     - workers
-
-
-# install the kubeadm first, then the master node; then wait a while so the master node can ready itself
-# only then you can register the worker nodes
+    - kubeadm

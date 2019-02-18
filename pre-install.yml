@@ -1,5 +1,6 @@
 - hosts: all
   roles:
-    # - pi_setup
     - deploy-ssh
-    - deploy-display
+    - sudo
+
+    # Run this playbook as first one and with --ask-pass and --ask-sudo-pass flags

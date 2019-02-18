@@ -9942,3 +9942,1061 @@ hosts: master
 2019-02-11 17:16:49,961 p=21263 u=gillian |  changed: [k8s000]
 2019-02-11 17:16:49,967 p=21263 u=gillian |  PLAY RECAP *******************************************************************************************************************************************************************************************
 2019-02-11 17:16:49,968 p=21263 u=gillian |  k8s000                     : ok=2    changed=1    unreachable=0    failed=0   
+2019-02-12 11:20:05,349 p=28753 u=gillian |   [ERROR]: User interrupted execution
+
+2019-02-12 11:20:21,891 p=29076 u=gillian |  k8s002 | FAILED | rc=2 >>
+Usage: ping [-aAbBdDfhLnOqrRUvV64] [-c count] [-i interval] [-I interface]
+            [-m mark] [-M pmtudisc_option] [-l preload] [-p pattern] [-Q tos]
+            [-s packetsize] [-S sndbuf] [-t ttl] [-T timestamp_option]
+            [-w deadline] [-W timeout] [hop1 ...] destination
+Usage: ping -6 [-aAbBdDfhLnOqrRUvV] [-c count] [-i interval] [-I interface]
+             [-l preload] [-m mark] [-M pmtudisc_option]
+             [-N nodeinfo_option] [-p pattern] [-Q tclass] [-s packetsize]
+             [-S sndbuf] [-t ttl] [-T timestamp_option] [-w deadline]
+             [-W timeout] destinationnon-zero return code
+
+2019-02-12 11:20:21,896 p=29076 u=gillian |  k8s003 | FAILED | rc=2 >>
+Usage: ping [-aAbBdDfhLnOqrRUvV64] [-c count] [-i interval] [-I interface]
+            [-m mark] [-M pmtudisc_option] [-l preload] [-p pattern] [-Q tos]
+            [-s packetsize] [-S sndbuf] [-t ttl] [-T timestamp_option]
+            [-w deadline] [-W timeout] [hop1 ...] destination
+Usage: ping -6 [-aAbBdDfhLnOqrRUvV] [-c count] [-i interval] [-I interface]
+             [-l preload] [-m mark] [-M pmtudisc_option]
+             [-N nodeinfo_option] [-p pattern] [-Q tclass] [-s packetsize]
+             [-S sndbuf] [-t ttl] [-T timestamp_option] [-w deadline]
+             [-W timeout] destinationnon-zero return code
+
+2019-02-12 11:20:21,927 p=29076 u=gillian |  k8s004 | FAILED | rc=2 >>
+Usage: ping [-aAbBdDfhLnOqrRUvV64] [-c count] [-i interval] [-I interface]
+            [-m mark] [-M pmtudisc_option] [-l preload] [-p pattern] [-Q tos]
+            [-s packetsize] [-S sndbuf] [-t ttl] [-T timestamp_option]
+            [-w deadline] [-W timeout] [hop1 ...] destination
+Usage: ping -6 [-aAbBdDfhLnOqrRUvV] [-c count] [-i interval] [-I interface]
+             [-l preload] [-m mark] [-M pmtudisc_option]
+             [-N nodeinfo_option] [-p pattern] [-Q tclass] [-s packetsize]
+             [-S sndbuf] [-t ttl] [-T timestamp_option] [-w deadline]
+             [-W timeout] destinationnon-zero return code
+
+2019-02-12 11:20:21,943 p=29076 u=gillian |  k8s001 | FAILED | rc=2 >>
+Usage: ping [-aAbBdDfhLnOqrRUvV64] [-c count] [-i interval] [-I interface]
+            [-m mark] [-M pmtudisc_option] [-l preload] [-p pattern] [-Q tos]
+            [-s packetsize] [-S sndbuf] [-t ttl] [-T timestamp_option]
+            [-w deadline] [-W timeout] [hop1 ...] destination
+Usage: ping -6 [-aAbBdDfhLnOqrRUvV] [-c count] [-i interval] [-I interface]
+             [-l preload] [-m mark] [-M pmtudisc_option]
+             [-N nodeinfo_option] [-p pattern] [-Q tclass] [-s packetsize]
+             [-S sndbuf] [-t ttl] [-T timestamp_option] [-w deadline]
+             [-W timeout] destinationnon-zero return code
+
+2019-02-12 11:20:22,271 p=29076 u=gillian |  k8s000 | FAILED | rc=2 >>
+Usage: ping [-aAbBdDfhLnOqrRUvV64] [-c count] [-i interval] [-I interface]
+            [-m mark] [-M pmtudisc_option] [-l preload] [-p pattern] [-Q tos]
+            [-s packetsize] [-S sndbuf] [-t ttl] [-T timestamp_option]
+            [-w deadline] [-W timeout] [hop1 ...] destination
+Usage: ping -6 [-aAbBdDfhLnOqrRUvV] [-c count] [-i interval] [-I interface]
+             [-l preload] [-m mark] [-M pmtudisc_option]
+             [-N nodeinfo_option] [-p pattern] [-Q tclass] [-s packetsize]
+             [-S sndbuf] [-t ttl] [-T timestamp_option] [-w deadline]
+             [-W timeout] destinationnon-zero return code
+
+2019-02-12 11:20:23,297 p=29076 u=gillian |  k8s005 | FAILED | rc=2 >>
+Usage: ping [-aAbBdDfhLnOqrRUvV64] [-c count] [-i interval] [-I interface]
+            [-m mark] [-M pmtudisc_option] [-l preload] [-p pattern] [-Q tos]
+            [-s packetsize] [-S sndbuf] [-t ttl] [-T timestamp_option]
+            [-w deadline] [-W timeout] [hop1 ...] destination
+Usage: ping -6 [-aAbBdDfhLnOqrRUvV] [-c count] [-i interval] [-I interface]
+             [-l preload] [-m mark] [-M pmtudisc_option]
+             [-N nodeinfo_option] [-p pattern] [-Q tclass] [-s packetsize]
+             [-S sndbuf] [-t ttl] [-T timestamp_option] [-w deadline]
+             [-W timeout] destinationnon-zero return code
+
+2019-02-12 11:20:27,832 p=29214 u=gillian |  ERROR! Extraneous options or arguments
+2019-02-12 11:20:47,942 p=29300 u=gillian |  k8s003 | SUCCESS => {
+    "changed": false, 
+    "ping": "pong"
+}
+2019-02-12 11:20:47,947 p=29300 u=gillian |  k8s002 | SUCCESS => {
+    "changed": false, 
+    "ping": "pong"
+}
+2019-02-12 11:20:47,967 p=29300 u=gillian |  k8s004 | SUCCESS => {
+    "changed": false, 
+    "ping": "pong"
+}
+2019-02-12 11:20:47,983 p=29300 u=gillian |  k8s000 | SUCCESS => {
+    "changed": false, 
+    "ping": "pong"
+}
+2019-02-12 11:20:47,994 p=29300 u=gillian |  k8s001 | SUCCESS => {
+    "changed": false, 
+    "ping": "pong"
+}
+2019-02-12 11:20:48,850 p=29300 u=gillian |  k8s005 | SUCCESS => {
+    "changed": false, 
+    "ping": "pong"
+}
+2019-02-12 11:36:02,468 p=524 u=gillian |  PLAY [all] *******************************************************************************************************************************************************************************************
+2019-02-12 11:36:02,484 p=524 u=gillian |  TASK [Gathering Facts] *******************************************************************************************************************************************************************************
+2019-02-12 11:36:05,813 p=524 u=gillian |  ok: [k8s004]
+2019-02-12 11:36:05,844 p=524 u=gillian |  ok: [k8s003]
+2019-02-12 11:36:05,868 p=524 u=gillian |  ok: [k8s002]
+2019-02-12 11:36:05,950 p=524 u=gillian |  ok: [k8s001]
+2019-02-12 11:36:06,658 p=524 u=gillian |  ok: [k8s000]
+2019-02-12 11:36:08,384 p=524 u=gillian |  ok: [k8s005]
+2019-02-12 11:36:08,461 p=524 u=gillian |  TASK [deploy-ssh : Make direcotry] *******************************************************************************************************************************************************************
+2019-02-12 11:36:09,554 p=524 u=gillian |  ok: [k8s000]
+2019-02-12 11:36:09,639 p=524 u=gillian |  ok: [k8s003]
+2019-02-12 11:36:09,728 p=524 u=gillian |  ok: [k8s002]
+2019-02-12 11:36:09,729 p=524 u=gillian |  ok: [k8s004]
+2019-02-12 11:36:10,570 p=524 u=gillian |  ok: [k8s005]
+2019-02-12 11:36:16,828 p=524 u=gillian |  ok: [k8s001]
+2019-02-12 11:36:16,908 p=524 u=gillian |  TASK [deploy-ssh : Check that the authorized keys file exists] ***************************************************************************************************************************************
+2019-02-12 11:36:18,264 p=524 u=gillian |  ok: [k8s003]
+2019-02-12 11:36:18,268 p=524 u=gillian |  ok: [k8s000]
+2019-02-12 11:36:18,279 p=524 u=gillian |  ok: [k8s002]
+2019-02-12 11:36:18,396 p=524 u=gillian |  ok: [k8s004]
+2019-02-12 11:36:18,476 p=524 u=gillian |  ok: [k8s001]
+2019-02-12 11:36:19,405 p=524 u=gillian |  ok: [k8s005]
+2019-02-12 11:36:19,492 p=524 u=gillian |  TASK [deploy-ssh : Create empty file] ****************************************************************************************************************************************************************
+2019-02-12 11:36:19,564 p=524 u=gillian |  skipping: [k8s000]
+2019-02-12 11:36:19,677 p=524 u=gillian |  skipping: [k8s001]
+2019-02-12 11:36:19,763 p=524 u=gillian |  skipping: [k8s002]
+2019-02-12 11:36:19,839 p=524 u=gillian |  skipping: [k8s003]
+2019-02-12 11:36:19,929 p=524 u=gillian |  skipping: [k8s004]
+2019-02-12 11:36:19,946 p=524 u=gillian |  skipping: [k8s005]
+2019-02-12 11:36:20,033 p=524 u=gillian |  TASK [deploy-ssh : Put pubkey into the file] *********************************************************************************************************************************************************
+2019-02-12 11:36:20,115 p=524 u=gillian |  fatal: [k8s000]: FAILED! => {"msg": "The task includes an option with an undefined variable. The error was: 'item' is undefined\n\nThe error appears to have been in '/home/gillian/Code/ansible-picluster-k8s/roles/deploy-ssh/tasks/main.yml': line 20, column 3, but may\nbe elsewhere in the file depending on the exact syntax problem.\n\nThe offending line appears to be:\n\n#     state: present\n- name: Put pubkey into the file\n  ^ here\n"}
+2019-02-12 11:36:20,204 p=524 u=gillian |  fatal: [k8s001]: FAILED! => {"msg": "The task includes an option with an undefined variable. The error was: 'item' is undefined\n\nThe error appears to have been in '/home/gillian/Code/ansible-picluster-k8s/roles/deploy-ssh/tasks/main.yml': line 20, column 3, but may\nbe elsewhere in the file depending on the exact syntax problem.\n\nThe offending line appears to be:\n\n#     state: present\n- name: Put pubkey into the file\n  ^ here\n"}
+2019-02-12 11:36:20,282 p=524 u=gillian |  fatal: [k8s002]: FAILED! => {"msg": "The task includes an option with an undefined variable. The error was: 'item' is undefined\n\nThe error appears to have been in '/home/gillian/Code/ansible-picluster-k8s/roles/deploy-ssh/tasks/main.yml': line 20, column 3, but may\nbe elsewhere in the file depending on the exact syntax problem.\n\nThe offending line appears to be:\n\n#     state: present\n- name: Put pubkey into the file\n  ^ here\n"}
+2019-02-12 11:36:20,356 p=524 u=gillian |  fatal: [k8s003]: FAILED! => {"msg": "The task includes an option with an undefined variable. The error was: 'item' is undefined\n\nThe error appears to have been in '/home/gillian/Code/ansible-picluster-k8s/roles/deploy-ssh/tasks/main.yml': line 20, column 3, but may\nbe elsewhere in the file depending on the exact syntax problem.\n\nThe offending line appears to be:\n\n#     state: present\n- name: Put pubkey into the file\n  ^ here\n"}
+2019-02-12 11:36:20,428 p=524 u=gillian |  fatal: [k8s004]: FAILED! => {"msg": "The task includes an option with an undefined variable. The error was: 'item' is undefined\n\nThe error appears to have been in '/home/gillian/Code/ansible-picluster-k8s/roles/deploy-ssh/tasks/main.yml': line 20, column 3, but may\nbe elsewhere in the file depending on the exact syntax problem.\n\nThe offending line appears to be:\n\n#     state: present\n- name: Put pubkey into the file\n  ^ here\n"}
+2019-02-12 11:36:20,445 p=524 u=gillian |  fatal: [k8s005]: FAILED! => {"msg": "The task includes an option with an undefined variable. The error was: 'item' is undefined\n\nThe error appears to have been in '/home/gillian/Code/ansible-picluster-k8s/roles/deploy-ssh/tasks/main.yml': line 20, column 3, but may\nbe elsewhere in the file depending on the exact syntax problem.\n\nThe offending line appears to be:\n\n#     state: present\n- name: Put pubkey into the file\n  ^ here\n"}
+2019-02-12 11:36:20,446 p=524 u=gillian |  PLAY RECAP *******************************************************************************************************************************************************************************************
+2019-02-12 11:36:20,447 p=524 u=gillian |  k8s000                     : ok=3    changed=0    unreachable=0    failed=1   
+2019-02-12 11:36:20,447 p=524 u=gillian |  k8s001                     : ok=3    changed=0    unreachable=0    failed=1   
+2019-02-12 11:36:20,447 p=524 u=gillian |  k8s002                     : ok=3    changed=0    unreachable=0    failed=1   
+2019-02-12 11:36:20,447 p=524 u=gillian |  k8s003                     : ok=3    changed=0    unreachable=0    failed=1   
+2019-02-12 11:36:20,447 p=524 u=gillian |  k8s004                     : ok=3    changed=0    unreachable=0    failed=1   
+2019-02-12 11:36:20,447 p=524 u=gillian |  k8s005                     : ok=3    changed=0    unreachable=0    failed=1   
+2019-02-12 11:37:53,203 p=1140 u=gillian |  PLAY [all] *******************************************************************************************************************************************************************************************
+2019-02-12 11:37:53,220 p=1140 u=gillian |  TASK [Gathering Facts] *******************************************************************************************************************************************************************************
+2019-02-12 11:37:56,200 p=1140 u=gillian |  ok: [k8s003]
+2019-02-12 11:37:56,270 p=1140 u=gillian |  ok: [k8s001]
+2019-02-12 11:37:56,296 p=1140 u=gillian |  ok: [k8s004]
+2019-02-12 11:37:56,370 p=1140 u=gillian |  ok: [k8s002]
+2019-02-12 11:37:56,453 p=1140 u=gillian |  ok: [k8s000]
+2019-02-12 11:37:58,582 p=1140 u=gillian |  ok: [k8s005]
+2019-02-12 11:37:58,657 p=1140 u=gillian |  TASK [deploy-ssh : Make direcotry] *******************************************************************************************************************************************************************
+2019-02-12 11:37:59,638 p=1140 u=gillian |  ok: [k8s002]
+2019-02-12 11:37:59,674 p=1140 u=gillian |  ok: [k8s000]
+2019-02-12 11:37:59,708 p=1140 u=gillian |  ok: [k8s003]
+2019-02-12 11:37:59,786 p=1140 u=gillian |  ok: [k8s004]
+2019-02-12 11:38:00,591 p=1140 u=gillian |  ok: [k8s005]
+2019-02-12 11:38:07,781 p=1140 u=gillian |  ok: [k8s001]
+2019-02-12 11:38:07,865 p=1140 u=gillian |  TASK [deploy-ssh : Check that the authorized keys file exists] ***************************************************************************************************************************************
+2019-02-12 11:38:08,927 p=1140 u=gillian |  ok: [k8s002]
+2019-02-12 11:38:08,964 p=1140 u=gillian |  ok: [k8s001]
+2019-02-12 11:38:08,995 p=1140 u=gillian |  ok: [k8s003]
+2019-02-12 11:38:09,216 p=1140 u=gillian |  ok: [k8s004]
+2019-02-12 11:38:09,316 p=1140 u=gillian |  ok: [k8s000]
+2019-02-12 11:38:09,922 p=1140 u=gillian |  ok: [k8s005]
+2019-02-12 11:38:10,003 p=1140 u=gillian |  TASK [deploy-ssh : Create empty file] ****************************************************************************************************************************************************************
+2019-02-12 11:38:10,117 p=1140 u=gillian |  skipping: [k8s000]
+2019-02-12 11:38:10,204 p=1140 u=gillian |  skipping: [k8s001]
+2019-02-12 11:38:10,281 p=1140 u=gillian |  skipping: [k8s002]
+2019-02-12 11:38:10,357 p=1140 u=gillian |  skipping: [k8s003]
+2019-02-12 11:38:10,427 p=1140 u=gillian |  skipping: [k8s004]
+2019-02-12 11:38:10,444 p=1140 u=gillian |  skipping: [k8s005]
+2019-02-12 11:38:10,525 p=1140 u=gillian |  TASK [deploy-ssh : Put pubkey into the file] *********************************************************************************************************************************************************
+2019-02-12 11:38:10,612 p=1140 u=gillian |  fatal: [k8s000]: FAILED! => {"msg": "The task includes an option with an undefined variable. The error was: 'item' is undefined\n\nThe error appears to have been in '/home/gillian/Code/ansible-picluster-k8s/roles/deploy-ssh/tasks/main.yml': line 20, column 3, but may\nbe elsewhere in the file depending on the exact syntax problem.\n\nThe offending line appears to be:\n\n#     state: present\n- name: Put pubkey into the file\n  ^ here\n"}
+2019-02-12 11:38:10,693 p=1140 u=gillian |  fatal: [k8s001]: FAILED! => {"msg": "The task includes an option with an undefined variable. The error was: 'item' is undefined\n\nThe error appears to have been in '/home/gillian/Code/ansible-picluster-k8s/roles/deploy-ssh/tasks/main.yml': line 20, column 3, but may\nbe elsewhere in the file depending on the exact syntax problem.\n\nThe offending line appears to be:\n\n#     state: present\n- name: Put pubkey into the file\n  ^ here\n"}
+2019-02-12 11:38:10,775 p=1140 u=gillian |  fatal: [k8s002]: FAILED! => {"msg": "The task includes an option with an undefined variable. The error was: 'item' is undefined\n\nThe error appears to have been in '/home/gillian/Code/ansible-picluster-k8s/roles/deploy-ssh/tasks/main.yml': line 20, column 3, but may\nbe elsewhere in the file depending on the exact syntax problem.\n\nThe offending line appears to be:\n\n#     state: present\n- name: Put pubkey into the file\n  ^ here\n"}
+2019-02-12 11:38:10,853 p=1140 u=gillian |  fatal: [k8s003]: FAILED! => {"msg": "The task includes an option with an undefined variable. The error was: 'item' is undefined\n\nThe error appears to have been in '/home/gillian/Code/ansible-picluster-k8s/roles/deploy-ssh/tasks/main.yml': line 20, column 3, but may\nbe elsewhere in the file depending on the exact syntax problem.\n\nThe offending line appears to be:\n\n#     state: present\n- name: Put pubkey into the file\n  ^ here\n"}
+2019-02-12 11:38:10,930 p=1140 u=gillian |  fatal: [k8s004]: FAILED! => {"msg": "The task includes an option with an undefined variable. The error was: 'item' is undefined\n\nThe error appears to have been in '/home/gillian/Code/ansible-picluster-k8s/roles/deploy-ssh/tasks/main.yml': line 20, column 3, but may\nbe elsewhere in the file depending on the exact syntax problem.\n\nThe offending line appears to be:\n\n#     state: present\n- name: Put pubkey into the file\n  ^ here\n"}
+2019-02-12 11:38:10,946 p=1140 u=gillian |  fatal: [k8s005]: FAILED! => {"msg": "The task includes an option with an undefined variable. The error was: 'item' is undefined\n\nThe error appears to have been in '/home/gillian/Code/ansible-picluster-k8s/roles/deploy-ssh/tasks/main.yml': line 20, column 3, but may\nbe elsewhere in the file depending on the exact syntax problem.\n\nThe offending line appears to be:\n\n#     state: present\n- name: Put pubkey into the file\n  ^ here\n"}
+2019-02-12 11:38:10,948 p=1140 u=gillian |  PLAY RECAP *******************************************************************************************************************************************************************************************
+2019-02-12 11:38:10,948 p=1140 u=gillian |  k8s000                     : ok=3    changed=0    unreachable=0    failed=1   
+2019-02-12 11:38:10,948 p=1140 u=gillian |  k8s001                     : ok=3    changed=0    unreachable=0    failed=1   
+2019-02-12 11:38:10,949 p=1140 u=gillian |  k8s002                     : ok=3    changed=0    unreachable=0    failed=1   
+2019-02-12 11:38:10,949 p=1140 u=gillian |  k8s003                     : ok=3    changed=0    unreachable=0    failed=1   
+2019-02-12 11:38:10,949 p=1140 u=gillian |  k8s004                     : ok=3    changed=0    unreachable=0    failed=1   
+2019-02-12 11:38:10,949 p=1140 u=gillian |  k8s005                     : ok=3    changed=0    unreachable=0    failed=1   
+2019-02-12 11:44:35,053 p=2825 u=gillian |  PLAY [all] *******************************************************************************************************************************************************************************************
+2019-02-12 11:44:35,070 p=2825 u=gillian |  TASK [Gathering Facts] *******************************************************************************************************************************************************************************
+2019-02-12 11:44:39,323 p=2825 u=gillian |  ok: [k8s003]
+2019-02-12 11:44:39,366 p=2825 u=gillian |  ok: [k8s004]
+2019-02-12 11:44:39,390 p=2825 u=gillian |  ok: [k8s001]
+2019-02-12 11:44:39,475 p=2825 u=gillian |  ok: [k8s002]
+2019-02-12 11:44:39,583 p=2825 u=gillian |  ok: [k8s000]
+2019-02-12 11:44:41,749 p=2825 u=gillian |  ok: [k8s005]
+2019-02-12 11:44:41,829 p=2825 u=gillian |  TASK [deploy-ssh : Make direcotry] *******************************************************************************************************************************************************************
+2019-02-12 11:44:42,892 p=2825 u=gillian |  ok: [k8s002]
+2019-02-12 11:44:42,895 p=2825 u=gillian |  ok: [k8s000]
+2019-02-12 11:44:42,974 p=2825 u=gillian |  ok: [k8s004]
+2019-02-12 11:44:42,993 p=2825 u=gillian |  ok: [k8s003]
+2019-02-12 11:44:43,841 p=2825 u=gillian |  ok: [k8s005]
+2019-02-12 11:44:49,444 p=2825 u=gillian |  ok: [k8s001]
+2019-02-12 11:44:49,524 p=2825 u=gillian |  TASK [deploy-ssh : Check that the authorized keys file exists] ***************************************************************************************************************************************
+2019-02-12 11:44:50,722 p=2825 u=gillian |  ok: [k8s001]
+2019-02-12 11:44:50,727 p=2825 u=gillian |  ok: [k8s002]
+2019-02-12 11:44:50,729 p=2825 u=gillian |  ok: [k8s000]
+2019-02-12 11:44:50,841 p=2825 u=gillian |  ok: [k8s004]
+2019-02-12 11:44:51,667 p=2825 u=gillian |  ok: [k8s005]
+2019-02-12 11:44:51,803 p=2825 u=gillian |  ok: [k8s003]
+2019-02-12 11:44:51,881 p=2825 u=gillian |  TASK [deploy-ssh : Create empty file] ****************************************************************************************************************************************************************
+2019-02-12 11:44:51,954 p=2825 u=gillian |  skipping: [k8s000]
+2019-02-12 11:44:52,078 p=2825 u=gillian |  skipping: [k8s001]
+2019-02-12 11:44:52,162 p=2825 u=gillian |  skipping: [k8s002]
+2019-02-12 11:44:52,247 p=2825 u=gillian |  skipping: [k8s003]
+2019-02-12 11:44:52,338 p=2825 u=gillian |  skipping: [k8s004]
+2019-02-12 11:44:52,355 p=2825 u=gillian |  skipping: [k8s005]
+2019-02-12 11:44:52,437 p=2825 u=gillian |  TASK [deploy-ssh : Put pubkey into the file] *********************************************************************************************************************************************************
+2019-02-12 11:44:52,512 p=2825 u=gillian |  fatal: [k8s000]: FAILED! => {"msg": "The task includes an option with an undefined variable. The error was: 'item' is undefined\n\nThe error appears to have been in '/home/gillian/Code/ansible-picluster-k8s/roles/deploy-ssh/tasks/main.yml': line 20, column 3, but may\nbe elsewhere in the file depending on the exact syntax problem.\n\nThe offending line appears to be:\n\n#     state: present\n- name: Put pubkey into the file\n  ^ here\n"}
+2019-02-12 11:44:52,595 p=2825 u=gillian |  fatal: [k8s001]: FAILED! => {"msg": "The task includes an option with an undefined variable. The error was: 'item' is undefined\n\nThe error appears to have been in '/home/gillian/Code/ansible-picluster-k8s/roles/deploy-ssh/tasks/main.yml': line 20, column 3, but may\nbe elsewhere in the file depending on the exact syntax problem.\n\nThe offending line appears to be:\n\n#     state: present\n- name: Put pubkey into the file\n  ^ here\n"}
+2019-02-12 11:44:52,684 p=2825 u=gillian |  fatal: [k8s002]: FAILED! => {"msg": "The task includes an option with an undefined variable. The error was: 'item' is undefined\n\nThe error appears to have been in '/home/gillian/Code/ansible-picluster-k8s/roles/deploy-ssh/tasks/main.yml': line 20, column 3, but may\nbe elsewhere in the file depending on the exact syntax problem.\n\nThe offending line appears to be:\n\n#     state: present\n- name: Put pubkey into the file\n  ^ here\n"}
+2019-02-12 11:44:52,759 p=2825 u=gillian |  fatal: [k8s003]: FAILED! => {"msg": "The task includes an option with an undefined variable. The error was: 'item' is undefined\n\nThe error appears to have been in '/home/gillian/Code/ansible-picluster-k8s/roles/deploy-ssh/tasks/main.yml': line 20, column 3, but may\nbe elsewhere in the file depending on the exact syntax problem.\n\nThe offending line appears to be:\n\n#     state: present\n- name: Put pubkey into the file\n  ^ here\n"}
+2019-02-12 11:44:52,844 p=2825 u=gillian |  fatal: [k8s004]: FAILED! => {"msg": "The task includes an option with an undefined variable. The error was: 'item' is undefined\n\nThe error appears to have been in '/home/gillian/Code/ansible-picluster-k8s/roles/deploy-ssh/tasks/main.yml': line 20, column 3, but may\nbe elsewhere in the file depending on the exact syntax problem.\n\nThe offending line appears to be:\n\n#     state: present\n- name: Put pubkey into the file\n  ^ here\n"}
+2019-02-12 11:44:52,859 p=2825 u=gillian |  fatal: [k8s005]: FAILED! => {"msg": "The task includes an option with an undefined variable. The error was: 'item' is undefined\n\nThe error appears to have been in '/home/gillian/Code/ansible-picluster-k8s/roles/deploy-ssh/tasks/main.yml': line 20, column 3, but may\nbe elsewhere in the file depending on the exact syntax problem.\n\nThe offending line appears to be:\n\n#     state: present\n- name: Put pubkey into the file\n  ^ here\n"}
+2019-02-12 11:44:52,860 p=2825 u=gillian |  PLAY RECAP *******************************************************************************************************************************************************************************************
+2019-02-12 11:44:52,861 p=2825 u=gillian |  k8s000                     : ok=3    changed=0    unreachable=0    failed=1   
+2019-02-12 11:44:52,861 p=2825 u=gillian |  k8s001                     : ok=3    changed=0    unreachable=0    failed=1   
+2019-02-12 11:44:52,861 p=2825 u=gillian |  k8s002                     : ok=3    changed=0    unreachable=0    failed=1   
+2019-02-12 11:44:52,861 p=2825 u=gillian |  k8s003                     : ok=3    changed=0    unreachable=0    failed=1   
+2019-02-12 11:44:52,861 p=2825 u=gillian |  k8s004                     : ok=3    changed=0    unreachable=0    failed=1   
+2019-02-12 11:44:52,861 p=2825 u=gillian |  k8s005                     : ok=3    changed=0    unreachable=0    failed=1   
+2019-02-12 11:46:53,577 p=3534 u=gillian |  PLAY [all] *******************************************************************************************************************************************************************************************
+2019-02-12 11:46:53,594 p=3534 u=gillian |  TASK [Gathering Facts] *******************************************************************************************************************************************************************************
+2019-02-12 11:46:59,186 p=3534 u=gillian |  ok: [k8s001]
+2019-02-12 11:46:59,217 p=3534 u=gillian |  ok: [k8s004]
+2019-02-12 11:46:59,246 p=3534 u=gillian |  ok: [k8s003]
+2019-02-12 11:46:59,294 p=3534 u=gillian |  ok: [k8s002]
+2019-02-12 11:46:59,449 p=3534 u=gillian |  ok: [k8s000]
+2019-02-12 11:47:01,650 p=3534 u=gillian |  ok: [k8s005]
+2019-02-12 11:47:01,725 p=3534 u=gillian |  TASK [deploy-ssh : Make direcotry] *******************************************************************************************************************************************************************
+2019-02-12 11:47:03,392 p=3534 u=gillian |  ok: [k8s000]
+2019-02-12 11:47:03,529 p=3534 u=gillian |  ok: [k8s001]
+2019-02-12 11:47:03,545 p=3534 u=gillian |  ok: [k8s002]
+2019-02-12 11:47:03,546 p=3534 u=gillian |  ok: [k8s003]
+2019-02-12 11:47:03,558 p=3534 u=gillian |  ok: [k8s004]
+2019-02-12 11:47:04,633 p=3534 u=gillian |  ok: [k8s005]
+2019-02-12 11:47:04,716 p=3534 u=gillian |  TASK [deploy-ssh : Check that the authorized keys file exists] ***************************************************************************************************************************************
+2019-02-12 11:47:05,894 p=3534 u=gillian |  ok: [k8s000]
+2019-02-12 11:47:05,935 p=3534 u=gillian |  ok: [k8s002]
+2019-02-12 11:47:05,984 p=3534 u=gillian |  ok: [k8s003]
+2019-02-12 11:47:06,057 p=3534 u=gillian |  ok: [k8s004]
+2019-02-12 11:47:06,965 p=3534 u=gillian |  ok: [k8s005]
+2019-02-12 11:47:14,910 p=3534 u=gillian |  ok: [k8s001]
+2019-02-12 11:47:15,036 p=3534 u=gillian |  TASK [deploy-ssh : Create empty file] ****************************************************************************************************************************************************************
+2019-02-12 11:47:15,122 p=3534 u=gillian |  skipping: [k8s000]
+2019-02-12 11:47:15,218 p=3534 u=gillian |  skipping: [k8s001]
+2019-02-12 11:47:15,288 p=3534 u=gillian |  skipping: [k8s002]
+2019-02-12 11:47:15,359 p=3534 u=gillian |  skipping: [k8s003]
+2019-02-12 11:47:15,436 p=3534 u=gillian |  skipping: [k8s004]
+2019-02-12 11:47:15,454 p=3534 u=gillian |  skipping: [k8s005]
+2019-02-12 11:47:15,540 p=3534 u=gillian |  TASK [deploy-ssh : Put pubkey into the file] *********************************************************************************************************************************************************
+2019-02-12 11:47:15,621 p=3534 u=gillian |  fatal: [k8s000]: FAILED! => {"msg": "The task includes an option with an undefined variable. The error was: 'item' is undefined\n\nThe error appears to have been in '/home/gillian/Code/ansible-picluster-k8s/roles/deploy-ssh/tasks/main.yml': line 20, column 3, but may\nbe elsewhere in the file depending on the exact syntax problem.\n\nThe offending line appears to be:\n\n#     state: present\n- name: Put pubkey into the file\n  ^ here\n"}
+2019-02-12 11:47:15,704 p=3534 u=gillian |  fatal: [k8s001]: FAILED! => {"msg": "The task includes an option with an undefined variable. The error was: 'item' is undefined\n\nThe error appears to have been in '/home/gillian/Code/ansible-picluster-k8s/roles/deploy-ssh/tasks/main.yml': line 20, column 3, but may\nbe elsewhere in the file depending on the exact syntax problem.\n\nThe offending line appears to be:\n\n#     state: present\n- name: Put pubkey into the file\n  ^ here\n"}
+2019-02-12 11:47:15,779 p=3534 u=gillian |  fatal: [k8s002]: FAILED! => {"msg": "The task includes an option with an undefined variable. The error was: 'item' is undefined\n\nThe error appears to have been in '/home/gillian/Code/ansible-picluster-k8s/roles/deploy-ssh/tasks/main.yml': line 20, column 3, but may\nbe elsewhere in the file depending on the exact syntax problem.\n\nThe offending line appears to be:\n\n#     state: present\n- name: Put pubkey into the file\n  ^ here\n"}
+2019-02-12 11:47:15,851 p=3534 u=gillian |  fatal: [k8s003]: FAILED! => {"msg": "The task includes an option with an undefined variable. The error was: 'item' is undefined\n\nThe error appears to have been in '/home/gillian/Code/ansible-picluster-k8s/roles/deploy-ssh/tasks/main.yml': line 20, column 3, but may\nbe elsewhere in the file depending on the exact syntax problem.\n\nThe offending line appears to be:\n\n#     state: present\n- name: Put pubkey into the file\n  ^ here\n"}
+2019-02-12 11:47:15,922 p=3534 u=gillian |  fatal: [k8s004]: FAILED! => {"msg": "The task includes an option with an undefined variable. The error was: 'item' is undefined\n\nThe error appears to have been in '/home/gillian/Code/ansible-picluster-k8s/roles/deploy-ssh/tasks/main.yml': line 20, column 3, but may\nbe elsewhere in the file depending on the exact syntax problem.\n\nThe offending line appears to be:\n\n#     state: present\n- name: Put pubkey into the file\n  ^ here\n"}
+2019-02-12 11:47:15,936 p=3534 u=gillian |  fatal: [k8s005]: FAILED! => {"msg": "The task includes an option with an undefined variable. The error was: 'item' is undefined\n\nThe error appears to have been in '/home/gillian/Code/ansible-picluster-k8s/roles/deploy-ssh/tasks/main.yml': line 20, column 3, but may\nbe elsewhere in the file depending on the exact syntax problem.\n\nThe offending line appears to be:\n\n#     state: present\n- name: Put pubkey into the file\n  ^ here\n"}
+2019-02-12 11:47:15,938 p=3534 u=gillian |  PLAY RECAP *******************************************************************************************************************************************************************************************
+2019-02-12 11:47:15,938 p=3534 u=gillian |  k8s000                     : ok=3    changed=0    unreachable=0    failed=1   
+2019-02-12 11:47:15,938 p=3534 u=gillian |  k8s001                     : ok=3    changed=0    unreachable=0    failed=1   
+2019-02-12 11:47:15,938 p=3534 u=gillian |  k8s002                     : ok=3    changed=0    unreachable=0    failed=1   
+2019-02-12 11:47:15,939 p=3534 u=gillian |  k8s003                     : ok=3    changed=0    unreachable=0    failed=1   
+2019-02-12 11:47:15,939 p=3534 u=gillian |  k8s004                     : ok=3    changed=0    unreachable=0    failed=1   
+2019-02-12 11:47:15,939 p=3534 u=gillian |  k8s005                     : ok=3    changed=0    unreachable=0    failed=1   
+2019-02-12 11:48:58,362 p=4277 u=gillian |  PLAY [all] *******************************************************************************************************************************************************************************************
+2019-02-12 11:48:58,379 p=4277 u=gillian |  TASK [Gathering Facts] *******************************************************************************************************************************************************************************
+2019-02-12 11:49:01,694 p=4277 u=gillian |  ok: [k8s001]
+2019-02-12 11:49:01,747 p=4277 u=gillian |  ok: [k8s003]
+2019-02-12 11:49:01,769 p=4277 u=gillian |  ok: [k8s004]
+2019-02-12 11:49:01,823 p=4277 u=gillian |  ok: [k8s002]
+2019-02-12 11:49:02,187 p=4277 u=gillian |  ok: [k8s000]
+2019-02-12 11:49:04,182 p=4277 u=gillian |  ok: [k8s005]
+2019-02-12 11:49:04,256 p=4277 u=gillian |  TASK [deploy-ssh : Make direcotry] *******************************************************************************************************************************************************************
+2019-02-12 11:49:05,337 p=4277 u=gillian |  ok: [k8s000]
+2019-02-12 11:49:05,342 p=4277 u=gillian |  ok: [k8s003]
+2019-02-12 11:49:05,383 p=4277 u=gillian |  ok: [k8s002]
+2019-02-12 11:49:05,522 p=4277 u=gillian |  ok: [k8s004]
+2019-02-12 11:49:05,752 p=4277 u=gillian |  ok: [k8s001]
+2019-02-12 11:49:06,258 p=4277 u=gillian |  ok: [k8s005]
+2019-02-12 11:49:06,337 p=4277 u=gillian |  TASK [deploy-ssh : Check that the authorized keys file exists] ***************************************************************************************************************************************
+2019-02-12 11:49:07,361 p=4277 u=gillian |  ok: [k8s000]
+2019-02-12 11:49:07,363 p=4277 u=gillian |  ok: [k8s001]
+2019-02-12 11:49:07,376 p=4277 u=gillian |  ok: [k8s002]
+2019-02-12 11:49:07,533 p=4277 u=gillian |  ok: [k8s003]
+2019-02-12 11:49:07,652 p=4277 u=gillian |  ok: [k8s004]
+2019-02-12 11:49:08,248 p=4277 u=gillian |  ok: [k8s005]
+2019-02-12 11:49:08,329 p=4277 u=gillian |  TASK [deploy-ssh : Create empty file] ****************************************************************************************************************************************************************
+2019-02-12 11:49:08,405 p=4277 u=gillian |  skipping: [k8s000]
+2019-02-12 11:49:08,488 p=4277 u=gillian |  skipping: [k8s001]
+2019-02-12 11:49:08,563 p=4277 u=gillian |  skipping: [k8s002]
+2019-02-12 11:49:08,635 p=4277 u=gillian |  skipping: [k8s003]
+2019-02-12 11:49:08,712 p=4277 u=gillian |  skipping: [k8s004]
+2019-02-12 11:49:08,729 p=4277 u=gillian |  skipping: [k8s005]
+2019-02-12 11:49:08,846 p=4277 u=gillian |  TASK [deploy-ssh : Put pubkey into the file] *********************************************************************************************************************************************************
+2019-02-12 11:49:10,755 p=4277 u=gillian |  ok: [k8s002] => (item=ssh-rsa AAAAB3NzaC1yc2EAAAADAQABAAABAQD4tXFs6zl0VCowCMFxnELO+Yd5qQtxp//MYFKafYO2tC5AbPll/bXXFatu7+O3D0Ej3pgbcxUeYkNb+Qxo13IyaKOlI34yagv1kP4/VuTEEd/N4a1eTUJabYsT5/E85QDwsqFXCJj9Q0wX58nxzMyBW0lFoneoCjA6xGL+tbIBcniGytIVhU7kc8fUhymNH86AF/cC1ug+2W7LI5+QeKvpZIRlxfHbIzYiUdLcztXWHb3pzdS63cXSgRXzuZErCRA72b9maLux2tXgFYoEnDdA4B+HxUeH2TQWdPU0r9quNgliD9N4Ip0k+SMuGfXCsPGDTBB8JkCm9HTutSjqld8f gillian@theopour)
+2019-02-12 11:49:10,756 p=4277 u=gillian |  ok: [k8s000] => (item=ssh-rsa AAAAB3NzaC1yc2EAAAADAQABAAABAQD4tXFs6zl0VCowCMFxnELO+Yd5qQtxp//MYFKafYO2tC5AbPll/bXXFatu7+O3D0Ej3pgbcxUeYkNb+Qxo13IyaKOlI34yagv1kP4/VuTEEd/N4a1eTUJabYsT5/E85QDwsqFXCJj9Q0wX58nxzMyBW0lFoneoCjA6xGL+tbIBcniGytIVhU7kc8fUhymNH86AF/cC1ug+2W7LI5+QeKvpZIRlxfHbIzYiUdLcztXWHb3pzdS63cXSgRXzuZErCRA72b9maLux2tXgFYoEnDdA4B+HxUeH2TQWdPU0r9quNgliD9N4Ip0k+SMuGfXCsPGDTBB8JkCm9HTutSjqld8f gillian@theopour)
+2019-02-12 11:49:10,758 p=4277 u=gillian |  ok: [k8s001] => (item=ssh-rsa AAAAB3NzaC1yc2EAAAADAQABAAABAQD4tXFs6zl0VCowCMFxnELO+Yd5qQtxp//MYFKafYO2tC5AbPll/bXXFatu7+O3D0Ej3pgbcxUeYkNb+Qxo13IyaKOlI34yagv1kP4/VuTEEd/N4a1eTUJabYsT5/E85QDwsqFXCJj9Q0wX58nxzMyBW0lFoneoCjA6xGL+tbIBcniGytIVhU7kc8fUhymNH86AF/cC1ug+2W7LI5+QeKvpZIRlxfHbIzYiUdLcztXWHb3pzdS63cXSgRXzuZErCRA72b9maLux2tXgFYoEnDdA4B+HxUeH2TQWdPU0r9quNgliD9N4Ip0k+SMuGfXCsPGDTBB8JkCm9HTutSjqld8f gillian@theopour)
+2019-02-12 11:49:10,760 p=4277 u=gillian |  ok: [k8s003] => (item=ssh-rsa AAAAB3NzaC1yc2EAAAADAQABAAABAQD4tXFs6zl0VCowCMFxnELO+Yd5qQtxp//MYFKafYO2tC5AbPll/bXXFatu7+O3D0Ej3pgbcxUeYkNb+Qxo13IyaKOlI34yagv1kP4/VuTEEd/N4a1eTUJabYsT5/E85QDwsqFXCJj9Q0wX58nxzMyBW0lFoneoCjA6xGL+tbIBcniGytIVhU7kc8fUhymNH86AF/cC1ug+2W7LI5+QeKvpZIRlxfHbIzYiUdLcztXWHb3pzdS63cXSgRXzuZErCRA72b9maLux2tXgFYoEnDdA4B+HxUeH2TQWdPU0r9quNgliD9N4Ip0k+SMuGfXCsPGDTBB8JkCm9HTutSjqld8f gillian@theopour)
+2019-02-12 11:49:10,761 p=4277 u=gillian |  ok: [k8s004] => (item=ssh-rsa AAAAB3NzaC1yc2EAAAADAQABAAABAQD4tXFs6zl0VCowCMFxnELO+Yd5qQtxp//MYFKafYO2tC5AbPll/bXXFatu7+O3D0Ej3pgbcxUeYkNb+Qxo13IyaKOlI34yagv1kP4/VuTEEd/N4a1eTUJabYsT5/E85QDwsqFXCJj9Q0wX58nxzMyBW0lFoneoCjA6xGL+tbIBcniGytIVhU7kc8fUhymNH86AF/cC1ug+2W7LI5+QeKvpZIRlxfHbIzYiUdLcztXWHb3pzdS63cXSgRXzuZErCRA72b9maLux2tXgFYoEnDdA4B+HxUeH2TQWdPU0r9quNgliD9N4Ip0k+SMuGfXCsPGDTBB8JkCm9HTutSjqld8f gillian@theopour)
+2019-02-12 11:49:10,762 p=4277 u=gillian |  changed: [k8s002] => (item=ssh-rsa AAAAB3NzaC1yc2EAAAADAQABAAABAQCiMhqJXzFhVUEd/KpVoGSayBzZseLFx6x+dLXldNIZDRDZO+BUypEi8NsGfCzmidv6Q40kheO0RefPQGOftPtxaud9aEuA2lJysS39uH0qW9lfLhL0ciIeRLpQDWeW1udZh+yZVLW8Lew2v3omFjr+km1iKtO6RPii79xasPgMsKO1cZT85OaG9ZSUd6J++cxYXm12JTQoIwOzvx8C3nIkrrHW98DDbZ7DpEcYLtrFdN8mXTQC6/MLUPGlB9a4x0W4YWQ00b8TfIhB5KD9yREIVTmRjxn0Tj/dzmNcPvcpXHQCd4QOo3Z4n9EN/14fzGq3WEjjhtWh3yF/N3JQBnYj mpvanharten@pop-os)
+2019-02-12 11:49:10,908 p=4277 u=gillian |  changed: [k8s004] => (item=ssh-rsa AAAAB3NzaC1yc2EAAAADAQABAAABAQCiMhqJXzFhVUEd/KpVoGSayBzZseLFx6x+dLXldNIZDRDZO+BUypEi8NsGfCzmidv6Q40kheO0RefPQGOftPtxaud9aEuA2lJysS39uH0qW9lfLhL0ciIeRLpQDWeW1udZh+yZVLW8Lew2v3omFjr+km1iKtO6RPii79xasPgMsKO1cZT85OaG9ZSUd6J++cxYXm12JTQoIwOzvx8C3nIkrrHW98DDbZ7DpEcYLtrFdN8mXTQC6/MLUPGlB9a4x0W4YWQ00b8TfIhB5KD9yREIVTmRjxn0Tj/dzmNcPvcpXHQCd4QOo3Z4n9EN/14fzGq3WEjjhtWh3yF/N3JQBnYj mpvanharten@pop-os)
+2019-02-12 11:49:10,940 p=4277 u=gillian |  changed: [k8s000] => (item=ssh-rsa AAAAB3NzaC1yc2EAAAADAQABAAABAQCiMhqJXzFhVUEd/KpVoGSayBzZseLFx6x+dLXldNIZDRDZO+BUypEi8NsGfCzmidv6Q40kheO0RefPQGOftPtxaud9aEuA2lJysS39uH0qW9lfLhL0ciIeRLpQDWeW1udZh+yZVLW8Lew2v3omFjr+km1iKtO6RPii79xasPgMsKO1cZT85OaG9ZSUd6J++cxYXm12JTQoIwOzvx8C3nIkrrHW98DDbZ7DpEcYLtrFdN8mXTQC6/MLUPGlB9a4x0W4YWQ00b8TfIhB5KD9yREIVTmRjxn0Tj/dzmNcPvcpXHQCd4QOo3Z4n9EN/14fzGq3WEjjhtWh3yF/N3JQBnYj mpvanharten@pop-os)
+2019-02-12 11:49:11,018 p=4277 u=gillian |  changed: [k8s003] => (item=ssh-rsa AAAAB3NzaC1yc2EAAAADAQABAAABAQCiMhqJXzFhVUEd/KpVoGSayBzZseLFx6x+dLXldNIZDRDZO+BUypEi8NsGfCzmidv6Q40kheO0RefPQGOftPtxaud9aEuA2lJysS39uH0qW9lfLhL0ciIeRLpQDWeW1udZh+yZVLW8Lew2v3omFjr+km1iKtO6RPii79xasPgMsKO1cZT85OaG9ZSUd6J++cxYXm12JTQoIwOzvx8C3nIkrrHW98DDbZ7DpEcYLtrFdN8mXTQC6/MLUPGlB9a4x0W4YWQ00b8TfIhB5KD9yREIVTmRjxn0Tj/dzmNcPvcpXHQCd4QOo3Z4n9EN/14fzGq3WEjjhtWh3yF/N3JQBnYj mpvanharten@pop-os)
+2019-02-12 11:49:11,706 p=4277 u=gillian |  ok: [k8s005] => (item=ssh-rsa AAAAB3NzaC1yc2EAAAADAQABAAABAQD4tXFs6zl0VCowCMFxnELO+Yd5qQtxp//MYFKafYO2tC5AbPll/bXXFatu7+O3D0Ej3pgbcxUeYkNb+Qxo13IyaKOlI34yagv1kP4/VuTEEd/N4a1eTUJabYsT5/E85QDwsqFXCJj9Q0wX58nxzMyBW0lFoneoCjA6xGL+tbIBcniGytIVhU7kc8fUhymNH86AF/cC1ug+2W7LI5+QeKvpZIRlxfHbIzYiUdLcztXWHb3pzdS63cXSgRXzuZErCRA72b9maLux2tXgFYoEnDdA4B+HxUeH2TQWdPU0r9quNgliD9N4Ip0k+SMuGfXCsPGDTBB8JkCm9HTutSjqld8f gillian@theopour)
+2019-02-12 11:49:12,483 p=4277 u=gillian |  changed: [k8s005] => (item=ssh-rsa AAAAB3NzaC1yc2EAAAADAQABAAABAQCiMhqJXzFhVUEd/KpVoGSayBzZseLFx6x+dLXldNIZDRDZO+BUypEi8NsGfCzmidv6Q40kheO0RefPQGOftPtxaud9aEuA2lJysS39uH0qW9lfLhL0ciIeRLpQDWeW1udZh+yZVLW8Lew2v3omFjr+km1iKtO6RPii79xasPgMsKO1cZT85OaG9ZSUd6J++cxYXm12JTQoIwOzvx8C3nIkrrHW98DDbZ7DpEcYLtrFdN8mXTQC6/MLUPGlB9a4x0W4YWQ00b8TfIhB5KD9yREIVTmRjxn0Tj/dzmNcPvcpXHQCd4QOo3Z4n9EN/14fzGq3WEjjhtWh3yF/N3JQBnYj mpvanharten@pop-os)
+2019-02-12 11:49:22,721 p=4277 u=gillian |  changed: [k8s001] => (item=ssh-rsa AAAAB3NzaC1yc2EAAAADAQABAAABAQCiMhqJXzFhVUEd/KpVoGSayBzZseLFx6x+dLXldNIZDRDZO+BUypEi8NsGfCzmidv6Q40kheO0RefPQGOftPtxaud9aEuA2lJysS39uH0qW9lfLhL0ciIeRLpQDWeW1udZh+yZVLW8Lew2v3omFjr+km1iKtO6RPii79xasPgMsKO1cZT85OaG9ZSUd6J++cxYXm12JTQoIwOzvx8C3nIkrrHW98DDbZ7DpEcYLtrFdN8mXTQC6/MLUPGlB9a4x0W4YWQ00b8TfIhB5KD9yREIVTmRjxn0Tj/dzmNcPvcpXHQCd4QOo3Z4n9EN/14fzGq3WEjjhtWh3yF/N3JQBnYj mpvanharten@pop-os)
+2019-02-12 11:49:22,728 p=4277 u=gillian |  PLAY RECAP *******************************************************************************************************************************************************************************************
+2019-02-12 11:49:22,729 p=4277 u=gillian |  k8s000                     : ok=4    changed=1    unreachable=0    failed=0   
+2019-02-12 11:49:22,729 p=4277 u=gillian |  k8s001                     : ok=4    changed=1    unreachable=0    failed=0   
+2019-02-12 11:49:22,729 p=4277 u=gillian |  k8s002                     : ok=4    changed=1    unreachable=0    failed=0   
+2019-02-12 11:49:22,729 p=4277 u=gillian |  k8s003                     : ok=4    changed=1    unreachable=0    failed=0   
+2019-02-12 11:49:22,729 p=4277 u=gillian |  k8s004                     : ok=4    changed=1    unreachable=0    failed=0   
+2019-02-12 11:49:22,730 p=4277 u=gillian |  k8s005                     : ok=4    changed=1    unreachable=0    failed=0   
+2019-02-14 16:39:30,030 p=14503 u=gillian |  PLAY [k8s003] ************************************************************************
+2019-02-14 16:39:30,047 p=14503 u=gillian |  TASK [Gathering Facts] ***************************************************************
+2019-02-14 16:39:33,136 p=14503 u=gillian |  ok: [k8s003]
+2019-02-14 16:39:33,210 p=14503 u=gillian |  TASK [workers : Reset Kubernetes] ****************************************************
+2019-02-14 16:39:34,709 p=14503 u=gillian |  changed: [k8s003]
+2019-02-14 16:39:34,774 p=14503 u=gillian |  TASK [workers : Join Kubernetes Cluster] *********************************************
+2019-02-14 16:41:29,297 p=14503 u=gillian |   [ERROR]: User interrupted execution
+
+2019-02-14 16:41:36,338 p=15007 u=gillian |  PLAY [k8s003] **************************************************************************************************************
+2019-02-14 16:41:36,354 p=15007 u=gillian |  TASK [Gathering Facts] *****************************************************************************************************
+2019-02-14 16:41:38,656 p=15007 u=gillian |  ok: [k8s003]
+2019-02-14 16:41:38,713 p=15007 u=gillian |  TASK [cleanup : Reset Kubernetes] ******************************************************************************************
+2019-02-14 16:41:39,860 p=15007 u=gillian |  changed: [k8s003]
+2019-02-14 16:41:39,922 p=15007 u=gillian |  TASK [cleanup : Remove docker images] **************************************************************************************
+2019-02-14 16:41:43,032 p=15007 u=gillian |  changed: [k8s003]
+2019-02-14 16:41:43,117 p=15007 u=gillian |  TASK [cleanup : apt-get update] ********************************************************************************************
+2019-02-14 16:42:32,880 p=15007 u=gillian |  changed: [k8s003]
+2019-02-14 16:42:32,942 p=15007 u=gillian |  TASK [cleanup : apt-get purge packages] ************************************************************************************
+2019-02-14 16:43:10,958 p=15007 u=gillian |  changed: [k8s003] => (item=[u'kubelet', u'kubeadm', u'kubectl', u'docker-ce'])
+2019-02-14 16:43:11,023 p=15007 u=gillian |  TASK [cleanup : Remove pod logging] ****************************************************************************************
+2019-02-14 16:43:11,790 p=15007 u=gillian |   [WARNING]: Consider using the file module with state=absent rather than running rm.  If you need to use command because
+file is insufficient you can add warn=False to this command task or set command_warnings=False in ansible.cfg to get rid of
+this message.
+
+2019-02-14 16:43:11,791 p=15007 u=gillian |  changed: [k8s003]
+2019-02-14 16:43:11,849 p=15007 u=gillian |  TASK [cleanup : Reboot] ****************************************************************************************************
+2019-02-14 16:43:13,530 p=15007 u=gillian |  changed: [k8s003]
+2019-02-14 16:43:13,594 p=15007 u=gillian |  TASK [cleanup : Wait for Reboot] *******************************************************************************************
+2019-02-14 16:43:48,174 p=15007 u=gillian |   [ERROR]: User interrupted execution
+
+2019-02-14 16:44:16,739 p=15770 u=gillian |  PLAY [k8s003] **************************************************************************************************************
+2019-02-14 16:44:16,759 p=15770 u=gillian |  TASK [Gathering Facts] *****************************************************************************************************
+2019-02-14 16:44:20,030 p=15770 u=gillian |  ok: [k8s003]
+2019-02-14 16:44:20,078 p=15770 u=gillian |  TASK [kubeadm : Ensure hostname set] ***************************************************************************************
+2019-02-14 16:44:21,924 p=15770 u=gillian |  ok: [k8s003]
+2019-02-14 16:44:21,968 p=15770 u=gillian |  TASK [kubeadm : Ensure hostname is in /etc/hosts] **************************************************************************
+2019-02-14 16:44:22,989 p=15770 u=gillian |  changed: [k8s003]
+2019-02-14 16:44:23,032 p=15770 u=gillian |  TASK [kubeadm : gpu mem check] *********************************************************************************************
+2019-02-14 16:44:24,195 p=15770 u=gillian |  ok: [k8s003]
+2019-02-14 16:44:24,261 p=15770 u=gillian |  TASK [kubeadm : Determine if docker is installed] **************************************************************************
+2019-02-14 16:44:25,275 p=15770 u=gillian |  ok: [k8s003]
+2019-02-14 16:44:25,328 p=15770 u=gillian |  TASK [kubeadm : Remove Docker APT repository] ******************************************************************************
+2019-02-14 16:44:27,104 p=15770 u=gillian |  ok: [k8s003]
+2019-02-14 16:44:27,152 p=15770 u=gillian |  TASK [kubeadm : Install Docker prerequisites] ******************************************************************************
+2019-02-14 16:44:35,593 p=15770 u=gillian |  ok: [k8s003] => (item=[u'apt-transport-https', u'ca-certificates', u'curl', u'software-properties-common'])
+2019-02-14 16:44:35,641 p=15770 u=gillian |  TASK [kubeadm : Add Docker GPG key] ****************************************************************************************
+2019-02-14 16:44:39,645 p=15770 u=gillian |  ok: [k8s003]
+2019-02-14 16:44:39,712 p=15770 u=gillian |  TASK [kubeadm : Run Docker 18.06.0~ce~3-0~raspbian Install Script] *********************************************************
+2019-02-14 16:46:26,383 p=15770 u=gillian |  changed: [k8s003]
+2019-02-14 16:46:26,430 p=15770 u=gillian |  TASK [kubeadm : Lock docker version to 18.06.0~ce~3-0~raspbian] ************************************************************
+2019-02-14 16:46:28,139 p=15770 u=gillian |  changed: [k8s003]
+2019-02-14 16:46:28,185 p=15770 u=gillian |  TASK [kubeadm : Disable Swap] **********************************************************************************************
+2019-02-14 16:46:29,477 p=15770 u=gillian |  changed: [k8s003]
+2019-02-14 16:46:29,521 p=15770 u=gillian |  TASK [kubeadm : Pass bridged IPv4 traffic to iptables' chains] *************************************************************
+2019-02-14 16:46:30,600 p=15770 u=gillian |  ok: [k8s003]
+2019-02-14 16:46:30,672 p=15770 u=gillian |  TASK [kubeadm : Add Google Cloud Repo Key] *********************************************************************************
+2019-02-14 16:46:32,103 p=15770 u=gillian |  changed: [k8s003]
+2019-02-14 16:46:32,170 p=15770 u=gillian |  TASK [kubeadm : Add Kubernetes to Available apt Sources] *******************************************************************
+2019-02-14 16:46:34,569 p=15770 u=gillian |  ok: [k8s003]
+2019-02-14 16:46:34,618 p=15770 u=gillian |  TASK [kubeadm : apt-get update] ********************************************************************************************
+2019-02-14 16:46:47,993 p=15770 u=gillian |  ok: [k8s003]
+2019-02-14 16:46:48,043 p=15770 u=gillian |  TASK [kubeadm : Install k8s 1.13.3-00 Y'all] *******************************************************************************
+2019-02-14 16:48:43,470 p=15770 u=gillian |  changed: [k8s003] => (item=[u'kubelet=1.13.3-00', u'kubeadm=1.13.3-00', u'kubectl=1.13.3-00'])
+2019-02-14 16:48:43,517 p=15770 u=gillian |  TASK [kubeadm : Reboot Message] ********************************************************************************************
+2019-02-14 16:48:43,590 p=15770 u=gillian |  ok: [k8s003] => {
+    "msg": "REBOOT ALL NODES."
+}
+2019-02-14 16:48:43,636 p=15770 u=gillian |  TASK [workers : Reset Kubernetes] ******************************************************************************************
+2019-02-14 16:48:44,919 p=15770 u=gillian |  changed: [k8s003]
+2019-02-14 16:48:44,967 p=15770 u=gillian |  TASK [workers : Join Kubernetes Cluster] ***********************************************************************************
+2019-02-14 16:51:25,074 p=15770 u=gillian |   [ERROR]: User interrupted execution
+
+2019-02-18 14:14:11,241 p=20732 u=gillian |  PLAY [all] *******************************************************************************************************************************************************************************************
+2019-02-18 14:14:11,259 p=20732 u=gillian |  TASK [Gathering Facts] *******************************************************************************************************************************************************************************
+2019-02-18 14:14:11,459 p=20732 u=gillian |  fatal: [ivhk8s00]: UNREACHABLE! => {"changed": false, "msg": "Failed to connect to the host via ssh: pi@192.168.0.188: Permission denied (publickey,password).\r\n", "unreachable": true}
+2019-02-18 14:14:11,464 p=20732 u=gillian |  fatal: [ivhk8s02]: UNREACHABLE! => {"changed": false, "msg": "Failed to connect to the host via ssh: Warning: Permanently added '192.168.0.193' (ECDSA) to the list of known hosts.\r\npi@192.168.0.193: Permission denied (publickey,password).\r\n", "unreachable": true}
+2019-02-18 14:14:11,467 p=20732 u=gillian |  fatal: [ivhk8s01]: UNREACHABLE! => {"changed": false, "msg": "Failed to connect to the host via ssh: Warning: Permanently added '192.168.0.192' (ECDSA) to the list of known hosts.\r\npi@192.168.0.192: Permission denied (publickey,password).\r\n", "unreachable": true}
+2019-02-18 14:14:11,468 p=20732 u=gillian |  PLAY RECAP *******************************************************************************************************************************************************************************************
+2019-02-18 14:14:11,468 p=20732 u=gillian |  ivhk8s00                   : ok=0    changed=0    unreachable=1    failed=0   
+2019-02-18 14:14:11,468 p=20732 u=gillian |  ivhk8s01                   : ok=0    changed=0    unreachable=1    failed=0   
+2019-02-18 14:14:11,469 p=20732 u=gillian |  ivhk8s02                   : ok=0    changed=0    unreachable=1    failed=0   
+2019-02-18 14:14:26,864 p=20799 u=gillian |  PLAY [all] *******************************************************************************************************************************************************************************************
+2019-02-18 14:14:26,880 p=20799 u=gillian |  TASK [Gathering Facts] *******************************************************************************************************************************************************************************
+2019-02-18 14:14:27,758 p=20799 u=gillian |  fatal: [ivhk8s02]: FAILED! => {"changed": false, "module_stderr": "Shared connection to 192.168.0.193 closed.\r\n", "module_stdout": "sudo: a password is required\r\n", "msg": "MODULE FAILURE", "rc": 1}
+2019-02-18 14:14:27,761 p=20799 u=gillian |  fatal: [ivhk8s00]: FAILED! => {"changed": false, "module_stderr": "Shared connection to 192.168.0.188 closed.\r\n", "module_stdout": "sudo: a password is required\r\n", "msg": "MODULE FAILURE", "rc": 1}
+2019-02-18 14:14:27,762 p=20799 u=gillian |  fatal: [ivhk8s01]: FAILED! => {"changed": false, "module_stderr": "Shared connection to 192.168.0.192 closed.\r\n", "module_stdout": "sudo: a password is required\r\n", "msg": "MODULE FAILURE", "rc": 1}
+2019-02-18 14:14:27,764 p=20799 u=gillian |  PLAY RECAP *******************************************************************************************************************************************************************************************
+2019-02-18 14:14:27,764 p=20799 u=gillian |  ivhk8s00                   : ok=0    changed=0    unreachable=0    failed=1   
+2019-02-18 14:14:27,764 p=20799 u=gillian |  ivhk8s01                   : ok=0    changed=0    unreachable=0    failed=1   
+2019-02-18 14:14:27,764 p=20799 u=gillian |  ivhk8s02                   : ok=0    changed=0    unreachable=0    failed=1   
+2019-02-18 14:16:09,875 p=21270 u=gillian |  [DEPRECATION WARNING]: The sudo command line option has been deprecated in favor of the "become" command line arguments. This feature will be removed in version 2.6. Deprecation warnings can be 
+disabled by setting deprecation_warnings=False in ansible.cfg.
+2019-02-18 14:16:23,568 p=21270 u=gillian |  PLAY [all] *******************************************************************************************************************************************************************************************
+2019-02-18 14:16:23,586 p=21270 u=gillian |  TASK [Gathering Facts] *******************************************************************************************************************************************************************************
+2019-02-18 14:16:25,832 p=21270 u=gillian |  ok: [ivhk8s02]
+2019-02-18 14:16:25,922 p=21270 u=gillian |  ok: [ivhk8s00]
+2019-02-18 14:16:26,054 p=21270 u=gillian |  ok: [ivhk8s01]
+2019-02-18 14:16:26,080 p=21270 u=gillian |  TASK [deploy-ssh : Make direcotry] *******************************************************************************************************************************************************************
+2019-02-18 14:16:26,943 p=21270 u=gillian |  changed: [ivhk8s00]
+2019-02-18 14:16:26,945 p=21270 u=gillian |  changed: [ivhk8s01]
+2019-02-18 14:16:26,946 p=21270 u=gillian |  changed: [ivhk8s02]
+2019-02-18 14:16:26,973 p=21270 u=gillian |  TASK [deploy-ssh : Check that the authorized keys file exists] ***************************************************************************************************************************************
+2019-02-18 14:16:27,801 p=21270 u=gillian |  ok: [ivhk8s01]
+2019-02-18 14:16:27,802 p=21270 u=gillian |  ok: [ivhk8s00]
+2019-02-18 14:16:27,803 p=21270 u=gillian |  ok: [ivhk8s02]
+2019-02-18 14:16:27,829 p=21270 u=gillian |  TASK [deploy-ssh : Create empty file] ****************************************************************************************************************************************************************
+2019-02-18 14:16:28,514 p=21270 u=gillian |  changed: [ivhk8s00]
+2019-02-18 14:16:28,554 p=21270 u=gillian |  changed: [ivhk8s01]
+2019-02-18 14:16:28,638 p=21270 u=gillian |  changed: [ivhk8s02]
+2019-02-18 14:16:28,666 p=21270 u=gillian |  TASK [deploy-ssh : Put pubkey into the file] *********************************************************************************************************************************************************
+2019-02-18 14:16:29,524 p=21270 u=gillian |  changed: [ivhk8s01] => (item=ssh-rsa AAAAB3NzaC1yc2EAAAADAQABAAABAQD4tXFs6zl0VCowCMFxnELO+Yd5qQtxp//MYFKafYO2tC5AbPll/bXXFatu7+O3D0Ej3pgbcxUeYkNb+Qxo13IyaKOlI34yagv1kP4/VuTEEd/N4a1eTUJabYsT5/E85QDwsqFXCJj9Q0wX58nxzMyBW0lFoneoCjA6xGL+tbIBcniGytIVhU7kc8fUhymNH86AF/cC1ug+2W7LI5+QeKvpZIRlxfHbIzYiUdLcztXWHb3pzdS63cXSgRXzuZErCRA72b9maLux2tXgFYoEnDdA4B+HxUeH2TQWdPU0r9quNgliD9N4Ip0k+SMuGfXCsPGDTBB8JkCm9HTutSjqld8f gillian@theopour)
+2019-02-18 14:16:29,525 p=21270 u=gillian |  changed: [ivhk8s00] => (item=ssh-rsa AAAAB3NzaC1yc2EAAAADAQABAAABAQD4tXFs6zl0VCowCMFxnELO+Yd5qQtxp//MYFKafYO2tC5AbPll/bXXFatu7+O3D0Ej3pgbcxUeYkNb+Qxo13IyaKOlI34yagv1kP4/VuTEEd/N4a1eTUJabYsT5/E85QDwsqFXCJj9Q0wX58nxzMyBW0lFoneoCjA6xGL+tbIBcniGytIVhU7kc8fUhymNH86AF/cC1ug+2W7LI5+QeKvpZIRlxfHbIzYiUdLcztXWHb3pzdS63cXSgRXzuZErCRA72b9maLux2tXgFYoEnDdA4B+HxUeH2TQWdPU0r9quNgliD9N4Ip0k+SMuGfXCsPGDTBB8JkCm9HTutSjqld8f gillian@theopour)
+2019-02-18 14:16:29,526 p=21270 u=gillian |  changed: [ivhk8s02] => (item=ssh-rsa AAAAB3NzaC1yc2EAAAADAQABAAABAQD4tXFs6zl0VCowCMFxnELO+Yd5qQtxp//MYFKafYO2tC5AbPll/bXXFatu7+O3D0Ej3pgbcxUeYkNb+Qxo13IyaKOlI34yagv1kP4/VuTEEd/N4a1eTUJabYsT5/E85QDwsqFXCJj9Q0wX58nxzMyBW0lFoneoCjA6xGL+tbIBcniGytIVhU7kc8fUhymNH86AF/cC1ug+2W7LI5+QeKvpZIRlxfHbIzYiUdLcztXWHb3pzdS63cXSgRXzuZErCRA72b9maLux2tXgFYoEnDdA4B+HxUeH2TQWdPU0r9quNgliD9N4Ip0k+SMuGfXCsPGDTBB8JkCm9HTutSjqld8f gillian@theopour)
+2019-02-18 14:16:30,161 p=21270 u=gillian |  changed: [ivhk8s01] => (item=ssh-rsa AAAAB3NzaC1yc2EAAAADAQABAAABAQCiMhqJXzFhVUEd/KpVoGSayBzZseLFx6x+dLXldNIZDRDZO+BUypEi8NsGfCzmidv6Q40kheO0RefPQGOftPtxaud9aEuA2lJysS39uH0qW9lfLhL0ciIeRLpQDWeW1udZh+yZVLW8Lew2v3omFjr+km1iKtO6RPii79xasPgMsKO1cZT85OaG9ZSUd6J++cxYXm12JTQoIwOzvx8C3nIkrrHW98DDbZ7DpEcYLtrFdN8mXTQC6/MLUPGlB9a4x0W4YWQ00b8TfIhB5KD9yREIVTmRjxn0Tj/dzmNcPvcpXHQCd4QOo3Z4n9EN/14fzGq3WEjjhtWh3yF/N3JQBnYj mpvanharten@pop-os)
+2019-02-18 14:16:30,164 p=21270 u=gillian |  changed: [ivhk8s00] => (item=ssh-rsa AAAAB3NzaC1yc2EAAAADAQABAAABAQCiMhqJXzFhVUEd/KpVoGSayBzZseLFx6x+dLXldNIZDRDZO+BUypEi8NsGfCzmidv6Q40kheO0RefPQGOftPtxaud9aEuA2lJysS39uH0qW9lfLhL0ciIeRLpQDWeW1udZh+yZVLW8Lew2v3omFjr+km1iKtO6RPii79xasPgMsKO1cZT85OaG9ZSUd6J++cxYXm12JTQoIwOzvx8C3nIkrrHW98DDbZ7DpEcYLtrFdN8mXTQC6/MLUPGlB9a4x0W4YWQ00b8TfIhB5KD9yREIVTmRjxn0Tj/dzmNcPvcpXHQCd4QOo3Z4n9EN/14fzGq3WEjjhtWh3yF/N3JQBnYj mpvanharten@pop-os)
+2019-02-18 14:16:30,172 p=21270 u=gillian |  changed: [ivhk8s02] => (item=ssh-rsa AAAAB3NzaC1yc2EAAAADAQABAAABAQCiMhqJXzFhVUEd/KpVoGSayBzZseLFx6x+dLXldNIZDRDZO+BUypEi8NsGfCzmidv6Q40kheO0RefPQGOftPtxaud9aEuA2lJysS39uH0qW9lfLhL0ciIeRLpQDWeW1udZh+yZVLW8Lew2v3omFjr+km1iKtO6RPii79xasPgMsKO1cZT85OaG9ZSUd6J++cxYXm12JTQoIwOzvx8C3nIkrrHW98DDbZ7DpEcYLtrFdN8mXTQC6/MLUPGlB9a4x0W4YWQ00b8TfIhB5KD9yREIVTmRjxn0Tj/dzmNcPvcpXHQCd4QOo3Z4n9EN/14fzGq3WEjjhtWh3yF/N3JQBnYj mpvanharten@pop-os)
+2019-02-18 14:16:30,175 p=21270 u=gillian |  PLAY RECAP *******************************************************************************************************************************************************************************************
+2019-02-18 14:16:30,176 p=21270 u=gillian |  ivhk8s00                   : ok=5    changed=3    unreachable=0    failed=0   
+2019-02-18 14:16:30,176 p=21270 u=gillian |  ivhk8s01                   : ok=5    changed=3    unreachable=0    failed=0   
+2019-02-18 14:16:30,176 p=21270 u=gillian |  ivhk8s02                   : ok=5    changed=3    unreachable=0    failed=0   
+2019-02-18 14:17:33,525 p=21823 u=gillian |  [DEPRECATION WARNING]: The sudo command line option has been deprecated in favor of the "become" command line arguments. This feature will be removed in version 2.6. Deprecation warnings can be 
+disabled by setting deprecation_warnings=False in ansible.cfg.
+2019-02-18 14:17:40,856 p=21823 u=gillian |  PLAY [all] *******************************************************************************************************************************************************************************************
+2019-02-18 14:17:40,873 p=21823 u=gillian |  TASK [Gathering Facts] *******************************************************************************************************************************************************************************
+2019-02-18 14:17:42,904 p=21823 u=gillian |  ok: [ivhk8s00]
+2019-02-18 14:17:42,914 p=21823 u=gillian |  ok: [ivhk8s01]
+2019-02-18 14:17:42,925 p=21823 u=gillian |  ok: [ivhk8s02]
+2019-02-18 14:17:42,952 p=21823 u=gillian |  TASK [deploy-ssh : Make direcotry] *******************************************************************************************************************************************************************
+2019-02-18 14:17:43,792 p=21823 u=gillian |  ok: [ivhk8s00]
+2019-02-18 14:17:43,793 p=21823 u=gillian |  ok: [ivhk8s02]
+2019-02-18 14:17:43,795 p=21823 u=gillian |  ok: [ivhk8s01]
+2019-02-18 14:17:43,820 p=21823 u=gillian |  TASK [deploy-ssh : Check that the authorized keys file exists] ***************************************************************************************************************************************
+2019-02-18 14:17:44,735 p=21823 u=gillian |  ok: [ivhk8s00]
+2019-02-18 14:17:44,755 p=21823 u=gillian |  ok: [ivhk8s01]
+2019-02-18 14:17:44,756 p=21823 u=gillian |  ok: [ivhk8s02]
+2019-02-18 14:17:44,781 p=21823 u=gillian |  TASK [deploy-ssh : Create empty file] ****************************************************************************************************************************************************************
+2019-02-18 14:17:44,812 p=21823 u=gillian |  skipping: [ivhk8s00]
+2019-02-18 14:17:44,841 p=21823 u=gillian |  skipping: [ivhk8s01]
+2019-02-18 14:17:44,861 p=21823 u=gillian |  skipping: [ivhk8s02]
+2019-02-18 14:17:44,885 p=21823 u=gillian |  TASK [deploy-ssh : Put pubkey into the file] *********************************************************************************************************************************************************
+2019-02-18 14:17:45,733 p=21823 u=gillian |  ok: [ivhk8s00] => (item=ssh-rsa AAAAB3NzaC1yc2EAAAADAQABAAABAQD4tXFs6zl0VCowCMFxnELO+Yd5qQtxp//MYFKafYO2tC5AbPll/bXXFatu7+O3D0Ej3pgbcxUeYkNb+Qxo13IyaKOlI34yagv1kP4/VuTEEd/N4a1eTUJabYsT5/E85QDwsqFXCJj9Q0wX58nxzMyBW0lFoneoCjA6xGL+tbIBcniGytIVhU7kc8fUhymNH86AF/cC1ug+2W7LI5+QeKvpZIRlxfHbIzYiUdLcztXWHb3pzdS63cXSgRXzuZErCRA72b9maLux2tXgFYoEnDdA4B+HxUeH2TQWdPU0r9quNgliD9N4Ip0k+SMuGfXCsPGDTBB8JkCm9HTutSjqld8f gillian@theopour)
+2019-02-18 14:17:45,739 p=21823 u=gillian |  ok: [ivhk8s01] => (item=ssh-rsa AAAAB3NzaC1yc2EAAAADAQABAAABAQD4tXFs6zl0VCowCMFxnELO+Yd5qQtxp//MYFKafYO2tC5AbPll/bXXFatu7+O3D0Ej3pgbcxUeYkNb+Qxo13IyaKOlI34yagv1kP4/VuTEEd/N4a1eTUJabYsT5/E85QDwsqFXCJj9Q0wX58nxzMyBW0lFoneoCjA6xGL+tbIBcniGytIVhU7kc8fUhymNH86AF/cC1ug+2W7LI5+QeKvpZIRlxfHbIzYiUdLcztXWHb3pzdS63cXSgRXzuZErCRA72b9maLux2tXgFYoEnDdA4B+HxUeH2TQWdPU0r9quNgliD9N4Ip0k+SMuGfXCsPGDTBB8JkCm9HTutSjqld8f gillian@theopour)
+2019-02-18 14:17:45,740 p=21823 u=gillian |  ok: [ivhk8s02] => (item=ssh-rsa AAAAB3NzaC1yc2EAAAADAQABAAABAQD4tXFs6zl0VCowCMFxnELO+Yd5qQtxp//MYFKafYO2tC5AbPll/bXXFatu7+O3D0Ej3pgbcxUeYkNb+Qxo13IyaKOlI34yagv1kP4/VuTEEd/N4a1eTUJabYsT5/E85QDwsqFXCJj9Q0wX58nxzMyBW0lFoneoCjA6xGL+tbIBcniGytIVhU7kc8fUhymNH86AF/cC1ug+2W7LI5+QeKvpZIRlxfHbIzYiUdLcztXWHb3pzdS63cXSgRXzuZErCRA72b9maLux2tXgFYoEnDdA4B+HxUeH2TQWdPU0r9quNgliD9N4Ip0k+SMuGfXCsPGDTBB8JkCm9HTutSjqld8f gillian@theopour)
+2019-02-18 14:17:46,367 p=21823 u=gillian |  ok: [ivhk8s01] => (item=ssh-rsa AAAAB3NzaC1yc2EAAAADAQABAAABAQCiMhqJXzFhVUEd/KpVoGSayBzZseLFx6x+dLXldNIZDRDZO+BUypEi8NsGfCzmidv6Q40kheO0RefPQGOftPtxaud9aEuA2lJysS39uH0qW9lfLhL0ciIeRLpQDWeW1udZh+yZVLW8Lew2v3omFjr+km1iKtO6RPii79xasPgMsKO1cZT85OaG9ZSUd6J++cxYXm12JTQoIwOzvx8C3nIkrrHW98DDbZ7DpEcYLtrFdN8mXTQC6/MLUPGlB9a4x0W4YWQ00b8TfIhB5KD9yREIVTmRjxn0Tj/dzmNcPvcpXHQCd4QOo3Z4n9EN/14fzGq3WEjjhtWh3yF/N3JQBnYj mpvanharten@pop-os)
+2019-02-18 14:17:46,369 p=21823 u=gillian |  ok: [ivhk8s02] => (item=ssh-rsa AAAAB3NzaC1yc2EAAAADAQABAAABAQCiMhqJXzFhVUEd/KpVoGSayBzZseLFx6x+dLXldNIZDRDZO+BUypEi8NsGfCzmidv6Q40kheO0RefPQGOftPtxaud9aEuA2lJysS39uH0qW9lfLhL0ciIeRLpQDWeW1udZh+yZVLW8Lew2v3omFjr+km1iKtO6RPii79xasPgMsKO1cZT85OaG9ZSUd6J++cxYXm12JTQoIwOzvx8C3nIkrrHW98DDbZ7DpEcYLtrFdN8mXTQC6/MLUPGlB9a4x0W4YWQ00b8TfIhB5KD9yREIVTmRjxn0Tj/dzmNcPvcpXHQCd4QOo3Z4n9EN/14fzGq3WEjjhtWh3yF/N3JQBnYj mpvanharten@pop-os)
+2019-02-18 14:17:46,371 p=21823 u=gillian |  ok: [ivhk8s00] => (item=ssh-rsa AAAAB3NzaC1yc2EAAAADAQABAAABAQCiMhqJXzFhVUEd/KpVoGSayBzZseLFx6x+dLXldNIZDRDZO+BUypEi8NsGfCzmidv6Q40kheO0RefPQGOftPtxaud9aEuA2lJysS39uH0qW9lfLhL0ciIeRLpQDWeW1udZh+yZVLW8Lew2v3omFjr+km1iKtO6RPii79xasPgMsKO1cZT85OaG9ZSUd6J++cxYXm12JTQoIwOzvx8C3nIkrrHW98DDbZ7DpEcYLtrFdN8mXTQC6/MLUPGlB9a4x0W4YWQ00b8TfIhB5KD9yREIVTmRjxn0Tj/dzmNcPvcpXHQCd4QOo3Z4n9EN/14fzGq3WEjjhtWh3yF/N3JQBnYj mpvanharten@pop-os)
+2019-02-18 14:17:46,378 p=21823 u=gillian |  PLAY RECAP *******************************************************************************************************************************************************************************************
+2019-02-18 14:17:46,378 p=21823 u=gillian |  ivhk8s00                   : ok=4    changed=0    unreachable=0    failed=0   
+2019-02-18 14:17:46,378 p=21823 u=gillian |  ivhk8s01                   : ok=4    changed=0    unreachable=0    failed=0   
+2019-02-18 14:17:46,379 p=21823 u=gillian |  ivhk8s02                   : ok=4    changed=0    unreachable=0    failed=0   
+2019-02-18 14:18:06,452 p=22184 u=gillian |  PLAY [all] *******************************************************************************************************************************************************************************************
+2019-02-18 14:18:06,483 p=22184 u=gillian |  TASK [Gathering Facts] *******************************************************************************************************************************************************************************
+2019-02-18 14:18:07,087 p=22184 u=gillian |  fatal: [ivhk8s02]: FAILED! => {"changed": false, "module_stderr": "Shared connection to 192.168.0.193 closed.\r\n", "module_stdout": "sudo: a password is required\r\n", "msg": "MODULE FAILURE", "rc": 1}
+2019-02-18 14:18:07,089 p=22184 u=gillian |  fatal: [ivhk8s01]: FAILED! => {"changed": false, "module_stderr": "Shared connection to 192.168.0.192 closed.\r\n", "module_stdout": "sudo: a password is required\r\n", "msg": "MODULE FAILURE", "rc": 1}
+2019-02-18 14:18:07,090 p=22184 u=gillian |  fatal: [ivhk8s00]: FAILED! => {"changed": false, "module_stderr": "Shared connection to 192.168.0.188 closed.\r\n", "module_stdout": "sudo: a password is required\r\n", "msg": "MODULE FAILURE", "rc": 1}
+2019-02-18 14:18:07,091 p=22184 u=gillian |  PLAY RECAP *******************************************************************************************************************************************************************************************
+2019-02-18 14:18:07,092 p=22184 u=gillian |  ivhk8s00                   : ok=0    changed=0    unreachable=0    failed=1   
+2019-02-18 14:18:07,092 p=22184 u=gillian |  ivhk8s01                   : ok=0    changed=0    unreachable=0    failed=1   
+2019-02-18 14:18:07,092 p=22184 u=gillian |  ivhk8s02                   : ok=0    changed=0    unreachable=0    failed=1   
+2019-02-18 14:18:20,054 p=22293 u=gillian |  [DEPRECATION WARNING]: The sudo command line option has been deprecated in favor of the "become" command line arguments. This feature will be removed in version 2.6. Deprecation warnings can be 
+disabled by setting deprecation_warnings=False in ansible.cfg.
+2019-02-18 14:18:24,166 p=22293 u=gillian |  PLAY [all] *******************************************************************************************************************************************************************************************
+2019-02-18 14:18:24,201 p=22293 u=gillian |  TASK [Gathering Facts] *******************************************************************************************************************************************************************************
+2019-02-18 14:18:26,053 p=22293 u=gillian |  ok: [ivhk8s00]
+2019-02-18 14:18:26,060 p=22293 u=gillian |  ok: [ivhk8s01]
+2019-02-18 14:18:26,066 p=22293 u=gillian |  ok: [ivhk8s02]
+2019-02-18 14:18:26,068 p=22293 u=gillian |  PLAY RECAP *******************************************************************************************************************************************************************************************
+2019-02-18 14:18:26,069 p=22293 u=gillian |  ivhk8s00                   : ok=1    changed=0    unreachable=0    failed=0   
+2019-02-18 14:18:26,069 p=22293 u=gillian |  ivhk8s01                   : ok=1    changed=0    unreachable=0    failed=0   
+2019-02-18 14:18:26,069 p=22293 u=gillian |  ivhk8s02                   : ok=1    changed=0    unreachable=0    failed=0   
+2019-02-18 14:19:24,083 p=22541 u=gillian |  [DEPRECATION WARNING]: The sudo command line option has been deprecated in favor of the "become" command line arguments. This feature will be removed in version 2.6. Deprecation warnings can be 
+disabled by setting deprecation_warnings=False in ansible.cfg.
+2019-02-18 14:19:30,357 p=22541 u=gillian |  PLAY [all] *******************************************************************************************************************************************************************************************
+2019-02-18 14:19:30,374 p=22541 u=gillian |  TASK [Gathering Facts] *******************************************************************************************************************************************************************************
+2019-02-18 14:19:32,418 p=22541 u=gillian |  ok: [ivhk8s01]
+2019-02-18 14:19:32,427 p=22541 u=gillian |  ok: [ivhk8s00]
+2019-02-18 14:19:32,433 p=22541 u=gillian |  ok: [ivhk8s02]
+2019-02-18 14:19:32,457 p=22541 u=gillian |  TASK [deploy-ssh : Make direcotry] *******************************************************************************************************************************************************************
+2019-02-18 14:19:33,296 p=22541 u=gillian |  ok: [ivhk8s00]
+2019-02-18 14:19:33,297 p=22541 u=gillian |  ok: [ivhk8s02]
+2019-02-18 14:19:33,298 p=22541 u=gillian |  ok: [ivhk8s01]
+2019-02-18 14:19:33,320 p=22541 u=gillian |  TASK [deploy-ssh : Check that the authorized keys file exists] ***************************************************************************************************************************************
+2019-02-18 14:19:34,193 p=22541 u=gillian |  ok: [ivhk8s01]
+2019-02-18 14:19:34,195 p=22541 u=gillian |  ok: [ivhk8s02]
+2019-02-18 14:19:34,197 p=22541 u=gillian |  ok: [ivhk8s00]
+2019-02-18 14:19:34,227 p=22541 u=gillian |  TASK [deploy-ssh : Create empty file] ****************************************************************************************************************************************************************
+2019-02-18 14:19:34,266 p=22541 u=gillian |  skipping: [ivhk8s00]
+2019-02-18 14:19:34,301 p=22541 u=gillian |  skipping: [ivhk8s01]
+2019-02-18 14:19:34,315 p=22541 u=gillian |  skipping: [ivhk8s02]
+2019-02-18 14:19:34,341 p=22541 u=gillian |  TASK [deploy-ssh : Put pubkey into the file] *********************************************************************************************************************************************************
+2019-02-18 14:19:35,218 p=22541 u=gillian |  ok: [ivhk8s02] => (item=ssh-rsa AAAAB3NzaC1yc2EAAAADAQABAAABAQD4tXFs6zl0VCowCMFxnELO+Yd5qQtxp//MYFKafYO2tC5AbPll/bXXFatu7+O3D0Ej3pgbcxUeYkNb+Qxo13IyaKOlI34yagv1kP4/VuTEEd/N4a1eTUJabYsT5/E85QDwsqFXCJj9Q0wX58nxzMyBW0lFoneoCjA6xGL+tbIBcniGytIVhU7kc8fUhymNH86AF/cC1ug+2W7LI5+QeKvpZIRlxfHbIzYiUdLcztXWHb3pzdS63cXSgRXzuZErCRA72b9maLux2tXgFYoEnDdA4B+HxUeH2TQWdPU0r9quNgliD9N4Ip0k+SMuGfXCsPGDTBB8JkCm9HTutSjqld8f gillian@theopour)
+2019-02-18 14:19:35,220 p=22541 u=gillian |  ok: [ivhk8s01] => (item=ssh-rsa AAAAB3NzaC1yc2EAAAADAQABAAABAQD4tXFs6zl0VCowCMFxnELO+Yd5qQtxp//MYFKafYO2tC5AbPll/bXXFatu7+O3D0Ej3pgbcxUeYkNb+Qxo13IyaKOlI34yagv1kP4/VuTEEd/N4a1eTUJabYsT5/E85QDwsqFXCJj9Q0wX58nxzMyBW0lFoneoCjA6xGL+tbIBcniGytIVhU7kc8fUhymNH86AF/cC1ug+2W7LI5+QeKvpZIRlxfHbIzYiUdLcztXWHb3pzdS63cXSgRXzuZErCRA72b9maLux2tXgFYoEnDdA4B+HxUeH2TQWdPU0r9quNgliD9N4Ip0k+SMuGfXCsPGDTBB8JkCm9HTutSjqld8f gillian@theopour)
+2019-02-18 14:19:35,221 p=22541 u=gillian |  ok: [ivhk8s00] => (item=ssh-rsa AAAAB3NzaC1yc2EAAAADAQABAAABAQD4tXFs6zl0VCowCMFxnELO+Yd5qQtxp//MYFKafYO2tC5AbPll/bXXFatu7+O3D0Ej3pgbcxUeYkNb+Qxo13IyaKOlI34yagv1kP4/VuTEEd/N4a1eTUJabYsT5/E85QDwsqFXCJj9Q0wX58nxzMyBW0lFoneoCjA6xGL+tbIBcniGytIVhU7kc8fUhymNH86AF/cC1ug+2W7LI5+QeKvpZIRlxfHbIzYiUdLcztXWHb3pzdS63cXSgRXzuZErCRA72b9maLux2tXgFYoEnDdA4B+HxUeH2TQWdPU0r9quNgliD9N4Ip0k+SMuGfXCsPGDTBB8JkCm9HTutSjqld8f gillian@theopour)
+2019-02-18 14:19:35,853 p=22541 u=gillian |  ok: [ivhk8s02] => (item=ssh-rsa AAAAB3NzaC1yc2EAAAADAQABAAABAQCiMhqJXzFhVUEd/KpVoGSayBzZseLFx6x+dLXldNIZDRDZO+BUypEi8NsGfCzmidv6Q40kheO0RefPQGOftPtxaud9aEuA2lJysS39uH0qW9lfLhL0ciIeRLpQDWeW1udZh+yZVLW8Lew2v3omFjr+km1iKtO6RPii79xasPgMsKO1cZT85OaG9ZSUd6J++cxYXm12JTQoIwOzvx8C3nIkrrHW98DDbZ7DpEcYLtrFdN8mXTQC6/MLUPGlB9a4x0W4YWQ00b8TfIhB5KD9yREIVTmRjxn0Tj/dzmNcPvcpXHQCd4QOo3Z4n9EN/14fzGq3WEjjhtWh3yF/N3JQBnYj mpvanharten@pop-os)
+2019-02-18 14:19:35,854 p=22541 u=gillian |  ok: [ivhk8s00] => (item=ssh-rsa AAAAB3NzaC1yc2EAAAADAQABAAABAQCiMhqJXzFhVUEd/KpVoGSayBzZseLFx6x+dLXldNIZDRDZO+BUypEi8NsGfCzmidv6Q40kheO0RefPQGOftPtxaud9aEuA2lJysS39uH0qW9lfLhL0ciIeRLpQDWeW1udZh+yZVLW8Lew2v3omFjr+km1iKtO6RPii79xasPgMsKO1cZT85OaG9ZSUd6J++cxYXm12JTQoIwOzvx8C3nIkrrHW98DDbZ7DpEcYLtrFdN8mXTQC6/MLUPGlB9a4x0W4YWQ00b8TfIhB5KD9yREIVTmRjxn0Tj/dzmNcPvcpXHQCd4QOo3Z4n9EN/14fzGq3WEjjhtWh3yF/N3JQBnYj mpvanharten@pop-os)
+2019-02-18 14:19:35,857 p=22541 u=gillian |  ok: [ivhk8s01] => (item=ssh-rsa AAAAB3NzaC1yc2EAAAADAQABAAABAQCiMhqJXzFhVUEd/KpVoGSayBzZseLFx6x+dLXldNIZDRDZO+BUypEi8NsGfCzmidv6Q40kheO0RefPQGOftPtxaud9aEuA2lJysS39uH0qW9lfLhL0ciIeRLpQDWeW1udZh+yZVLW8Lew2v3omFjr+km1iKtO6RPii79xasPgMsKO1cZT85OaG9ZSUd6J++cxYXm12JTQoIwOzvx8C3nIkrrHW98DDbZ7DpEcYLtrFdN8mXTQC6/MLUPGlB9a4x0W4YWQ00b8TfIhB5KD9yREIVTmRjxn0Tj/dzmNcPvcpXHQCd4QOo3Z4n9EN/14fzGq3WEjjhtWh3yF/N3JQBnYj mpvanharten@pop-os)
+2019-02-18 14:19:35,880 p=22541 u=gillian |  TASK [sudo : NOPASSWD sudo] **************************************************************************************************************************************************************************
+2019-02-18 14:19:36,591 p=22541 u=gillian |  changed: [ivhk8s00]
+2019-02-18 14:19:36,616 p=22541 u=gillian |  changed: [ivhk8s01]
+2019-02-18 14:19:36,642 p=22541 u=gillian |  changed: [ivhk8s02]
+2019-02-18 14:19:36,645 p=22541 u=gillian |  PLAY RECAP *******************************************************************************************************************************************************************************************
+2019-02-18 14:19:36,645 p=22541 u=gillian |  ivhk8s00                   : ok=5    changed=1    unreachable=0    failed=0   
+2019-02-18 14:19:36,646 p=22541 u=gillian |  ivhk8s01                   : ok=5    changed=1    unreachable=0    failed=0   
+2019-02-18 14:19:36,646 p=22541 u=gillian |  ivhk8s02                   : ok=5    changed=1    unreachable=0    failed=0   
+2019-02-18 14:20:26,773 p=22982 u=gillian |  PLAY [all] *******************************************************************************************************************************************************************************************
+2019-02-18 14:20:26,794 p=22982 u=gillian |  TASK [Gathering Facts] *******************************************************************************************************************************************************************************
+2019-02-18 14:20:28,548 p=22982 u=gillian |  ok: [ivhk8s00]
+2019-02-18 14:20:28,561 p=22982 u=gillian |  ok: [ivhk8s01]
+2019-02-18 14:20:28,568 p=22982 u=gillian |  ok: [ivhk8s02]
+2019-02-18 14:20:28,593 p=22982 u=gillian |  TASK [kubeadm : Ensure hostname set] *****************************************************************************************************************************************************************
+2019-02-18 14:20:30,073 p=22982 u=gillian |  ok: [ivhk8s01]
+2019-02-18 14:20:30,075 p=22982 u=gillian |  ok: [ivhk8s02]
+2019-02-18 14:20:30,091 p=22982 u=gillian |  ok: [ivhk8s00]
+2019-02-18 14:20:30,182 p=22982 u=gillian |  TASK [kubeadm : Ensure hostname is in /etc/hosts] ****************************************************************************************************************************************************
+2019-02-18 14:20:30,982 p=22982 u=gillian |  changed: [ivhk8s00]
+2019-02-18 14:20:30,985 p=22982 u=gillian |  changed: [ivhk8s02]
+2019-02-18 14:20:30,987 p=22982 u=gillian |  changed: [ivhk8s01]
+2019-02-18 14:20:31,019 p=22982 u=gillian |  TASK [kubeadm : Determine if docker is installed] ****************************************************************************************************************************************************
+2019-02-18 14:20:31,798 p=22982 u=gillian |  ok: [ivhk8s02]
+2019-02-18 14:20:31,799 p=22982 u=gillian |  ok: [ivhk8s01]
+2019-02-18 14:20:31,801 p=22982 u=gillian |  ok: [ivhk8s00]
+2019-02-18 14:20:31,832 p=22982 u=gillian |  TASK [kubeadm : Remove Docker APT repository] ********************************************************************************************************************************************************
+2019-02-18 14:20:44,324 p=22982 u=gillian |  ok: [ivhk8s02]
+2019-02-18 14:20:45,417 p=22982 u=gillian |  ok: [ivhk8s01]
+2019-02-18 14:20:45,545 p=22982 u=gillian |  ok: [ivhk8s00]
+2019-02-18 14:20:45,572 p=22982 u=gillian |  TASK [kubeadm : Install Docker prerequisites] ********************************************************************************************************************************************************
+2019-02-18 14:21:20,901 p=22982 u=gillian |  changed: [ivhk8s02] => (item=[u'apt-transport-https', u'ca-certificates', u'curl', u'software-properties-common'])
+2019-02-18 14:21:40,970 p=22982 u=gillian |  changed: [ivhk8s01] => (item=[u'apt-transport-https', u'ca-certificates', u'curl', u'software-properties-common'])
+2019-02-18 14:21:50,841 p=22982 u=gillian |  changed: [ivhk8s00] => (item=[u'apt-transport-https', u'ca-certificates', u'curl', u'software-properties-common'])
+2019-02-18 14:21:50,868 p=22982 u=gillian |  TASK [kubeadm : Add Docker GPG key] ******************************************************************************************************************************************************************
+2019-02-18 14:21:58,102 p=22982 u=gillian |  changed: [ivhk8s01]
+2019-02-18 14:21:58,121 p=22982 u=gillian |  changed: [ivhk8s02]
+2019-02-18 14:21:58,372 p=22982 u=gillian |  changed: [ivhk8s00]
+2019-02-18 14:21:58,401 p=22982 u=gillian |  TASK [kubeadm : Install Docker] **********************************************************************************************************************************************************************
+2019-02-18 14:22:00,171 p=22982 u=gillian |  fatal: [ivhk8s01]: FAILED! => {"changed": false, "msg": "No package matching 'docker-ce' is available"}
+2019-02-18 14:22:00,196 p=22982 u=gillian |  fatal: [ivhk8s00]: FAILED! => {"changed": false, "msg": "No package matching 'docker-ce' is available"}
+2019-02-18 14:22:00,249 p=22982 u=gillian |  fatal: [ivhk8s02]: FAILED! => {"changed": false, "msg": "No package matching 'docker-ce' is available"}
+2019-02-18 14:22:00,251 p=22982 u=gillian |  PLAY RECAP *******************************************************************************************************************************************************************************************
+2019-02-18 14:22:00,251 p=22982 u=gillian |  ivhk8s00                   : ok=7    changed=3    unreachable=0    failed=1   
+2019-02-18 14:22:00,251 p=22982 u=gillian |  ivhk8s01                   : ok=7    changed=3    unreachable=0    failed=1   
+2019-02-18 14:22:00,251 p=22982 u=gillian |  ivhk8s02                   : ok=7    changed=3    unreachable=0    failed=1   
+2019-02-18 14:23:34,734 p=24239 u=gillian |  ERROR! Syntax Error while loading YAML.
+  mapping values are not allowed in this context
+
+The error appears to have been in '/home/gillian/Code/ansible-k8s/roles/kubeadm/tasks/main.yml': line 18, column 17, but may
+be elsewhere in the file depending on the exact syntax problem.
+
+The offending line appears to be:
+
+- name: Add IP address of all hosts to all hosts
+      lineinfile:
+                ^ here
+
+2019-02-18 14:24:25,016 p=24382 u=gillian |  PLAY [all] *******************************************************************************************************************************************************************************************
+2019-02-18 14:24:25,035 p=24382 u=gillian |  TASK [Gathering Facts] *******************************************************************************************************************************************************************************
+2019-02-18 14:24:27,051 p=24382 u=gillian |  ok: [ivhk8s02]
+2019-02-18 14:24:27,060 p=24382 u=gillian |  ok: [ivhk8s00]
+2019-02-18 14:24:27,067 p=24382 u=gillian |  ok: [ivhk8s01]
+2019-02-18 14:24:27,095 p=24382 u=gillian |  TASK [kubeadm : Ensure hostname set] *****************************************************************************************************************************************************************
+2019-02-18 14:24:28,577 p=24382 u=gillian |  ok: [ivhk8s00]
+2019-02-18 14:24:28,583 p=24382 u=gillian |  ok: [ivhk8s02]
+2019-02-18 14:24:28,608 p=24382 u=gillian |  ok: [ivhk8s01]
+2019-02-18 14:24:28,634 p=24382 u=gillian |  TASK [kubeadm : Ensure hostname is in /etc/hosts] ****************************************************************************************************************************************************
+2019-02-18 14:24:29,451 p=24382 u=gillian |  ok: [ivhk8s01]
+2019-02-18 14:24:29,454 p=24382 u=gillian |  ok: [ivhk8s02]
+2019-02-18 14:24:29,455 p=24382 u=gillian |  ok: [ivhk8s00]
+2019-02-18 14:24:29,480 p=24382 u=gillian |  TASK [kubeadm : Add IP address of all hosts to all hosts] ********************************************************************************************************************************************
+2019-02-18 14:24:30,225 p=24382 u=gillian |  changed: [ivhk8s00] => (item=ivhk8s00)
+2019-02-18 14:24:30,266 p=24382 u=gillian |  changed: [ivhk8s01] => (item=ivhk8s00)
+2019-02-18 14:24:30,295 p=24382 u=gillian |  changed: [ivhk8s02] => (item=ivhk8s00)
+2019-02-18 14:24:30,908 p=24382 u=gillian |  changed: [ivhk8s00] => (item=ivhk8s01)
+2019-02-18 14:24:30,941 p=24382 u=gillian |  changed: [ivhk8s01] => (item=ivhk8s01)
+2019-02-18 14:24:30,970 p=24382 u=gillian |  changed: [ivhk8s02] => (item=ivhk8s01)
+2019-02-18 14:24:31,589 p=24382 u=gillian |  changed: [ivhk8s00] => (item=ivhk8s02)
+2019-02-18 14:24:31,616 p=24382 u=gillian |  changed: [ivhk8s01] => (item=ivhk8s02)
+2019-02-18 14:24:31,652 p=24382 u=gillian |  changed: [ivhk8s02] => (item=ivhk8s02)
+2019-02-18 14:24:31,685 p=24382 u=gillian |  TASK [kubeadm : Determine if docker is installed] ****************************************************************************************************************************************************
+2019-02-18 14:24:32,491 p=24382 u=gillian |  ok: [ivhk8s00]
+2019-02-18 14:24:32,493 p=24382 u=gillian |  ok: [ivhk8s01]
+2019-02-18 14:24:32,495 p=24382 u=gillian |  ok: [ivhk8s02]
+2019-02-18 14:24:32,519 p=24382 u=gillian |  TASK [kubeadm : Add Docker APT repository] ***********************************************************************************************************************************************************
+2019-02-18 14:24:41,338 p=24382 u=gillian |  fatal: [ivhk8s02]: FAILED! => {"changed": false, "module_stderr": "Shared connection to 192.168.0.193 closed.\r\n", "module_stdout": "Traceback (most recent call last):\r\n  File \"/tmp/ansible_1dG1hj/ansible_module_apt_repository.py\", line 550, in <module>\r\n    main()\r\n  File \"/tmp/ansible_1dG1hj/ansible_module_apt_repository.py\", line 542, in main\r\n    cache.update()\r\n  File \"/usr/lib/python2.7/dist-packages/apt/cache.py\", line 464, in update\r\n    raise FetchFailedException(e)\r\napt.cache.FetchFailedException: E:The repository 'https://download.docker.com/linux/ubuntu stretch Release' does not have a Release file.\r\n", "msg": "MODULE FAILURE", "rc": 1}
+2019-02-18 14:24:43,200 p=24382 u=gillian |  fatal: [ivhk8s00]: FAILED! => {"changed": false, "module_stderr": "Shared connection to 192.168.0.188 closed.\r\n", "module_stdout": "Traceback (most recent call last):\r\n  File \"/tmp/ansible_OxzTJw/ansible_module_apt_repository.py\", line 550, in <module>\r\n    main()\r\n  File \"/tmp/ansible_OxzTJw/ansible_module_apt_repository.py\", line 542, in main\r\n    cache.update()\r\n  File \"/usr/lib/python2.7/dist-packages/apt/cache.py\", line 464, in update\r\n    raise FetchFailedException(e)\r\napt.cache.FetchFailedException: E:The repository 'https://download.docker.com/linux/ubuntu stretch Release' does not have a Release file.\r\n", "msg": "MODULE FAILURE", "rc": 1}
+2019-02-18 14:24:43,292 p=24382 u=gillian |  fatal: [ivhk8s01]: FAILED! => {"changed": false, "module_stderr": "Shared connection to 192.168.0.192 closed.\r\n", "module_stdout": "Traceback (most recent call last):\r\n  File \"/tmp/ansible_KcMHLe/ansible_module_apt_repository.py\", line 550, in <module>\r\n    main()\r\n  File \"/tmp/ansible_KcMHLe/ansible_module_apt_repository.py\", line 542, in main\r\n    cache.update()\r\n  File \"/usr/lib/python2.7/dist-packages/apt/cache.py\", line 464, in update\r\n    raise FetchFailedException(e)\r\napt.cache.FetchFailedException: E:The repository 'https://download.docker.com/linux/ubuntu stretch Release' does not have a Release file.\r\n", "msg": "MODULE FAILURE", "rc": 1}
+2019-02-18 14:24:43,294 p=24382 u=gillian |  PLAY RECAP *******************************************************************************************************************************************************************************************
+2019-02-18 14:24:43,294 p=24382 u=gillian |  ivhk8s00                   : ok=5    changed=1    unreachable=0    failed=1   
+2019-02-18 14:24:43,295 p=24382 u=gillian |  ivhk8s01                   : ok=5    changed=1    unreachable=0    failed=1   
+2019-02-18 14:24:43,295 p=24382 u=gillian |  ivhk8s02                   : ok=5    changed=1    unreachable=0    failed=1   
+2019-02-18 14:29:34,024 p=26095 u=gillian |  PLAY [all] *******************************************************************************************************************************************************************************************
+2019-02-18 14:29:34,045 p=26095 u=gillian |  TASK [Gathering Facts] *******************************************************************************************************************************************************************************
+2019-02-18 14:29:36,051 p=26095 u=gillian |  ok: [ivhk8s00]
+2019-02-18 14:29:36,064 p=26095 u=gillian |  ok: [ivhk8s01]
+2019-02-18 14:29:36,074 p=26095 u=gillian |  ok: [ivhk8s02]
+2019-02-18 14:29:36,101 p=26095 u=gillian |  TASK [kubeadm : Ensure hostname set] *****************************************************************************************************************************************************************
+2019-02-18 14:29:37,543 p=26095 u=gillian |  ok: [ivhk8s02]
+2019-02-18 14:29:37,544 p=26095 u=gillian |  ok: [ivhk8s01]
+2019-02-18 14:29:37,546 p=26095 u=gillian |  ok: [ivhk8s00]
+2019-02-18 14:29:37,574 p=26095 u=gillian |  TASK [kubeadm : Ensure hostname is in /etc/hosts] ****************************************************************************************************************************************************
+2019-02-18 14:29:38,387 p=26095 u=gillian |  changed: [ivhk8s01]
+2019-02-18 14:29:38,390 p=26095 u=gillian |  changed: [ivhk8s00]
+2019-02-18 14:29:38,392 p=26095 u=gillian |  changed: [ivhk8s02]
+2019-02-18 14:29:38,422 p=26095 u=gillian |  TASK [kubeadm : Add IP address of all hosts to all hosts] ********************************************************************************************************************************************
+2019-02-18 14:29:39,164 p=26095 u=gillian |  changed: [ivhk8s00] => (item=ivhk8s00)
+2019-02-18 14:29:39,181 p=26095 u=gillian |  ok: [ivhk8s01] => (item=ivhk8s00)
+2019-02-18 14:29:39,217 p=26095 u=gillian |  ok: [ivhk8s02] => (item=ivhk8s00)
+2019-02-18 14:29:39,841 p=26095 u=gillian |  ok: [ivhk8s00] => (item=ivhk8s01)
+2019-02-18 14:29:39,854 p=26095 u=gillian |  changed: [ivhk8s01] => (item=ivhk8s01)
+2019-02-18 14:29:39,884 p=26095 u=gillian |  ok: [ivhk8s02] => (item=ivhk8s01)
+2019-02-18 14:29:40,520 p=26095 u=gillian |  ok: [ivhk8s00] => (item=ivhk8s02)
+2019-02-18 14:29:40,526 p=26095 u=gillian |  ok: [ivhk8s01] => (item=ivhk8s02)
+2019-02-18 14:29:40,562 p=26095 u=gillian |  changed: [ivhk8s02] => (item=ivhk8s02)
+2019-02-18 14:29:40,614 p=26095 u=gillian |  TASK [kubeadm : Determine if docker is installed] ****************************************************************************************************************************************************
+2019-02-18 14:29:41,366 p=26095 u=gillian |  ok: [ivhk8s01]
+2019-02-18 14:29:41,368 p=26095 u=gillian |  ok: [ivhk8s00]
+2019-02-18 14:29:41,369 p=26095 u=gillian |  ok: [ivhk8s02]
+2019-02-18 14:29:41,395 p=26095 u=gillian |  TASK [kubeadm : Install Docker prerequisites] ********************************************************************************************************************************************************
+2019-02-18 14:29:47,396 p=26095 u=gillian |  failed: [ivhk8s00] (item=[u'apt-transport-https', u'ca-certificates', u'curl', u'software-properties-common']) => {"changed": false, "item": ["apt-transport-https", "ca-certificates", "curl", "software-properties-common"], "msg": "Failed to update apt cache: E:The repository 'https://download.docker.com/linux/ubuntu stretch Release' does not have a Release file."}
+2019-02-18 14:29:47,467 p=26095 u=gillian |  failed: [ivhk8s01] (item=[u'apt-transport-https', u'ca-certificates', u'curl', u'software-properties-common']) => {"changed": false, "item": ["apt-transport-https", "ca-certificates", "curl", "software-properties-common"], "msg": "Failed to update apt cache: E:The repository 'https://download.docker.com/linux/ubuntu stretch Release' does not have a Release file."}
+2019-02-18 14:29:47,575 p=26095 u=gillian |  failed: [ivhk8s02] (item=[u'apt-transport-https', u'ca-certificates', u'curl', u'software-properties-common']) => {"changed": false, "item": ["apt-transport-https", "ca-certificates", "curl", "software-properties-common"], "msg": "Failed to update apt cache: E:The repository 'https://download.docker.com/linux/ubuntu stretch Release' does not have a Release file."}
+2019-02-18 14:29:47,578 p=26095 u=gillian |  PLAY RECAP *******************************************************************************************************************************************************************************************
+2019-02-18 14:29:47,578 p=26095 u=gillian |  ivhk8s00                   : ok=5    changed=2    unreachable=0    failed=1   
+2019-02-18 14:29:47,579 p=26095 u=gillian |  ivhk8s01                   : ok=5    changed=2    unreachable=0    failed=1   
+2019-02-18 14:29:47,579 p=26095 u=gillian |  ivhk8s02                   : ok=5    changed=2    unreachable=0    failed=1   
+2019-02-18 14:30:48,657 p=27144 u=gillian |  PLAY [all] *******************************************************************************************************************************************************************************************
+2019-02-18 14:30:48,676 p=27144 u=gillian |  TASK [Gathering Facts] *******************************************************************************************************************************************************************************
+2019-02-18 14:30:50,659 p=27144 u=gillian |  ok: [ivhk8s00]
+2019-02-18 14:30:50,667 p=27144 u=gillian |  ok: [ivhk8s02]
+2019-02-18 14:30:50,674 p=27144 u=gillian |  ok: [ivhk8s01]
+2019-02-18 14:30:50,699 p=27144 u=gillian |  TASK [kubeadm : Ensure hostname set] *****************************************************************************************************************************************************************
+2019-02-18 14:30:52,140 p=27144 u=gillian |  ok: [ivhk8s00]
+2019-02-18 14:30:52,145 p=27144 u=gillian |  ok: [ivhk8s02]
+2019-02-18 14:30:52,159 p=27144 u=gillian |  ok: [ivhk8s01]
+2019-02-18 14:30:52,184 p=27144 u=gillian |  TASK [kubeadm : Ensure hostname is in /etc/hosts] ****************************************************************************************************************************************************
+2019-02-18 14:30:53,167 p=27144 u=gillian |  changed: [ivhk8s01]
+2019-02-18 14:30:53,169 p=27144 u=gillian |  changed: [ivhk8s00]
+2019-02-18 14:30:53,171 p=27144 u=gillian |  changed: [ivhk8s02]
+2019-02-18 14:30:53,203 p=27144 u=gillian |  TASK [kubeadm : Add IP address of all hosts to all hosts] ********************************************************************************************************************************************
+2019-02-18 14:30:53,944 p=27144 u=gillian |  changed: [ivhk8s00] => (item=ivhk8s00)
+2019-02-18 14:30:54,040 p=27144 u=gillian |  ok: [ivhk8s01] => (item=ivhk8s00)
+2019-02-18 14:30:54,211 p=27144 u=gillian |  ok: [ivhk8s02] => (item=ivhk8s00)
+2019-02-18 14:30:54,605 p=27144 u=gillian |  ok: [ivhk8s00] => (item=ivhk8s01)
+2019-02-18 14:30:54,722 p=27144 u=gillian |  changed: [ivhk8s01] => (item=ivhk8s01)
+2019-02-18 14:30:54,919 p=27144 u=gillian |  ok: [ivhk8s02] => (item=ivhk8s01)
+2019-02-18 14:30:55,262 p=27144 u=gillian |  ok: [ivhk8s00] => (item=ivhk8s02)
+2019-02-18 14:30:55,416 p=27144 u=gillian |  ok: [ivhk8s01] => (item=ivhk8s02)
+2019-02-18 14:30:55,640 p=27144 u=gillian |  changed: [ivhk8s02] => (item=ivhk8s02)
+2019-02-18 14:30:55,700 p=27144 u=gillian |  TASK [kubeadm : Determine if docker is installed] ****************************************************************************************************************************************************
+2019-02-18 14:30:56,449 p=27144 u=gillian |  ok: [ivhk8s00]
+2019-02-18 14:30:56,450 p=27144 u=gillian |  ok: [ivhk8s01]
+2019-02-18 14:30:56,451 p=27144 u=gillian |  ok: [ivhk8s02]
+2019-02-18 14:30:56,478 p=27144 u=gillian |  TASK [kubeadm : Install Docker prerequisites] ********************************************************************************************************************************************************
+2019-02-18 14:31:02,472 p=27144 u=gillian |  failed: [ivhk8s01] (item=[u'apt-transport-https', u'ca-certificates', u'curl', u'software-properties-common']) => {"changed": false, "item": ["apt-transport-https", "ca-certificates", "curl", "software-properties-common"], "msg": "Failed to update apt cache: E:The repository 'https://download.docker.com/linux/ubuntu stretch Release' does not have a Release file."}
+2019-02-18 14:31:02,506 p=27144 u=gillian |  failed: [ivhk8s02] (item=[u'apt-transport-https', u'ca-certificates', u'curl', u'software-properties-common']) => {"changed": false, "item": ["apt-transport-https", "ca-certificates", "curl", "software-properties-common"], "msg": "Failed to update apt cache: E:The repository 'https://download.docker.com/linux/ubuntu stretch Release' does not have a Release file."}
+2019-02-18 14:31:02,509 p=27144 u=gillian |  failed: [ivhk8s00] (item=[u'apt-transport-https', u'ca-certificates', u'curl', u'software-properties-common']) => {"changed": false, "item": ["apt-transport-https", "ca-certificates", "curl", "software-properties-common"], "msg": "Failed to update apt cache: E:The repository 'https://download.docker.com/linux/ubuntu stretch Release' does not have a Release file."}
+2019-02-18 14:31:02,512 p=27144 u=gillian |  PLAY RECAP *******************************************************************************************************************************************************************************************
+2019-02-18 14:31:02,512 p=27144 u=gillian |  ivhk8s00                   : ok=5    changed=2    unreachable=0    failed=1   
+2019-02-18 14:31:02,512 p=27144 u=gillian |  ivhk8s01                   : ok=5    changed=2    unreachable=0    failed=1   
+2019-02-18 14:31:02,513 p=27144 u=gillian |  ivhk8s02                   : ok=5    changed=2    unreachable=0    failed=1   
+2019-02-18 14:32:04,017 p=28114 u=gillian |  PLAY [all] *******************************************************************************************************************************************************************************************
+2019-02-18 14:32:04,036 p=28114 u=gillian |  TASK [Gathering Facts] *******************************************************************************************************************************************************************************
+2019-02-18 14:32:06,045 p=28114 u=gillian |  ok: [ivhk8s01]
+2019-02-18 14:32:06,053 p=28114 u=gillian |  ok: [ivhk8s00]
+2019-02-18 14:32:06,061 p=28114 u=gillian |  ok: [ivhk8s02]
+2019-02-18 14:32:06,086 p=28114 u=gillian |  TASK [Remove Docker APT repository] ******************************************************************************************************************************************************************
+2019-02-18 14:32:06,147 p=28114 u=gillian |  fatal: [ivhk8s00]: FAILED! => {"msg": "The conditional check 'docker_there.stat.exists == False' failed. The error was: error while evaluating conditional (docker_there.stat.exists == False): 'docker_there' is undefined\n\nThe error appears to have been in '/home/gillian/Code/ansible-k8s/temp.yml': line 3, column 5, but may\nbe elsewhere in the file depending on the exact syntax problem.\n\nThe offending line appears to be:\n\n  tasks:\n  - name: Remove Docker APT repository\n    ^ here\n"}
+2019-02-18 14:32:06,149 p=28114 u=gillian |  fatal: [ivhk8s01]: FAILED! => {"msg": "The conditional check 'docker_there.stat.exists == False' failed. The error was: error while evaluating conditional (docker_there.stat.exists == False): 'docker_there' is undefined\n\nThe error appears to have been in '/home/gillian/Code/ansible-k8s/temp.yml': line 3, column 5, but may\nbe elsewhere in the file depending on the exact syntax problem.\n\nThe offending line appears to be:\n\n  tasks:\n  - name: Remove Docker APT repository\n    ^ here\n"}
+2019-02-18 14:32:06,166 p=28114 u=gillian |  fatal: [ivhk8s02]: FAILED! => {"msg": "The conditional check 'docker_there.stat.exists == False' failed. The error was: error while evaluating conditional (docker_there.stat.exists == False): 'docker_there' is undefined\n\nThe error appears to have been in '/home/gillian/Code/ansible-k8s/temp.yml': line 3, column 5, but may\nbe elsewhere in the file depending on the exact syntax problem.\n\nThe offending line appears to be:\n\n  tasks:\n  - name: Remove Docker APT repository\n    ^ here\n"}
+2019-02-18 14:32:06,167 p=28114 u=gillian |  PLAY RECAP *******************************************************************************************************************************************************************************************
+2019-02-18 14:32:06,168 p=28114 u=gillian |  ivhk8s00                   : ok=1    changed=0    unreachable=0    failed=1   
+2019-02-18 14:32:06,168 p=28114 u=gillian |  ivhk8s01                   : ok=1    changed=0    unreachable=0    failed=1   
+2019-02-18 14:32:06,168 p=28114 u=gillian |  ivhk8s02                   : ok=1    changed=0    unreachable=0    failed=1   
+2019-02-18 14:32:16,676 p=28229 u=gillian |  PLAY [all] *******************************************************************************************************************************************************************************************
+2019-02-18 14:32:16,699 p=28229 u=gillian |  TASK [Gathering Facts] *******************************************************************************************************************************************************************************
+2019-02-18 14:32:18,458 p=28229 u=gillian |  ok: [ivhk8s02]
+2019-02-18 14:32:18,478 p=28229 u=gillian |  ok: [ivhk8s00]
+2019-02-18 14:32:18,486 p=28229 u=gillian |  ok: [ivhk8s01]
+2019-02-18 14:32:18,511 p=28229 u=gillian |  TASK [Remove Docker APT repository] ******************************************************************************************************************************************************************
+2019-02-18 14:32:26,111 p=28229 u=gillian |  changed: [ivhk8s00]
+2019-02-18 14:32:26,123 p=28229 u=gillian |  changed: [ivhk8s02]
+2019-02-18 14:32:28,593 p=28229 u=gillian |  changed: [ivhk8s01]
+2019-02-18 14:32:28,597 p=28229 u=gillian |  PLAY RECAP *******************************************************************************************************************************************************************************************
+2019-02-18 14:32:28,598 p=28229 u=gillian |  ivhk8s00                   : ok=2    changed=1    unreachable=0    failed=0   
+2019-02-18 14:32:28,598 p=28229 u=gillian |  ivhk8s01                   : ok=2    changed=1    unreachable=0    failed=0   
+2019-02-18 14:32:28,599 p=28229 u=gillian |  ivhk8s02                   : ok=2    changed=1    unreachable=0    failed=0   
+2019-02-18 14:32:32,662 p=28352 u=gillian |  PLAY [all] *******************************************************************************************************************************************************************************************
+2019-02-18 14:32:32,682 p=28352 u=gillian |  TASK [Gathering Facts] *******************************************************************************************************************************************************************************
+2019-02-18 14:32:34,458 p=28352 u=gillian |  ok: [ivhk8s02]
+2019-02-18 14:32:34,473 p=28352 u=gillian |  ok: [ivhk8s01]
+2019-02-18 14:32:34,481 p=28352 u=gillian |  ok: [ivhk8s00]
+2019-02-18 14:32:34,505 p=28352 u=gillian |  TASK [kubeadm : Ensure hostname set] *****************************************************************************************************************************************************************
+2019-02-18 14:32:35,955 p=28352 u=gillian |  ok: [ivhk8s02]
+2019-02-18 14:32:35,956 p=28352 u=gillian |  ok: [ivhk8s00]
+2019-02-18 14:32:35,957 p=28352 u=gillian |  ok: [ivhk8s01]
+2019-02-18 14:32:35,982 p=28352 u=gillian |  TASK [kubeadm : Ensure hostname is in /etc/hosts] ****************************************************************************************************************************************************
+2019-02-18 14:32:36,785 p=28352 u=gillian |  changed: [ivhk8s01]
+2019-02-18 14:32:36,789 p=28352 u=gillian |  changed: [ivhk8s00]
+2019-02-18 14:32:36,790 p=28352 u=gillian |  changed: [ivhk8s02]
+2019-02-18 14:32:36,817 p=28352 u=gillian |  TASK [kubeadm : Add IP address of all hosts to all hosts] ********************************************************************************************************************************************
+2019-02-18 14:32:37,568 p=28352 u=gillian |  changed: [ivhk8s00] => (item=ivhk8s00)
+2019-02-18 14:32:37,591 p=28352 u=gillian |  ok: [ivhk8s01] => (item=ivhk8s00)
+2019-02-18 14:32:37,633 p=28352 u=gillian |  ok: [ivhk8s02] => (item=ivhk8s00)
+2019-02-18 14:32:38,234 p=28352 u=gillian |  ok: [ivhk8s00] => (item=ivhk8s01)
+2019-02-18 14:32:38,260 p=28352 u=gillian |  changed: [ivhk8s01] => (item=ivhk8s01)
+2019-02-18 14:32:38,290 p=28352 u=gillian |  ok: [ivhk8s02] => (item=ivhk8s01)
+2019-02-18 14:32:38,898 p=28352 u=gillian |  ok: [ivhk8s00] => (item=ivhk8s02)
+2019-02-18 14:32:38,929 p=28352 u=gillian |  ok: [ivhk8s01] => (item=ivhk8s02)
+2019-02-18 14:32:38,982 p=28352 u=gillian |  changed: [ivhk8s02] => (item=ivhk8s02)
+2019-02-18 14:32:39,010 p=28352 u=gillian |  TASK [kubeadm : Determine if docker is installed] ****************************************************************************************************************************************************
+2019-02-18 14:32:39,793 p=28352 u=gillian |  ok: [ivhk8s01]
+2019-02-18 14:32:39,794 p=28352 u=gillian |  ok: [ivhk8s00]
+2019-02-18 14:32:39,796 p=28352 u=gillian |  ok: [ivhk8s02]
+2019-02-18 14:32:39,829 p=28352 u=gillian |  TASK [kubeadm : Install Docker prerequisites] ********************************************************************************************************************************************************
+2019-02-18 14:32:44,639 p=28352 u=gillian |  ok: [ivhk8s00] => (item=[u'apt-transport-https', u'ca-certificates', u'curl', u'software-properties-common'])
+2019-02-18 14:32:44,640 p=28352 u=gillian |  ok: [ivhk8s02] => (item=[u'apt-transport-https', u'ca-certificates', u'curl', u'software-properties-common'])
+2019-02-18 14:32:44,652 p=28352 u=gillian |  ok: [ivhk8s01] => (item=[u'apt-transport-https', u'ca-certificates', u'curl', u'software-properties-common'])
+2019-02-18 14:32:44,678 p=28352 u=gillian |  TASK [kubeadm : Add Docker GPG key] ******************************************************************************************************************************************************************
+2019-02-18 14:32:50,593 p=28352 u=gillian |  ok: [ivhk8s01]
+2019-02-18 14:32:50,607 p=28352 u=gillian |  ok: [ivhk8s00]
+2019-02-18 14:32:50,623 p=28352 u=gillian |  ok: [ivhk8s02]
+2019-02-18 14:32:50,649 p=28352 u=gillian |  TASK [kubeadm : Add Docker APT repository] ***********************************************************************************************************************************************************
+2019-02-18 14:32:58,815 p=28352 u=gillian |  changed: [ivhk8s02]
+2019-02-18 14:33:00,011 p=28352 u=gillian |  changed: [ivhk8s00]
+2019-02-18 14:33:01,278 p=28352 u=gillian |  changed: [ivhk8s01]
+2019-02-18 14:33:01,308 p=28352 u=gillian |  TASK [kubeadm : Install Docker] **********************************************************************************************************************************************************************
+2019-02-18 14:33:08,589 p=28352 u=gillian |  fatal: [ivhk8s00]: FAILED! => {"cache_update_time": 1550496778, "cache_updated": false, "changed": false, "msg": "'/usr/bin/apt-get -y -o \"Dpkg::Options::=--force-confdef\" -o \"Dpkg::Options::=--force-confold\"     install 'docker-ce=18.06.0~3-0~debian-stretch'' failed: E: Version '18.06.0~3-0~debian-stretch' for 'docker-ce' was not found\n", "rc": 100, "stderr": "E: Version '18.06.0~3-0~debian-stretch' for 'docker-ce' was not found\n", "stderr_lines": ["E: Version '18.06.0~3-0~debian-stretch' for 'docker-ce' was not found"], "stdout": "Reading package lists...\nBuilding dependency tree...\nReading state information...\n", "stdout_lines": ["Reading package lists...", "Building dependency tree...", "Reading state information..."]}
+2019-02-18 14:33:08,622 p=28352 u=gillian |  fatal: [ivhk8s02]: FAILED! => {"cache_update_time": 1550496778, "cache_updated": false, "changed": false, "msg": "'/usr/bin/apt-get -y -o \"Dpkg::Options::=--force-confdef\" -o \"Dpkg::Options::=--force-confold\"     install 'docker-ce=18.06.0~3-0~debian-stretch'' failed: E: Version '18.06.0~3-0~debian-stretch' for 'docker-ce' was not found\n", "rc": 100, "stderr": "E: Version '18.06.0~3-0~debian-stretch' for 'docker-ce' was not found\n", "stderr_lines": ["E: Version '18.06.0~3-0~debian-stretch' for 'docker-ce' was not found"], "stdout": "Reading package lists...\nBuilding dependency tree...\nReading state information...\n", "stdout_lines": ["Reading package lists...", "Building dependency tree...", "Reading state information..."]}
+2019-02-18 14:33:11,072 p=28352 u=gillian |  fatal: [ivhk8s01]: FAILED! => {"cache_update_time": 1550496781, "cache_updated": false, "changed": false, "msg": "'/usr/bin/apt-get -y -o \"Dpkg::Options::=--force-confdef\" -o \"Dpkg::Options::=--force-confold\"     install 'docker-ce=18.06.0~3-0~debian-stretch'' failed: E: Version '18.06.0~3-0~debian-stretch' for 'docker-ce' was not found\n", "rc": 100, "stderr": "E: Version '18.06.0~3-0~debian-stretch' for 'docker-ce' was not found\n", "stderr_lines": ["E: Version '18.06.0~3-0~debian-stretch' for 'docker-ce' was not found"], "stdout": "Reading package lists...\nBuilding dependency tree...\nReading state information...\n", "stdout_lines": ["Reading package lists...", "Building dependency tree...", "Reading state information..."]}
+2019-02-18 14:33:11,073 p=28352 u=gillian |  PLAY RECAP *******************************************************************************************************************************************************************************************
+2019-02-18 14:33:11,074 p=28352 u=gillian |  ivhk8s00                   : ok=8    changed=3    unreachable=0    failed=1   
+2019-02-18 14:33:11,074 p=28352 u=gillian |  ivhk8s01                   : ok=8    changed=3    unreachable=0    failed=1   
+2019-02-18 14:33:11,074 p=28352 u=gillian |  ivhk8s02                   : ok=8    changed=3    unreachable=0    failed=1   
+2019-02-18 14:35:14,838 p=29150 u=gillian |  PLAY [all] *******************************************************************************************************************************************************************************************
+2019-02-18 14:35:14,856 p=29150 u=gillian |  TASK [Gathering Facts] *******************************************************************************************************************************************************************************
+2019-02-18 14:35:16,861 p=29150 u=gillian |  ok: [ivhk8s01]
+2019-02-18 14:35:16,869 p=29150 u=gillian |  ok: [ivhk8s00]
+2019-02-18 14:35:16,877 p=29150 u=gillian |  ok: [ivhk8s02]
+2019-02-18 14:35:16,902 p=29150 u=gillian |  TASK [kubeadm : Ensure hostname set] *****************************************************************************************************************************************************************
+2019-02-18 14:35:18,358 p=29150 u=gillian |  ok: [ivhk8s02]
+2019-02-18 14:35:18,359 p=29150 u=gillian |  ok: [ivhk8s01]
+2019-02-18 14:35:18,361 p=29150 u=gillian |  ok: [ivhk8s00]
+2019-02-18 14:35:18,388 p=29150 u=gillian |  TASK [kubeadm : Add IP address of all hosts to all hosts] ********************************************************************************************************************************************
+2019-02-18 14:35:19,230 p=29150 u=gillian |  ok: [ivhk8s00] => (item=ivhk8s00)
+2019-02-18 14:35:19,233 p=29150 u=gillian |  ok: [ivhk8s02] => (item=ivhk8s00)
+2019-02-18 14:35:19,238 p=29150 u=gillian |  ok: [ivhk8s01] => (item=ivhk8s00)
+2019-02-18 14:35:19,904 p=29150 u=gillian |  ok: [ivhk8s00] => (item=ivhk8s01)
+2019-02-18 14:35:19,914 p=29150 u=gillian |  ok: [ivhk8s01] => (item=ivhk8s01)
+2019-02-18 14:35:19,932 p=29150 u=gillian |  ok: [ivhk8s02] => (item=ivhk8s01)
+2019-02-18 14:35:20,587 p=29150 u=gillian |  ok: [ivhk8s00] => (item=ivhk8s02)
+2019-02-18 14:35:20,615 p=29150 u=gillian |  ok: [ivhk8s02] => (item=ivhk8s02)
+2019-02-18 14:35:20,663 p=29150 u=gillian |  ok: [ivhk8s01] => (item=ivhk8s02)
+2019-02-18 14:35:20,693 p=29150 u=gillian |  TASK [kubeadm : Determine if docker is installed] ****************************************************************************************************************************************************
+2019-02-18 14:35:21,473 p=29150 u=gillian |  ok: [ivhk8s02]
+2019-02-18 14:35:21,474 p=29150 u=gillian |  ok: [ivhk8s00]
+2019-02-18 14:35:21,475 p=29150 u=gillian |  ok: [ivhk8s01]
+2019-02-18 14:35:21,504 p=29150 u=gillian |  TASK [kubeadm : Install Docker prerequisites] ********************************************************************************************************************************************************
+2019-02-18 14:35:26,676 p=29150 u=gillian |  ok: [ivhk8s00] => (item=[u'apt-transport-https', u'ca-certificates', u'curl', u'software-properties-common'])
+2019-02-18 14:35:26,680 p=29150 u=gillian |  ok: [ivhk8s02] => (item=[u'apt-transport-https', u'ca-certificates', u'curl', u'software-properties-common'])
+2019-02-18 14:35:26,701 p=29150 u=gillian |  ok: [ivhk8s01] => (item=[u'apt-transport-https', u'ca-certificates', u'curl', u'software-properties-common'])
+2019-02-18 14:35:26,729 p=29150 u=gillian |  TASK [kubeadm : Add Docker GPG key] ******************************************************************************************************************************************************************
+2019-02-18 14:35:32,549 p=29150 u=gillian |  ok: [ivhk8s01]
+2019-02-18 14:35:32,552 p=29150 u=gillian |  ok: [ivhk8s00]
+2019-02-18 14:35:32,561 p=29150 u=gillian |  ok: [ivhk8s02]
+2019-02-18 14:35:32,587 p=29150 u=gillian |  TASK [kubeadm : Add Docker APT repository] ***********************************************************************************************************************************************************
+2019-02-18 14:35:34,085 p=29150 u=gillian |  ok: [ivhk8s00]
+2019-02-18 14:35:34,087 p=29150 u=gillian |  ok: [ivhk8s01]
+2019-02-18 14:35:34,104 p=29150 u=gillian |  ok: [ivhk8s02]
+2019-02-18 14:35:34,129 p=29150 u=gillian |  TASK [kubeadm : Install Docker] **********************************************************************************************************************************************************************
+2019-02-18 14:38:18,672 p=29150 u=gillian |  changed: [ivhk8s02]
+2019-02-18 14:39:19,103 p=29150 u=gillian |  changed: [ivhk8s01]
+2019-02-18 14:39:36,175 p=29150 u=gillian |  changed: [ivhk8s00]
+2019-02-18 14:39:36,219 p=29150 u=gillian |  TASK [kubeadm : Lock docker version to 18.06.0~ce~3-0~debian] ****************************************************************************************************************************************
+2019-02-18 14:39:37,426 p=29150 u=gillian |  changed: [ivhk8s00]
+2019-02-18 14:39:37,435 p=29150 u=gillian |  changed: [ivhk8s01]
+2019-02-18 14:39:37,569 p=29150 u=gillian |  changed: [ivhk8s02]
+2019-02-18 14:39:37,601 p=29150 u=gillian |  TASK [kubeadm : Disable Swap] ************************************************************************************************************************************************************************
+2019-02-18 14:39:38,288 p=29150 u=gillian |  fatal: [ivhk8s00]: FAILED! => {"changed": true, "cmd": "dphys-swapfile swapoff && dphys-swapfile uninstall && update-rc.d dphys-swapfile remove", "delta": "0:00:00.006562", "end": "2019-02-18 14:39:38.212548", "msg": "non-zero return code", "rc": 127, "start": "2019-02-18 14:39:38.205986", "stderr": "/bin/sh: 1: dphys-swapfile: not found", "stderr_lines": ["/bin/sh: 1: dphys-swapfile: not found"], "stdout": "", "stdout_lines": []}
+2019-02-18 14:39:38,289 p=29150 u=gillian |  ...ignoring
+2019-02-18 14:39:38,327 p=29150 u=gillian |  fatal: [ivhk8s01]: FAILED! => {"changed": true, "cmd": "dphys-swapfile swapoff && dphys-swapfile uninstall && update-rc.d dphys-swapfile remove", "delta": "0:00:00.007046", "end": "2019-02-18 14:39:38.279370", "msg": "non-zero return code", "rc": 127, "start": "2019-02-18 14:39:38.272324", "stderr": "/bin/sh: 1: dphys-swapfile: not found", "stderr_lines": ["/bin/sh: 1: dphys-swapfile: not found"], "stdout": "", "stdout_lines": []}
+2019-02-18 14:39:38,327 p=29150 u=gillian |  ...ignoring
+2019-02-18 14:39:38,365 p=29150 u=gillian |  fatal: [ivhk8s02]: FAILED! => {"changed": true, "cmd": "dphys-swapfile swapoff && dphys-swapfile uninstall && update-rc.d dphys-swapfile remove", "delta": "0:00:00.006639", "end": "2019-02-18 14:39:38.320125", "msg": "non-zero return code", "rc": 127, "start": "2019-02-18 14:39:38.313486", "stderr": "/bin/sh: 1: dphys-swapfile: not found", "stderr_lines": ["/bin/sh: 1: dphys-swapfile: not found"], "stdout": "", "stdout_lines": []}
+2019-02-18 14:39:38,365 p=29150 u=gillian |  ...ignoring
+2019-02-18 14:39:38,393 p=29150 u=gillian |  TASK [kubeadm : Pass bridged IPv4 traffic to iptables' chains] ***************************************************************************************************************************************
+2019-02-18 14:39:39,245 p=29150 u=gillian |  changed: [ivhk8s01]
+2019-02-18 14:39:39,248 p=29150 u=gillian |  changed: [ivhk8s00]
+2019-02-18 14:39:39,249 p=29150 u=gillian |  changed: [ivhk8s02]
+2019-02-18 14:39:39,276 p=29150 u=gillian |  TASK [kubeadm : Add Google Cloud Repo Key] ***********************************************************************************************************************************************************
+2019-02-18 14:39:43,125 p=29150 u=gillian |  changed: [ivhk8s01]
+2019-02-18 14:39:43,128 p=29150 u=gillian |  changed: [ivhk8s00]
+2019-02-18 14:39:43,198 p=29150 u=gillian |  changed: [ivhk8s02]
+2019-02-18 14:39:43,245 p=29150 u=gillian |  TASK [kubeadm : Add Kubernetes to Available apt Sources] *********************************************************************************************************************************************
+2019-02-18 14:39:44,628 p=29150 u=gillian |  changed: [ivhk8s00]
+2019-02-18 14:39:44,630 p=29150 u=gillian |  changed: [ivhk8s02]
+2019-02-18 14:39:44,632 p=29150 u=gillian |  changed: [ivhk8s01]
+2019-02-18 14:39:44,658 p=29150 u=gillian |  TASK [kubeadm : apt-get update] **********************************************************************************************************************************************************************
+2019-02-18 14:39:58,174 p=29150 u=gillian |  changed: [ivhk8s02]
+2019-02-18 14:39:59,482 p=29150 u=gillian |  changed: [ivhk8s00]
+2019-02-18 14:40:10,704 p=29150 u=gillian |  changed: [ivhk8s01]
+2019-02-18 14:40:10,736 p=29150 u=gillian |  TASK [kubeadm : Install k8s 1.13.3-00 Y'all] *********************************************************************************************************************************************************
+2019-02-18 14:41:12,021 p=29150 u=gillian |  changed: [ivhk8s02] => (item=[u'kubelet=1.13.3-00', u'kubeadm=1.13.3-00', u'kubectl=1.13.3-00'])
+2019-02-18 14:41:24,831 p=29150 u=gillian |  changed: [ivhk8s01] => (item=[u'kubelet=1.13.3-00', u'kubeadm=1.13.3-00', u'kubectl=1.13.3-00'])
+2019-02-18 14:41:29,822 p=29150 u=gillian |  changed: [ivhk8s00] => (item=[u'kubelet=1.13.3-00', u'kubeadm=1.13.3-00', u'kubectl=1.13.3-00'])
+2019-02-18 14:41:29,866 p=29150 u=gillian |  TASK [kubeadm : Reboot Message] **********************************************************************************************************************************************************************
+2019-02-18 14:41:29,943 p=29150 u=gillian |  ok: [ivhk8s00] => {
+    "msg": "REBOOT ALL NODES."
+}
+2019-02-18 14:41:29,963 p=29150 u=gillian |  ok: [ivhk8s01] => {
+    "msg": "REBOOT ALL NODES."
+}
+2019-02-18 14:41:30,004 p=29150 u=gillian |  ok: [ivhk8s02] => {
+    "msg": "REBOOT ALL NODES."
+}
+2019-02-18 14:41:30,006 p=29150 u=gillian |  PLAY RECAP *******************************************************************************************************************************************************************************************
+2019-02-18 14:41:30,007 p=29150 u=gillian |  ivhk8s00                   : ok=16   changed=8    unreachable=0    failed=0   
+2019-02-18 14:41:30,007 p=29150 u=gillian |  ivhk8s01                   : ok=16   changed=8    unreachable=0    failed=0   
+2019-02-18 14:41:30,007 p=29150 u=gillian |  ivhk8s02                   : ok=16   changed=8    unreachable=0    failed=0   
+2019-02-18 14:47:19,949 p=31422 u=gillian |  PLAY [all] *******************************************************************************************************************************************************************************************
+2019-02-18 14:47:19,964 p=31422 u=gillian |  TASK [Gathering Facts] *******************************************************************************************************************************************************************************
+2019-02-18 14:47:22,210 p=31422 u=gillian |  ok: [ivhk8s00]
+2019-02-18 14:47:22,231 p=31422 u=gillian |  ok: [ivhk8s02]
+2019-02-18 14:47:22,258 p=31422 u=gillian |  ok: [ivhk8s01]
+2019-02-18 14:47:22,299 p=31422 u=gillian |  TASK [Reboot Message] ********************************************************************************************************************************************************************************
+2019-02-18 14:47:22,348 p=31422 u=gillian |  ok: [ivhk8s00] => {
+    "msg": "REBOOTING ALL NODES."
+}
+2019-02-18 14:47:22,399 p=31422 u=gillian |  ok: [ivhk8s01] => {
+    "msg": "REBOOTING ALL NODES."
+}
+2019-02-18 14:47:22,437 p=31422 u=gillian |  ok: [ivhk8s02] => {
+    "msg": "REBOOTING ALL NODES."
+}
+2019-02-18 14:47:22,478 p=31422 u=gillian |  TASK [Reboot] ****************************************************************************************************************************************************************************************
+2019-02-18 14:47:23,975 p=31422 u=gillian |  changed: [ivhk8s02]
+2019-02-18 14:47:23,975 p=31422 u=gillian |  changed: [ivhk8s00]
+2019-02-18 14:47:23,976 p=31422 u=gillian |  changed: [ivhk8s01]
+2019-02-18 14:47:23,981 p=31422 u=gillian |  PLAY RECAP *******************************************************************************************************************************************************************************************
+2019-02-18 14:47:23,982 p=31422 u=gillian |  ivhk8s00                   : ok=3    changed=1    unreachable=0    failed=0   
+2019-02-18 14:47:23,982 p=31422 u=gillian |  ivhk8s01                   : ok=3    changed=1    unreachable=0    failed=0   
+2019-02-18 14:47:23,982 p=31422 u=gillian |  ivhk8s02                   : ok=3    changed=1    unreachable=0    failed=0   
+2019-02-18 14:49:04,112 p=31902 u=gillian |  PLAY [all] *******************************************************************************************************************************************************************************************
+2019-02-18 14:49:04,128 p=31902 u=gillian |  TASK [Gathering Facts] *******************************************************************************************************************************************************************************
+2019-02-18 14:49:06,705 p=31902 u=gillian |  ok: [ivhk8s00]
+2019-02-18 14:49:06,741 p=31902 u=gillian |  ok: [ivhk8s02]
+2019-02-18 14:49:06,835 p=31902 u=gillian |  ok: [ivhk8s01]
+2019-02-18 14:49:06,877 p=31902 u=gillian |  TASK [Remove Docker APT repository] ******************************************************************************************************************************************************************
+2019-02-18 14:49:07,677 p=31902 u=gillian |  changed: [ivhk8s02]
+2019-02-18 14:49:07,680 p=31902 u=gillian |  changed: [ivhk8s00]
+2019-02-18 14:49:07,681 p=31902 u=gillian |  changed: [ivhk8s01]
+2019-02-18 14:49:07,687 p=31902 u=gillian |  PLAY RECAP *******************************************************************************************************************************************************************************************
+2019-02-18 14:49:07,687 p=31902 u=gillian |  ivhk8s00                   : ok=2    changed=1    unreachable=0    failed=0   
+2019-02-18 14:49:07,687 p=31902 u=gillian |  ivhk8s01                   : ok=2    changed=1    unreachable=0    failed=0   
+2019-02-18 14:49:07,687 p=31902 u=gillian |  ivhk8s02                   : ok=2    changed=1    unreachable=0    failed=0   
+2019-02-18 14:49:17,822 p=32034 u=gillian |  PLAY [all] *******************************************************************************************************************************************************************************************
+2019-02-18 14:49:17,837 p=32034 u=gillian |  TASK [Gathering Facts] *******************************************************************************************************************************************************************************
+2019-02-18 14:49:19,742 p=32034 u=gillian |  ok: [ivhk8s00]
+2019-02-18 14:49:19,758 p=32034 u=gillian |  ok: [ivhk8s02]
+2019-02-18 14:49:19,774 p=32034 u=gillian |  ok: [ivhk8s01]
+2019-02-18 14:49:19,818 p=32034 u=gillian |  TASK [Reboot Message] ********************************************************************************************************************************************************************************
+2019-02-18 14:49:19,873 p=32034 u=gillian |  ok: [ivhk8s00] => {
+    "msg": "REBOOTING ALL NODES."
+}
+2019-02-18 14:49:19,923 p=32034 u=gillian |  ok: [ivhk8s01] => {
+    "msg": "REBOOTING ALL NODES."
+}
+2019-02-18 14:49:19,962 p=32034 u=gillian |  ok: [ivhk8s02] => {
+    "msg": "REBOOTING ALL NODES."
+}
+2019-02-18 14:49:20,008 p=32034 u=gillian |  TASK [Reboot] ****************************************************************************************************************************************************************************************
+2019-02-18 14:49:21,519 p=32034 u=gillian |  changed: [ivhk8s00]
+2019-02-18 14:49:21,520 p=32034 u=gillian |  changed: [ivhk8s02]
+2019-02-18 14:49:21,521 p=32034 u=gillian |  changed: [ivhk8s01]
+2019-02-18 14:49:21,524 p=32034 u=gillian |  PLAY RECAP *******************************************************************************************************************************************************************************************
+2019-02-18 14:49:21,524 p=32034 u=gillian |  ivhk8s00                   : ok=3    changed=1    unreachable=0    failed=0   
+2019-02-18 14:49:21,525 p=32034 u=gillian |  ivhk8s01                   : ok=3    changed=1    unreachable=0    failed=0   
+2019-02-18 14:49:21,525 p=32034 u=gillian |  ivhk8s02                   : ok=3    changed=1    unreachable=0    failed=0   
+2019-02-18 14:50:46,095 p=32478 u=gillian |  PLAY [master] ****************************************************************************************************************************************************************************************
+2019-02-18 14:50:46,111 p=32478 u=gillian |  TASK [Gathering Facts] *******************************************************************************************************************************************************************************
+2019-02-18 14:50:48,765 p=32478 u=gillian |  ok: [ivhk8s00]
+2019-02-18 14:50:48,804 p=32478 u=gillian |  TASK [master : Reset Kubernetes Master] **************************************************************************************************************************************************************
+2019-02-18 14:50:50,752 p=32478 u=gillian |  changed: [ivhk8s00]
+2019-02-18 14:50:50,799 p=32478 u=gillian |  TASK [master : Initialize Master v1.13.3] ************************************************************************************************************************************************************
+2019-02-18 14:50:52,424 p=32478 u=gillian |  fatal: [ivhk8s00]: FAILED! => {"changed": true, "cmd": "kubeadm init --apiserver-advertise-address=192.168.0.188 --token=udy29x.ugyyk3tumg27atmr --kubernetes-version=v1.13.3 --pod-network-cidr=10.244.0.0/16", "delta": "0:00:00.918534", "end": "2019-02-18 14:50:52.345672", "msg": "non-zero return code", "rc": 1, "start": "2019-02-18 14:50:51.427138", "stderr": "error execution phase preflight: [preflight] Some fatal errors occurred:\n\t[ERROR Swap]: running with swap on is not supported. Please disable swap\n[preflight] If you know what you are doing, you can make a check non-fatal with `--ignore-preflight-errors=...`", "stderr_lines": ["error execution phase preflight: [preflight] Some fatal errors occurred:", "\t[ERROR Swap]: running with swap on is not supported. Please disable swap", "[preflight] If you know what you are doing, you can make a check non-fatal with `--ignore-preflight-errors=...`"], "stdout": "[init] Using Kubernetes version: v1.13.3\n[preflight] Running pre-flight checks", "stdout_lines": ["[init] Using Kubernetes version: v1.13.3", "[preflight] Running pre-flight checks"]}
+2019-02-18 14:50:52,426 p=32478 u=gillian |  PLAY RECAP *******************************************************************************************************************************************************************************************
+2019-02-18 14:50:52,426 p=32478 u=gillian |  ivhk8s00                   : ok=2    changed=1    unreachable=0    failed=1   
+2019-02-18 14:53:11,148 p=530 u=gillian |  PLAY [all] *******************************************************************************************************************************************************************************************
+2019-02-18 14:53:11,163 p=530 u=gillian |  TASK [Gathering Facts] *******************************************************************************************************************************************************************************
+2019-02-18 14:53:13,312 p=530 u=gillian |  ok: [ivhk8s00]
+2019-02-18 14:53:13,647 p=530 u=gillian |  ok: [ivhk8s02]
+2019-02-18 14:53:13,725 p=530 u=gillian |  ok: [ivhk8s01]
+2019-02-18 14:53:13,774 p=530 u=gillian |  TASK [Remove swapfile from /etc/fstab] ***************************************************************************************************************************************************************
+2019-02-18 14:53:14,609 p=530 u=gillian |  ok: [ivhk8s00]
+2019-02-18 14:53:14,612 p=530 u=gillian |  ok: [ivhk8s02]
+2019-02-18 14:53:14,613 p=530 u=gillian |  ok: [ivhk8s01]
+2019-02-18 14:53:14,674 p=530 u=gillian |  TASK [Disable swap] **********************************************************************************************************************************************************************************
+2019-02-18 14:53:15,501 p=530 u=gillian |  changed: [ivhk8s00]
+2019-02-18 14:53:15,503 p=530 u=gillian |  changed: [ivhk8s01]
+2019-02-18 14:53:15,506 p=530 u=gillian |  changed: [ivhk8s02]
+2019-02-18 14:53:15,509 p=530 u=gillian |  PLAY RECAP *******************************************************************************************************************************************************************************************
+2019-02-18 14:53:15,509 p=530 u=gillian |  ivhk8s00                   : ok=3    changed=1    unreachable=0    failed=0   
+2019-02-18 14:53:15,510 p=530 u=gillian |  ivhk8s01                   : ok=3    changed=1    unreachable=0    failed=0   
+2019-02-18 14:53:15,510 p=530 u=gillian |  ivhk8s02                   : ok=3    changed=1    unreachable=0    failed=0   
+2019-02-18 14:57:40,716 p=1380 u=gillian |  PLAY [all] *******************************************************************************************************************************************************************************************
+2019-02-18 14:57:40,732 p=1380 u=gillian |  TASK [Gathering Facts] *******************************************************************************************************************************************************************************
+2019-02-18 14:57:42,888 p=1380 u=gillian |  ok: [ivhk8s02]
+2019-02-18 14:57:42,904 p=1380 u=gillian |  ok: [ivhk8s01]
+2019-02-18 14:57:42,920 p=1380 u=gillian |  ok: [ivhk8s00]
+2019-02-18 14:57:42,962 p=1380 u=gillian |  TASK [Reboot Message] ********************************************************************************************************************************************************************************
+2019-02-18 14:57:43,012 p=1380 u=gillian |  ok: [ivhk8s00] => {
+    "msg": "REBOOTING ALL NODES."
+}
+2019-02-18 14:57:43,063 p=1380 u=gillian |  ok: [ivhk8s01] => {
+    "msg": "REBOOTING ALL NODES."
+}
+2019-02-18 14:57:43,100 p=1380 u=gillian |  ok: [ivhk8s02] => {
+    "msg": "REBOOTING ALL NODES."
+}
+2019-02-18 14:57:43,141 p=1380 u=gillian |  TASK [Reboot] ****************************************************************************************************************************************************************************************
+2019-02-18 14:57:44,626 p=1380 u=gillian |  changed: [ivhk8s02]
+2019-02-18 14:57:44,627 p=1380 u=gillian |  changed: [ivhk8s01]
+2019-02-18 14:57:44,629 p=1380 u=gillian |  changed: [ivhk8s00]
+2019-02-18 14:57:44,632 p=1380 u=gillian |  PLAY RECAP *******************************************************************************************************************************************************************************************
+2019-02-18 14:57:44,632 p=1380 u=gillian |  ivhk8s00                   : ok=3    changed=1    unreachable=0    failed=0   
+2019-02-18 14:57:44,632 p=1380 u=gillian |  ivhk8s01                   : ok=3    changed=1    unreachable=0    failed=0   
+2019-02-18 14:57:44,632 p=1380 u=gillian |  ivhk8s02                   : ok=3    changed=1    unreachable=0    failed=0   
+2019-02-18 14:58:14,087 p=1566 u=gillian |  PLAY [master] ****************************************************************************************************************************************************************************************
+2019-02-18 14:58:14,103 p=1566 u=gillian |  TASK [Gathering Facts] *******************************************************************************************************************************************************************************
+2019-02-18 14:58:24,178 p=1566 u=gillian |  fatal: [ivhk8s00]: UNREACHABLE! => {"changed": false, "msg": "Failed to connect to the host via ssh: ssh: connect to host 192.168.0.188 port 22: Connection timed out\r\n", "unreachable": true}
+2019-02-18 14:58:24,179 p=1566 u=gillian |  PLAY RECAP *******************************************************************************************************************************************************************************************
+2019-02-18 14:58:24,180 p=1566 u=gillian |  ivhk8s00                   : ok=0    changed=0    unreachable=1    failed=0   
+2019-02-18 14:58:36,241 p=1660 u=gillian |  PLAY [master] ****************************************************************************************************************************************************************************************
+2019-02-18 14:58:36,257 p=1660 u=gillian |  TASK [Gathering Facts] *******************************************************************************************************************************************************************************
+2019-02-18 14:58:38,843 p=1660 u=gillian |  ok: [ivhk8s00]
+2019-02-18 14:58:38,882 p=1660 u=gillian |  TASK [master : Reset Kubernetes Master] **************************************************************************************************************************************************************
+2019-02-18 14:58:40,891 p=1660 u=gillian |  changed: [ivhk8s00]
+2019-02-18 14:58:40,946 p=1660 u=gillian |  TASK [master : Initialize Master v1.13.3] ************************************************************************************************************************************************************
+2019-02-18 14:58:42,560 p=1660 u=gillian |  fatal: [ivhk8s00]: FAILED! => {"changed": true, "cmd": "kubeadm init --apiserver-advertise-address=192.168.0.188 --token=udy29x.ugyyk3tumg27atmr --kubernetes-version=v1.13.3 --pod-network-cidr=10.244.0.0/16", "delta": "0:00:00.927063", "end": "2019-02-18 14:58:42.872126", "msg": "non-zero return code", "rc": 1, "start": "2019-02-18 14:58:41.945063", "stderr": "error execution phase preflight: [preflight] Some fatal errors occurred:\n\t[ERROR Swap]: running with swap on is not supported. Please disable swap\n[preflight] If you know what you are doing, you can make a check non-fatal with `--ignore-preflight-errors=...`", "stderr_lines": ["error execution phase preflight: [preflight] Some fatal errors occurred:", "\t[ERROR Swap]: running with swap on is not supported. Please disable swap", "[preflight] If you know what you are doing, you can make a check non-fatal with `--ignore-preflight-errors=...`"], "stdout": "[init] Using Kubernetes version: v1.13.3\n[preflight] Running pre-flight checks", "stdout_lines": ["[init] Using Kubernetes version: v1.13.3", "[preflight] Running pre-flight checks"]}
+2019-02-18 14:58:42,562 p=1660 u=gillian |  PLAY RECAP *******************************************************************************************************************************************************************************************
+2019-02-18 14:58:42,563 p=1660 u=gillian |  ivhk8s00                   : ok=2    changed=1    unreachable=0    failed=1   
+2019-02-18 14:59:55,191 p=1952 u=gillian |  PLAY [all] *******************************************************************************************************************************************************************************************
+2019-02-18 14:59:55,206 p=1952 u=gillian |  TASK [Gathering Facts] *******************************************************************************************************************************************************************************
+2019-02-18 14:59:57,368 p=1952 u=gillian |  ok: [ivhk8s00]
+2019-02-18 14:59:57,695 p=1952 u=gillian |  ok: [ivhk8s02]
+2019-02-18 14:59:57,795 p=1952 u=gillian |  ok: [ivhk8s01]
+2019-02-18 14:59:57,834 p=1952 u=gillian |  TASK [Remove swapfile from /etc/fstab] ***************************************************************************************************************************************************************
+2019-02-18 14:59:58,641 p=1952 u=gillian |  ok: [ivhk8s00]
+2019-02-18 14:59:58,642 p=1952 u=gillian |  ok: [ivhk8s02]
+2019-02-18 14:59:58,644 p=1952 u=gillian |  ok: [ivhk8s01]
+2019-02-18 14:59:58,689 p=1952 u=gillian |  TASK [Disable swap] **********************************************************************************************************************************************************************************
+2019-02-18 14:59:59,505 p=1952 u=gillian |  changed: [ivhk8s00]
+2019-02-18 14:59:59,507 p=1952 u=gillian |  changed: [ivhk8s02]
+2019-02-18 14:59:59,508 p=1952 u=gillian |  changed: [ivhk8s01]
+2019-02-18 14:59:59,512 p=1952 u=gillian |  PLAY RECAP *******************************************************************************************************************************************************************************************
+2019-02-18 14:59:59,513 p=1952 u=gillian |  ivhk8s00                   : ok=3    changed=1    unreachable=0    failed=0   
+2019-02-18 14:59:59,513 p=1952 u=gillian |  ivhk8s01                   : ok=3    changed=1    unreachable=0    failed=0   
+2019-02-18 14:59:59,513 p=1952 u=gillian |  ivhk8s02                   : ok=3    changed=1    unreachable=0    failed=0   
+2019-02-18 15:00:58,347 p=2407 u=gillian |  PLAY [all] *******************************************************************************************************************************************************************************************
+2019-02-18 15:00:58,363 p=2407 u=gillian |  TASK [Gathering Facts] *******************************************************************************************************************************************************************************
+2019-02-18 15:01:00,265 p=2407 u=gillian |  ok: [ivhk8s00]
+2019-02-18 15:01:00,288 p=2407 u=gillian |  ok: [ivhk8s02]
+2019-02-18 15:01:00,304 p=2407 u=gillian |  ok: [ivhk8s01]
+2019-02-18 15:01:00,343 p=2407 u=gillian |  TASK [Remove swapfile from /etc/fstab] ***************************************************************************************************************************************************************
+2019-02-18 15:01:01,173 p=2407 u=gillian |  ok: [ivhk8s00]
+2019-02-18 15:01:01,174 p=2407 u=gillian |  ok: [ivhk8s02]
+2019-02-18 15:01:01,176 p=2407 u=gillian |  ok: [ivhk8s01]
+2019-02-18 15:01:01,217 p=2407 u=gillian |  TASK [Disable swap] **********************************************************************************************************************************************************************************
+2019-02-18 15:01:01,271 p=2407 u=gillian |  skipping: [ivhk8s00]
+2019-02-18 15:01:01,322 p=2407 u=gillian |  skipping: [ivhk8s01]
+2019-02-18 15:01:01,334 p=2407 u=gillian |  skipping: [ivhk8s02]
+2019-02-18 15:01:01,343 p=2407 u=gillian |  PLAY RECAP *******************************************************************************************************************************************************************************************
+2019-02-18 15:01:01,343 p=2407 u=gillian |  ivhk8s00                   : ok=2    changed=0    unreachable=0    failed=0   
+2019-02-18 15:01:01,343 p=2407 u=gillian |  ivhk8s01                   : ok=2    changed=0    unreachable=0    failed=0   
+2019-02-18 15:01:01,343 p=2407 u=gillian |  ivhk8s02                   : ok=2    changed=0    unreachable=0    failed=0   
+2019-02-18 15:02:31,132 p=2801 u=gillian |  PLAY [all] *******************************************************************************************************************************************************************************************
+2019-02-18 15:02:31,147 p=2801 u=gillian |  TASK [Gathering Facts] *******************************************************************************************************************************************************************************
+2019-02-18 15:02:33,281 p=2801 u=gillian |  ok: [ivhk8s02]
+2019-02-18 15:02:33,295 p=2801 u=gillian |  ok: [ivhk8s00]
+2019-02-18 15:02:33,342 p=2801 u=gillian |  ok: [ivhk8s01]
+2019-02-18 15:02:33,383 p=2801 u=gillian |  TASK [swap - remove current swaps from fstab] ********************************************************************************************************************************************************
+2019-02-18 15:02:34,177 p=2801 u=gillian |  ok: [ivhk8s00]
+2019-02-18 15:02:34,178 p=2801 u=gillian |  ok: [ivhk8s01]
+2019-02-18 15:02:34,179 p=2801 u=gillian |  ok: [ivhk8s02]
+2019-02-18 15:02:34,232 p=2801 u=gillian |  TASK [Disable swap] **********************************************************************************************************************************************************************************
+2019-02-18 15:02:34,295 p=2801 u=gillian |  skipping: [ivhk8s00]
+2019-02-18 15:02:34,356 p=2801 u=gillian |  skipping: [ivhk8s01]
+2019-02-18 15:02:34,375 p=2801 u=gillian |  skipping: [ivhk8s02]
+2019-02-18 15:02:34,377 p=2801 u=gillian |  PLAY RECAP *******************************************************************************************************************************************************************************************
+2019-02-18 15:02:34,377 p=2801 u=gillian |  ivhk8s00                   : ok=2    changed=0    unreachable=0    failed=0   
+2019-02-18 15:02:34,377 p=2801 u=gillian |  ivhk8s01                   : ok=2    changed=0    unreachable=0    failed=0   
+2019-02-18 15:02:34,378 p=2801 u=gillian |  ivhk8s02                   : ok=2    changed=0    unreachable=0    failed=0   
+2019-02-18 15:02:50,676 p=2951 u=gillian |  PLAY [all] *******************************************************************************************************************************************************************************************
+2019-02-18 15:02:50,699 p=2951 u=gillian |  TASK [Gathering Facts] *******************************************************************************************************************************************************************************
+2019-02-18 15:02:52,620 p=2951 u=gillian |  ok: [ivhk8s01]
+2019-02-18 15:02:52,633 p=2951 u=gillian |  ok: [ivhk8s00]
+2019-02-18 15:02:52,691 p=2951 u=gillian |  ok: [ivhk8s02]
+2019-02-18 15:02:52,730 p=2951 u=gillian |  TASK [swap - remove current swaps from fstab] ********************************************************************************************************************************************************
+2019-02-18 15:02:53,530 p=2951 u=gillian |  ok: [ivhk8s00]
+2019-02-18 15:02:53,531 p=2951 u=gillian |  ok: [ivhk8s02]
+2019-02-18 15:02:53,535 p=2951 u=gillian |  ok: [ivhk8s01]
+2019-02-18 15:02:53,579 p=2951 u=gillian |  TASK [Disable swap] **********************************************************************************************************************************************************************************
+2019-02-18 15:02:53,632 p=2951 u=gillian |  skipping: [ivhk8s00]
+2019-02-18 15:02:53,681 p=2951 u=gillian |  skipping: [ivhk8s01]
+2019-02-18 15:02:53,698 p=2951 u=gillian |  skipping: [ivhk8s02]
+2019-02-18 15:02:53,700 p=2951 u=gillian |  PLAY RECAP *******************************************************************************************************************************************************************************************
+2019-02-18 15:02:53,700 p=2951 u=gillian |  ivhk8s00                   : ok=2    changed=0    unreachable=0    failed=0   
+2019-02-18 15:02:53,700 p=2951 u=gillian |  ivhk8s01                   : ok=2    changed=0    unreachable=0    failed=0   
+2019-02-18 15:02:53,700 p=2951 u=gillian |  ivhk8s02                   : ok=2    changed=0    unreachable=0    failed=0   
+2019-02-18 15:03:10,844 p=3092 u=gillian |  PLAY [all] *******************************************************************************************************************************************************************************************
+2019-02-18 15:03:10,860 p=3092 u=gillian |  TASK [Gathering Facts] *******************************************************************************************************************************************************************************
+2019-02-18 15:03:12,760 p=3092 u=gillian |  ok: [ivhk8s02]
+2019-02-18 15:03:12,784 p=3092 u=gillian |  ok: [ivhk8s01]
+2019-02-18 15:03:12,799 p=3092 u=gillian |  ok: [ivhk8s00]
+2019-02-18 15:03:12,838 p=3092 u=gillian |  TASK [swap - remove current swaps from fstab] ********************************************************************************************************************************************************
+2019-02-18 15:03:13,647 p=3092 u=gillian |  ok: [ivhk8s00]
+2019-02-18 15:03:13,649 p=3092 u=gillian |  ok: [ivhk8s01]
+2019-02-18 15:03:13,651 p=3092 u=gillian |  ok: [ivhk8s02]
+2019-02-18 15:03:13,694 p=3092 u=gillian |  TASK [Disable swap] **********************************************************************************************************************************************************************************
+2019-02-18 15:03:14,510 p=3092 u=gillian |  changed: [ivhk8s00]
+2019-02-18 15:03:14,511 p=3092 u=gillian |  changed: [ivhk8s02]
+2019-02-18 15:03:14,529 p=3092 u=gillian |  changed: [ivhk8s01]
+2019-02-18 15:03:14,532 p=3092 u=gillian |  PLAY RECAP *******************************************************************************************************************************************************************************************
+2019-02-18 15:03:14,532 p=3092 u=gillian |  ivhk8s00                   : ok=3    changed=1    unreachable=0    failed=0   
+2019-02-18 15:03:14,533 p=3092 u=gillian |  ivhk8s01                   : ok=3    changed=1    unreachable=0    failed=0   
+2019-02-18 15:03:14,533 p=3092 u=gillian |  ivhk8s02                   : ok=3    changed=1    unreachable=0    failed=0   
+2019-02-18 15:03:54,744 p=3319 u=gillian |  PLAY [master] ****************************************************************************************************************************************************************************************
+2019-02-18 15:03:54,760 p=3319 u=gillian |  TASK [Gathering Facts] *******************************************************************************************************************************************************************************
+2019-02-18 15:03:56,698 p=3319 u=gillian |  ok: [ivhk8s00]
+2019-02-18 15:03:56,737 p=3319 u=gillian |  TASK [master : Reset Kubernetes Master] **************************************************************************************************************************************************************
+2019-02-18 15:03:58,003 p=3319 u=gillian |  changed: [ivhk8s00]
+2019-02-18 15:03:58,047 p=3319 u=gillian |  TASK [master : Initialize Master v1.13.3] ************************************************************************************************************************************************************
+2019-02-18 15:06:52,382 p=3319 u=gillian |   [ERROR]: User interrupted execution
+
+2019-02-18 15:11:17,336 p=4813 u=gillian |  PLAY [master] ******************************************************************
+2019-02-18 15:11:17,353 p=4813 u=gillian |  TASK [Gathering Facts] *********************************************************
+2019-02-18 15:11:19,564 p=4813 u=gillian |  ok: [ivhk8s00]
+2019-02-18 15:11:19,601 p=4813 u=gillian |  TASK [master : Reset Kubernetes Master] ****************************************
+2019-02-18 15:11:20,852 p=4813 u=gillian |  changed: [ivhk8s00]
+2019-02-18 15:11:20,895 p=4813 u=gillian |  TASK [master : pull images v1.13.3] ********************************************
+2019-02-18 15:11:30,931 p=4813 u=gillian |  changed: [ivhk8s00]
+2019-02-18 15:11:30,977 p=4813 u=gillian |  TASK [master : Initialize Master v1.13.3] **************************************
+2019-02-18 15:13:17,811 p=4813 u=gillian |  changed: [ivhk8s00]
+2019-02-18 15:13:17,851 p=4813 u=gillian |  TASK [master : Create Kubernetes config directory] *****************************
+2019-02-18 15:13:18,987 p=4813 u=gillian |  changed: [ivhk8s00]
+2019-02-18 15:13:19,032 p=4813 u=gillian |  TASK [master : Copy admin.conf to config directory] ****************************
+2019-02-18 15:13:19,953 p=4813 u=gillian |  changed: [ivhk8s00]
+2019-02-18 15:13:20,001 p=4813 u=gillian |  TASK [master : Join Kubernetes Cluster] ****************************************

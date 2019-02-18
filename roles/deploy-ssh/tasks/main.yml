@@ -3,7 +3,7 @@
   file:
     path: "/home/pi/.ssh"
     state: directory
-- name: Check that the authorized keys exists
+- name: Check that the authorized keys file exists
   stat:
     path: "/home/pi/.ssh/authorized_keys"
   register: stat_result
@@ -12,8 +12,15 @@
     path: "/home/pi/.ssh/authorized_keys"
     state: touch
   when: stat_result.stat.exists == False
+# - name: Put pubkey into the file
+#   lineinfile:
+#     path: "/home/pi/.ssh/authorized_keys"
+#     line: "{{ pubkey }}"
+#     state: present
 - name: Put pubkey into the file
   lineinfile:
     path: "/home/pi/.ssh/authorized_keys"
-    line: "{{ pubkey }}"
+    line: "{{ item }}"
     state: present
+  with_items:
+    - "{{ pubkeys }}"

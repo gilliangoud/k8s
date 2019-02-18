@@ -1,10 +1,7 @@
 [nodes]
-k8s000    ansible_host=192.168.8.29
-k8s001    ansible_host=192.168.8.27
-k8s002    ansible_host=192.168.8.30
-k8s003    ansible_host=192.168.8.31
-k8s004    ansible_host=192.168.8.32
-k8s005    ansible_host=192.168.8.33
+ivhk8s00    ansible_host=192.168.0.188
+ivhk8s01    ansible_host=192.168.0.192
+ivhk8s02    ansible_host=192.168.0.193
 
 [master]
-k8s000
+ivhk8s00

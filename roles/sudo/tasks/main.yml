@@ -1,0 +1,5 @@
+- name: NOPASSWD sudo
+  lineinfile: "dest=/etc/sudoers.d/pi
+    create=yes state=present mode=0440
+    owner=root group=root
+    line='pi ALL=(ALL) NOPASSWD: ALL'"
