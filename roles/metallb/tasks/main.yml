@@ -1,6 +1,11 @@
-- name: Install MetalLB
-  shell: "kubectl apply -f https://raw.githubusercontent.com/google/metallb/v0.7.3/manifests/metallb.yaml"
+- name: Install MetalLB (LoadBalancer)
+  k8s:
+    state: present
+    src: https://raw.githubusercontent.com/google/metallb/v0.7.3/manifests/metallb.yaml
 
 - name: Configure MetalLB
-  shell: "kubectl apply -f files/metallb.yaml"
+  k8s:
+    state: present
+    src: files/metallb.yaml
+
 

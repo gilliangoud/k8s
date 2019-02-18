@@ -40,7 +40,9 @@
   register: kubeadm_join
 
 - name: Install Flannel (Networking)
-  shell: "kubectl apply -f https://raw.githubusercontent.com/coreos/flannel/a70459be0084506e4ec919aa1c114638878db11b/Documentation/kube-flannel.yml"
+  k8s:
+    state: present
+    src: https://raw.githubusercontent.com/coreos/flannel/a70459be0084506e4ec919aa1c114638878db11b/Documentation/kube-flannel.yml
 
 - name: Poke kubelet
   systemd:
