@@ -34,15 +34,31 @@
     backup: yes
   when: kubeadm_init
 
+- name: Enable root to use kubectl - folder
+  file:
+    path: "/root/.kube"
+    state: directory
+- name: Enable root to use kubectl - file
+  copy:
+    src: /home/pi/.kube/config
+    dest: /root/.kube/config
+    remote_src: yes
+
 - name: Join Kubernetes Cluster
   shell: kubeadm join --ignore-preflight-errors=all --token {{ token }} {{ groups['master'][0] }}:6443 --discovery-token-unsafe-skip-ca-verification
   when: kubeadm_reset is succeeded
   register: kubeadm_join
 
-- name: Install Flannel (Networking)
-  k8s:
-    state: present
-    src: https://raw.githubusercontent.com/coreos/flannel/a70459be0084506e4ec919aa1c114638878db11b/Documentation/kube-flannel.yml
+# - name: install Flannel (Networking)
+#   become: no
+#   k8s_raw:
+#     state: present
+#     # definition: "{{ lookup('url', 'https://raw.githubusercontent.com/coreos/flannel/a70459be0084506e4ec919aa1c114638878db11b/Documentation/kube-flannel.yml') | to_yaml_all }}"
+#     definition: "{{ lookup('template', 'files/flannel.yml', convert_data=False) }}"
+
+- name: Install Flannel (Networking) oldfashioned style
+  become: no
+  shell: kubectl apply -f https://raw.githubusercontent.com/coreos/flannel/a70459be0084506e4ec919aa1c114638878db11b/Documentation/kube-flannel.yml
 
 - name: Poke kubelet
   systemd:
@@ -51,3 +67,7 @@
     daemon_reload: yes
     enabled: yes
   register: kubelet_poke
+
+- name: sleep for 30 seconds and continue with play
+  wait_for: timeout=30
+  delegate_to: localhost

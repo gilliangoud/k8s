@@ -12,11 +12,6 @@
     path: "/home/pi/.ssh/authorized_keys"
     state: touch
   when: stat_result.stat.exists == False
-# - name: Put pubkey into the file
-#   lineinfile:
-#     path: "/home/pi/.ssh/authorized_keys"
-#     line: "{{ pubkey }}"
-#     state: present
 - name: Put pubkey into the file
   lineinfile:
     path: "/home/pi/.ssh/authorized_keys"

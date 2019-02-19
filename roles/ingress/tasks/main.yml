@@ -1,0 +1,37 @@
+- name: Create ingress namespace
+  k8s_raw:
+    name: ingress
+    api_version: v1
+    kind: Namespace
+    state: present
+- name: Deployment - Install default backend
+  become: no
+  k8s_raw:
+    state: present
+    definition: "{{ lookup('file', 'files/1-default-backend.yml')}}"
+- name: Config - Create empty config map for ingress
+  become: no
+  k8s_raw:
+    state: present
+    definition: "{{ lookup('file', 'files/2-config-map.yml')}}"
+- name: UserRole - Create user role for ingress - gives rights to the namespace
+  become: no
+  k8s_raw:
+    state: present
+    namespace: ingress
+    definition: "{{ lookup('file', 'files/3-user-role.yml')}}"
+- name: Deployment - Deploy ingress controller
+  become: no
+  k8s_raw:
+    state: present
+    definition: "{{ lookup('file', 'files/4-deploy-ingress-control.yml')}}"
+- name: Config - Expose ingress status throught the ingress controller
+  become: no
+  k8s_raw:
+    state: present
+    definition: "{{ lookup('file', 'files/5-ingress.yml')}}"
+- name: Service - Expose the ingress controller on its own IP
+  become: no
+  k8s_raw:
+    state: present
+    definition: "{{ lookup('file', 'files/6-ingress-to-loadbalancer.yml')}}"

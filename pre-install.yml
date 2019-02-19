@@ -1,6 +1,0 @@
-- hosts: all
-  roles:
-    - deploy-ssh
-    - sudo
-
-    # Run this playbook as first one and with --ask-pass and --ask-sudo-pass flags

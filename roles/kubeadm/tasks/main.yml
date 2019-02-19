@@ -26,6 +26,16 @@
 # tasks file for kubeadm
 - include: docker.yml
 
+- name: Install python PIP
+  apt: name={{item}} state=latest
+  with_items:
+    - python-pip
+
+- name: Install pip openshift
+  pip: name={{ item }} state=latest
+  with_items:
+    - "openshift"
+
 # https://gist.github.com/alexellis/fdbc90de7691a1b9edb545c17da2d975
 - name: Remove swapfile from /etc/fstab
   mount:
@@ -34,7 +44,8 @@
     state: absent
 - name: Disable swap
   command: swapoff -a
-  when: ansible_swaptotal_mb > 0
+- name: remove swap
+  shell: sed -i '/ swap / s/^\(.*\)$/#\1/g' /etc/fstab
 
 - name: Pass bridged IPv4 traffic to iptables' chains
   sysctl:
@@ -74,4 +85,10 @@
 
 - name: Reboot Message
   debug:
-    msg: "REBOOT ALL NODES."
+    msg: "REBOOTING ALL NODES."
+- name: Reboot (as needed)
+  reboot:
+    reboot_timeout: 3600
+  tags:
+    - boot
+    - shutdown

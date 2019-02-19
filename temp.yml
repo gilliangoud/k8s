@@ -1,16 +1,3 @@
 - hosts: all
   tasks:
-    # - name: Remove swapfile from /etc/fstab
-    #   mount:
-    #     name: swap
-    #     fstype: sw
-    #     state: absent
-    - name: swap - remove current swaps from fstab
-      lineinfile:
-        dest: /etc/fstab
-        regexp: '^/[\S]+\s+none\s+swap '
-        state: absent
-      become: yes
-    - name: Disable swap
-      command: swapoff -a
-      become: yes
+    - name:

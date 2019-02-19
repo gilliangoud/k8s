@@ -1,11 +1,36 @@
-- name: Install MetalLB (LoadBalancer)
-  k8s:
+# - name: install MetalLB (Loadbalancer)
+#   become: no
+#   k8s_raw:
+#     state: present
+#     definition: "{{ lookup('url', 'https://raw.githubusercontent.com/google/metallb/v0.7.3/manifests/metallb.yaml', validate_certs=false)}}"
+- name: install MetalLB (Loadbalancer)
+  become: no
+  k8s_raw:
     state: present
-    src: https://raw.githubusercontent.com/google/metallb/v0.7.3/manifests/metallb.yaml
+    definition: "{{ lookup('template', 'files/metallb.yml')| from_yaml_all | select('ne', None) | list }}"
+
+
+- name: sleep for 30 seconds and continue with play
+  wait_for: timeout=30
+  delegate_to: localhost
 
 - name: Configure MetalLB
+  become: no
+  async: no
   k8s:
     state: present
-    src: files/metallb.yaml
+    definition:
+      apiVersion: v1
+      kind: ConfigMap
+      metadata:
+        namespace: metallb-system
+        name: config
+      data:
+        config: |
+          address-pools:
+          - name: my-ip-space
+            protocol: layer2
+            addresses:
+            - 192.168.0.240-192.168.0.253
 
 

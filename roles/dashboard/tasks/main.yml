@@ -1,16 +1,82 @@
 ---
-# tasks file for dashboard
-- name: Install k8s Dashboard
-  shell: kubectl apply -f https://raw.githubusercontent.com/kubernetes/dashboard/master/aio/deploy/recommended/kubernetes-dashboard-arm.yaml
+# - name: Install k8s Dashboard
+#   become: no
+#   k8s_raw:
+#     state: present
+#     definition: "{{ lookup('url', 'https://raw.githubusercontent.com/kubernetes/dashboard/v1.10.1/src/deploy/recommended/kubernetes-dashboard.yaml')}}"
+# - name: Install k8s Dashboard
+#   become: no
+#   k8s_raw:
+#     state: present
+#     definition: "{{ lookup('file', 'files/dashboard.yml')}}"
 
-- name: Configure Dashboard Access
-  shell: kubectl apply -f https://raw.githubusercontent.com/rak8s/rak8s/master/roles/dashboard/files/dashboard-admin.yaml
+- name: Install Dashboard oldfashioned style
+  become: no
+  shell: kubectl apply -f https://raw.githubusercontent.com/kubernetes/dashboard/v1.10.1/src/deploy/recommended/kubernetes-dashboard.yaml
+
+- name: give rights
+  become: no
+  k8s_raw:
+    state: present
+    definition: "{{ lookup('file', 'files/rights.yml')}}"
 
 - name: Force Rebuild Dashboard Pods
   shell: kubectl -n kube-system delete $(kubectl -n kube-system get pod -o name | grep dashboard)
+  become: no
+
+- name: Give dashboard external IP from loadbalancer
+  become: no
+  k8s:
+    state: present
+    namespace: kube-system
+    definition:
+      apiVersion: v1
+      kind: Service
+      metadata:
+        name: kubernetes-dashboard-loadbalancer
+      spec:
+        type: LoadBalancer
+        ports:
+          - port: 443
+            targetPort: 8443
+        selector:
+          k8s-app: kubernetes-dashboard
+
+- name: Allow dashboard access through ingress
+  become: no
+  k8s:
+    state: present
+    definition:
+      apiVersion: extensions/v1beta1
+      kind: Ingress
+      metadata:
+        name: dashboard-ingress
+        namespace: kube-system
+        annotations:
+          nginx.ingress.kubernetes.io/ssl-passthrough: "true"
+          nginx.ingress.kubernetes.io/force-ssl-redirect: "true"
+      spec:
+        rules:
+        - host: dashboard
+          http:
+            paths:
+            - backend:
+                serviceName: kubernetes-dashboard-loadbalancer
+                servicePort: 443
+              path: /
 
 - name: Fetch kubeconfig file
   fetch:
-    src: /root/.kube/config
+    src: /home/pi/.kube/config
     dest: ~/.kube/config
     flat: yes
+
+- name: Enable root to use kubectl - folder
+  file:
+    path: "/root/.kube"
+    state: directory
+- name: Enable root to use kubectl - file
+  copy:
+    src: /home/pi/.kube/config
+    dest: /root/.kube/config
+    remote_src: yes

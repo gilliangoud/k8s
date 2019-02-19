@@ -1,0 +1,32 @@
+# 1: ingress for nginx-ingress-controller status 2: adding application ingress
+apiVersion: extensions/v1beta1
+kind: Ingress
+metadata:
+  name: nginx-ingress
+  namespace: ingress
+spec:
+  rules:
+  - host: ivhk8s
+    http:
+      paths:
+      - backend:
+          serviceName: nginx-ingress
+          servicePort: 18080
+        path: /nginx_status
+# example deployment thru ingress for an app
+# ---
+# apiVersion: extensions/v1beta1
+# kind: Ingress
+# metadata:
+#   annotations:
+#     nginx.ingress.kubernetes.io/rewrite-target: /
+#   name: app-ingress
+# spec:
+#   rules:
+#   - host: <APP-DNS NAME>
+#     http:
+#       paths:
+#       - backend:
+#           serviceName: <APP-SERVICE NAME>
+#           servicePort: 80
+#         path: /<APP-ENDPOINT>
