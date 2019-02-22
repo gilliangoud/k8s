@@ -4,15 +4,15 @@
 #   k8s_raw:
 #     state: present
 #     definition: "{{ lookup('url', 'https://raw.githubusercontent.com/kubernetes/dashboard/v1.10.1/src/deploy/recommended/kubernetes-dashboard.yaml')}}"
-# - name: Install k8s Dashboard
-#   become: no
-#   k8s_raw:
-#     state: present
-#     definition: "{{ lookup('file', 'files/dashboard.yml')}}"
-
-- name: Install Dashboard oldfashioned style
+- name: Install k8s Dashboard local file
   become: no
-  shell: kubectl apply -f https://raw.githubusercontent.com/kubernetes/dashboard/v1.10.1/src/deploy/recommended/kubernetes-dashboard.yaml
+  k8s_raw:
+    state: present
+    definition: "{{ lookup('file', 'files/dashboard.yml')}}"
+
+# - name: Install Dashboard oldfashioned style
+#   become: no
+#   shell: kubectl apply -f https://raw.githubusercontent.com/kubernetes/dashboard/v1.10.1/src/deploy/recommended/kubernetes-dashboard.yaml
 
 - name: give rights
   become: no
@@ -53,21 +53,28 @@
         name: dashboard-ingress
         namespace: kube-system
         annotations:
-          nginx.ingress.kubernetes.io/ssl-passthrough: "true"
-          nginx.ingress.kubernetes.io/force-ssl-redirect: "true"
+          kubernetes.io/ingress.class: nginx
+          kubernetes.io/tls-acme: "true"
+          ingress.kubernetes.io/ssl-redirect: "true"
+          ingress.kubernetes.io/use-port-in-redirects: "true"
+          nginx.ingress.kubernetes.io/upstream-vhost: $service_name.$namespace.svc.cluster.local
       spec:
+        tls:
+        - hosts:
+          - dashboard
+          secretName: dashboard-tls
         rules:
         - host: dashboard
           http:
             paths:
-            - backend:
-                serviceName: kubernetes-dashboard-loadbalancer
+            - path: /
+              backend:
+                serviceName: kubernetes-dashboard
                 servicePort: 443
-              path: /
 
 - name: Fetch kubeconfig file
   fetch:
-    src: /home/pi/.kube/config
+    src: /home/{{ ssh-user }}/.kube/config
     dest: ~/.kube/config
     flat: yes
 
@@ -77,6 +84,6 @@
     state: directory
 - name: Enable root to use kubectl - file
   copy:
-    src: /home/pi/.kube/config
+    src: /home/{{ ssh-user }}/.kube/config
     dest: /root/.kube/config
     remote_src: yes

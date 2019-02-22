@@ -32,9 +32,10 @@ spec:
           args:
             - /nginx-ingress-controller
             - --default-backend-service=$(POD_NAMESPACE)/default-backend
+            - --ingress-class=nginx
             - --configmap=$(POD_NAMESPACE)/nginx-ingress-controller-conf
-            - --set controller.extraArgs.enable-ssl-passthrough=""
-            - --v=2
+            - --publish-service=$(POD_NAMESPACE)/nginx-ingress
+            - --v=3
           env:
             - name: POD_NAME
               valueFrom:

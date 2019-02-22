@@ -1,8 +1,8 @@
 - name: NOPASSWD sudo
-  lineinfile: "dest=/etc/sudoers.d/pi
+  lineinfile: "dest=/etc/sudoers.d/{{ ssh-user }}
     create=yes state=present mode=0440
     owner=root group=root
-    line='pi ALL=(ALL) NOPASSWD: ALL'"
+    line='{{ ssh-user }} ALL=(ALL) NOPASSWD: ALL'"
 
 - name: Reboot Message
   debug:

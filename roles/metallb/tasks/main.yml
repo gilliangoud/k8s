@@ -10,8 +10,8 @@
     definition: "{{ lookup('template', 'files/metallb.yml')| from_yaml_all | select('ne', None) | list }}"
 
 
-- name: sleep for 30 seconds and continue with play
-  wait_for: timeout=30
+- name: sleep for 5 seconds and continue with play
+  wait_for: timeout=5
   delegate_to: localhost
 
 - name: Configure MetalLB

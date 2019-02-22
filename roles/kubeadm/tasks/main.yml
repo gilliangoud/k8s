@@ -64,8 +64,8 @@
   template:
     src: kubernetes.list
     dest: /etc/apt/sources.list.d/kubernetes.list
-    owner: pi
-    group: pi
+    owner: {{ ssh-user }}
+    group: {{ ssh-user }}
     mode: 0644
 
 - name: apt-get update
