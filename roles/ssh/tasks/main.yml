@@ -1,20 +1,19 @@
----
-- name: Make direcotry
+- name: Make directory
   file:
-    path: "/home/{{ ssh-user }}/.ssh"
+    path: /home/{{ sshuser }}/.ssh
     state: directory
 - name: Check that the authorized keys file exists
   stat:
-    path: "/home/{{ ssh-user }}/.ssh/authorized_keys"
+    path: /home/{{ sshuser }}/.ssh/authorized_keys
   register: stat_result
 - name: Create empty file
   file:
-    path: "/home/{{ ssh-user }}/.ssh/authorized_keys"
+    path: /home/{{ sshuser }}/.ssh/authorized_keys
     state: touch
   when: stat_result.stat.exists == False
 - name: Put pubkey into the file
   lineinfile:
-    path: "/home/{{ ssh-user }}/.ssh/authorized_keys"
+    path: /home/{{ sshuser }}/.ssh/authorized_keys
     line: "{{ item }}"
     state: present
   with_items:

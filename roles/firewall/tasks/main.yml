@@ -1,0 +1,100 @@
+- name: Install ufw ( Firewall )
+  apt:
+    name: ufw
+    state: present
+
+- name: Limit the ssh connection
+  ufw:
+    rule: limit
+    port: ssh
+    proto: tcp
+
+- name: Allow openssh server
+  ufw:
+    rule: allow
+    name: OpenSSH
+
+- name: allow Kubernetes API Server
+  ufw:
+    rule: allow
+    proto: TCP
+    port: 6443
+    comment: Kubernetes API Server
+
+- name: allow etcd server client API
+  ufw:
+    rule: allow
+    proto: TCP
+    port: 2379:2380
+    comment: etcd server client API
+
+- name: allow Kubelet API
+  ufw:
+    rule: allow
+    proto: TCP
+    port: 10250
+    comment: Kubelet API
+
+- name: allow flannel udp network
+  ufw:
+    rule: allow
+    proto: UDP
+    port: 8285
+    comment: flannel udp network
+
+- name: allow
+  ufw:
+    rule: allow
+    proto: UDP
+    port: 8472
+    comment: flannel udp network
+
+- name: allow kube-scheduler
+  ufw:
+    rule: allow
+    proto: TCP
+    port: 10251
+    comment: kube-scheduler
+
+- name: allow kube-controller-manager
+  ufw:
+    rule: allow
+    proto: TCP
+    port: 10252
+    comment: kube-controller-manager
+
+- name: allow Read-Only Kubelet API
+  ufw:
+    rule: allow
+    proto: TCP
+    port: 10255
+    comment: Read-Only Kubelet API
+
+- name: allow NodePort Services
+  ufw:
+    rule: allow
+    proto: TCP
+    port: 30000:32767
+    comment: NodePort Services
+
+
+# master
+# TCP     6443*       Kubernetes API Server
+# TCP     2379-2380   etcd server client API
+# TCP     10250       Kubelet API
+# UDP     8285        flannel udp network
+# UDP     8472        flannel udp network
+# TCP     10251       kube-scheduler
+# TCP     10252       kube-controller-manager
+# TCP     10255       Read-Only Kubelet API
+# workers
+# UDP     8285        flannel udp network
+# UDP     8472        flannel udp network
+# TCP     10250       Kubelet API
+# TCP     10255       Read-Only Kubelet API
+# TCP     30000-32767 NodePort Services
+
+- name: Allow everything and enable UFW
+  ufw:
+    state: enabled
+    # policy: allow

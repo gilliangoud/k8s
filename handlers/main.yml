@@ -1,0 +1,22 @@
+- name: restart machine
+  reboot:
+    reboot_timeout: 3600
+  tags:
+    - boot
+    - shutdown
+  listen: "restart machine"
+
+- name: apt update
+  apt:
+    update_cache: yes
+    autoclean: yes
+    autoremove: yes
+  listen: "apt update"
+
+- name: Poke kubelet
+  systemd:
+    name: kubelet
+    state: restarted
+    daemon_reload: yes
+    enabled: yes
+  listen: "poke kubelet"

@@ -35,6 +35,7 @@ spec:
             - --ingress-class=nginx
             - --configmap=$(POD_NAMESPACE)/nginx-ingress-controller-conf
             - --publish-service=$(POD_NAMESPACE)/nginx-ingress
+            - --enable-ssl-passthrough
             - --v=3
           env:
             - name: POD_NAME

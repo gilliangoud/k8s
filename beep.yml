@@ -1,0 +1,42 @@
+- hosts: all
+  tasks:
+    - name: Transfer the script
+      copy: src=sovjet.sh dest=/home/viriciti mode=0777
+    - name: Ensure a job that runs at 2 and 5 exists. Creates an entry like "0 5,2 * * ls -alh > /dev/null"
+      cron:
+        state: absent
+        name: "play mario"
+        minute: "20"
+        hour: "9"
+        job: "sh /home/viriciti/mario.sh"
+    - name: Ensure a job that runs at 2 and 5 exists. Creates an entry like "0 5,2 * * ls -alh > /dev/null"
+      cron:
+        state: present
+        name: "play march"
+        minute: "50"
+        hour: "8"
+        job: "sh /home/viriciti/imperialmarch.sh"
+    - name: Ensure a job that runs at 2 and 5 exists. Creates an entry like "0 5,2 * * ls -alh > /dev/null"
+      cron:
+        state: absent
+        name: "play sovjet"
+        minute: "45"
+        hour: "9"
+        job: "sh /home/viriciti/sovjet.sh"
+    - name: Ensure a job that runs at 2 and 5 exists. Creates an entry like "0 5,2 * * ls -alh > /dev/null"
+      cron:
+        state: absent
+        name: "play sovjet"
+        minute: "24"
+        hour: "12"
+        job: "sh /home/viriciti/sovjet.sh"
+    - name: Ensure a job that runs at 2 and 5 exists. Creates an entry like "0 5,2 * * ls -alh > /dev/null"
+      cron:
+        state: present
+        name: "play march 2"
+        minute: "11"
+        hour: "18"
+        job: "sh /home/viriciti/imperialmarch.sh"
+    # - name: Execute the script
+    #   shell: sh /home/viriciti/imperialmarch.sh
+    #ansible all -a './imperialmarch.sh' -u viriciti -f 30

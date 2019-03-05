@@ -31,6 +31,6 @@
           - name: my-ip-space
             protocol: layer2
             addresses:
-            - 192.168.0.240-192.168.0.253
+            - 192.168.8.101-192.168.8.150
 
 

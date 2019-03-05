@@ -5,10 +5,14 @@
   register: docker_there
   ignore_errors: True
 
-- name:    Install Docker prerequisites
-  apt:     name={{item}} state=latest update_cache=yes
+- name: Install Docker prerequisites
   when: docker_there.stat.exists == False
-  with_items:
+  apt:
+    name: "{{ packages }}"
+    state: latest
+    update_cache: yes
+  vars:
+    packages:
     - apt-transport-https
     - ca-certificates
     - curl
@@ -24,11 +28,10 @@
     repo: deb [arch=amd64] https://download.docker.com/linux/debian {{ansible_distribution_release}} stable
     state: present
 
-- name:    Install Docker
+- name: Install Docker
   when: docker_there.stat.exists == False
-  apt:     name=docker-ce={{ docker_ce_version }} state=present
+  apt: name=docker-ce={{ docker_ce_version }} state=present
 
 - name: Lock docker version to {{ docker_ce_version}}
   command: /usr/bin/apt-mark hold docker-ce
   when: docker_there.stat.exists == False
-

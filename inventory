@@ -1,7 +1,57 @@
 [nodes]
-ivhk8s00    ansible_host=192.168.0.188
-ivhk8s01    ansible_host=192.168.0.192
-ivhk8s02    ansible_host=192.168.0.193
+ivhbar00    ansible_host=192.168.8.100
+ivhbar01    ansible_host=192.168.8.1
+ivhbar02    ansible_host=192.168.8.2
+ivhbar03    ansible_host=192.168.8.3
+ivhbar04    ansible_host=192.168.8.4
+ivhbar05    ansible_host=192.168.8.5
+ivhbar06    ansible_host=192.168.8.6
+ivhbar07    ansible_host=192.168.8.7
+ivhbar08    ansible_host=192.168.8.8
+ivhbar09    ansible_host=192.168.8.9
+ivhbar10    ansible_host=192.168.8.10
+ivhbar11    ansible_host=192.168.8.11
+ivhbar12    ansible_host=192.168.8.12
+ivhbar13    ansible_host=192.168.8.13
+ivhbar14    ansible_host=192.168.8.14
+ivhbar15    ansible_host=192.168.8.15
+ivhbar16    ansible_host=192.168.8.16
+ivhbar17    ansible_host=192.168.8.17
+ivhbar18    ansible_host=192.168.8.18
+ivhbar19    ansible_host=192.168.8.19
+ivhbar20    ansible_host=192.168.8.20
+ivhbar21    ansible_host=192.168.8.21
+ivhbar22    ansible_host=192.168.8.22
+ivhbar23    ansible_host=192.168.8.23
+ivhbar24    ansible_host=192.168.8.24
+
+[worker]
+ivhbar01
+ivhbar02
+ivhbar03
+ivhbar04
+ivhbar05
+ivhbar06
+ivhbar07
+ivhbar08
+ivhbar09
+ivhbar10
+ivhbar11
+ivhbar12
+ivhbar13
+ivhbar14
+ivhbar15
+ivhbar16
+ivhbar17
+ivhbar18
+ivhbar19
+ivhbar20
+ivhbar21
+ivhbar22
+ivhbar23
 
 [master]
-ivhk8s00
+ivhbar00
+
+[util]
+ivhbar24

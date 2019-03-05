@@ -1,16 +1,30 @@
-- hosts: all
-  roles:
-    - ssh
-    - sudo
-    - kubeadm
+# - hosts: all
+#   roles:
+#     - common
+#     - ssh
+#     - sudo
+#     # - firewall
 
-- hosts: master
-  roles:
-    - master
+# - hosts: worker, master
+#   roles:
+#     - kubeadm
 
-- hosts: all:!master
-  roles:
-    - workers
+# - hosts: master
+#   roles:
+#     - master
 
-# install the kubeadm first, then the master node; then wait a while so the master node can ready itself
-# only then you can register the worker nodes
+# - hosts: worker
+#   roles:
+#     - workers
+
+- hosts: util
+  roles:
+    - geerlingguy.nfs
+    - oefenweb.dnsmasq
+  vars:
+    nfs_exports: ["/nfs *(rw,sync,no_subtree_check,no_root_squash)"]
+    dnsmasq_dnsmasq_d_files_present:
+      local:
+        - address=/local/192.168.8.102
+        - address=/cluster/192.168.8.102
+        - address=/ivh/192.168.8.102

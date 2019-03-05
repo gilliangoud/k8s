@@ -20,14 +20,14 @@
     state: present
     definition: "{{ lookup('file', 'files/rights.yml')}}"
 
-- name: Force Rebuild Dashboard Pods
-  shell: kubectl -n kube-system delete $(kubectl -n kube-system get pod -o name | grep dashboard)
-  become: no
+# - name: Force Rebuild Dashboard Pods
+#   shell: kubectl -n kube-system delete $(kubectl -n kube-system get pod -o name | grep dashboard)
+#   become: no
 
 - name: Give dashboard external IP from loadbalancer
   become: no
   k8s:
-    state: present
+    state: absent
     namespace: kube-system
     definition:
       apiVersion: v1
@@ -61,20 +61,29 @@
       spec:
         tls:
         - hosts:
-          - dashboard
-          secretName: dashboard-tls
+          # - dashboard
+          # secretName: dashboard-tls
+          - dashboard.ivh
+          secretName: dashboard-ivh-tls
         rules:
-        - host: dashboard
+        # - host: dashboard
+        #   http:
+        #     paths:
+        #     - path: /
+        #       backend:
+        #         serviceName: kubernetes-dashboard
+        #         servicePort: 443
+        - host: dashboard.ivh
           http:
             paths:
-            - path: /
-              backend:
-                serviceName: kubernetes-dashboard
-                servicePort: 443
+              - path: /
+                backend:
+                  serviceName: kubernetes-dashboard-ingress
+                  servicePort: 80
 
 - name: Fetch kubeconfig file
   fetch:
-    src: /home/{{ ssh-user }}/.kube/config
+    src: /home/{{ sshuser }}/.kube/config
     dest: ~/.kube/config
     flat: yes
 
@@ -84,6 +93,6 @@
     state: directory
 - name: Enable root to use kubectl - file
   copy:
-    src: /home/{{ ssh-user }}/.kube/config
+    src: /home/{{ sshuser }}/.kube/config
     dest: /root/.kube/config
     remote_src: yes

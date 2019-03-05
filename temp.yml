@@ -1,4 +1,0 @@
-- hosts: master
-  tasks:
-    - name: Show configured default become user
-      debug: msg="{{ lookup('config', 'REMOTE_USER')}}"

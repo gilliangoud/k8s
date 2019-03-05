@@ -1,4 +1,5 @@
-ssh-user: viriciti
+sshuser: viriciti
+clean_install: false
 token: udy29x.ugyyk3tumg27atmr
 podnet: 10.244.0.0/16
 

@@ -74,15 +74,6 @@ rules:
   resources: ["configmaps"]
   resourceNames: ["kubernetes-dashboard-settings"]
   verbs: ["get", "update"]
-  # Allow Dashboard to get metrics from heapster.
-- apiGroups: [""]
-  resources: ["services"]
-  resourceNames: ["heapster"]
-  verbs: ["proxy"]
-- apiGroups: [""]
-  resources: ["services/proxy"]
-  resourceNames: ["heapster", "http:heapster:", "https:heapster:"]
-  verbs: ["get"]
 
 ---
 apiVersion: rbac.authorization.k8s.io/v1
@@ -126,13 +117,20 @@ spec:
         ports:
         - containerPort: 8443
           protocol: TCP
+          name: https
+        - containerPort: 80
+          protocol: TCP
+          name: http
         args:
-          - --auto-generate-certificates
+          # - --auto-generate-certificates
           # Uncomment the following line to manually specify Kubernetes API server Host
           # If not specified, Dashboard will attempt to auto discover the API server and connect
           # to it. Uncomment only if the default does not work.
           # - --apiserver-host=http://my-address:port\
-          # - --enable-insecure-login
+          - --enable-insecure-login
+          - --port=8443 # By default, https uses 8443 so we move it away to something else
+          - --insecure-port=80 # The chart has 8443 hard coded as a containerPort in the deployment spec so we must use this internally for the http service
+          - --insecure-bind-address=0.0.0.0
         volumeMounts:
         - name: kubernetes-dashboard-certs
           mountPath: /certs
@@ -140,12 +138,12 @@ spec:
         - mountPath: /tmp
           name: tmp-volume
         livenessProbe:
-          httpGet:
-            scheme: HTTPS
-            path: /
-            port: 8443
-          initialDelaySeconds: 30
-          timeoutSeconds: 30
+         httpGet:
+           scheme: HTTP
+           path: /
+           port: 80
+         initialDelaySeconds: 30
+         timeoutSeconds: 30
       volumes:
       - name: kubernetes-dashboard-certs
         secret:
@@ -161,16 +159,33 @@ spec:
 ---
 # ------------------- Dashboard Service ------------------- #
 
+# kind: Service
+# apiVersion: v1
+# metadata:
+#   labels:
+#     k8s-app: kubernetes-dashboard
+#   name: kubernetes-dashboard
+#   namespace: kube-system
+# spec:
+#   ports:
+#     - port: 443
+#       targetPort: 8443
+#   selector:
+#     k8s-app: kubernetes-dashboard
+
+# ---
+# ------------------- Dashboard Service ------------------- #
+
 kind: Service
 apiVersion: v1
 metadata:
   labels:
     k8s-app: kubernetes-dashboard
-  name: kubernetes-dashboard
+  name: kubernetes-dashboard-ingress
   namespace: kube-system
 spec:
   ports:
-    - port: 443
-      targetPort: 8443
+    - port: 80
+      targetPort: 80
   selector:
     k8s-app: kubernetes-dashboard

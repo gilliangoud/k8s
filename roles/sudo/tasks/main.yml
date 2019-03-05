@@ -1,16 +1,6 @@
 - name: NOPASSWD sudo
-  lineinfile: "dest=/etc/sudoers.d/{{ ssh-user }}
+  lineinfile: "dest=/etc/sudoers.d/{{ sshuser }}
     create=yes state=present mode=0440
     owner=root group=root
-    line='{{ ssh-user }} ALL=(ALL) NOPASSWD: ALL'"
-
-- name: Reboot Message
-  debug:
-    msg: "REBOOTING ALL NODES."
-
-- name: Reboot (as needed)
-  reboot:
-    reboot_timeout: 3600
-  tags:
-    - boot
-    - shutdown
+    line='{{ sshuser }} ALL=(ALL) NOPASSWD: ALL'"
+  notify: "restart machine"

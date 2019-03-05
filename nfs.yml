@@ -1,0 +1,13 @@
+# - hosts: ivhbar24
+#   tasks:
+#     - name: Make directory
+#       file:
+#         path: /nfs
+#         state: directory
+- hosts: all
+  tasks:
+    - name: Make directory
+      apt:
+        name: nfs-common
+        state: present
+
